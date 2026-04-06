@@ -1,0 +1,11 @@
+{
+   "dcr_AggregateResultLifetimeInDays": 5,
+   "dcr_AnalyzeKey": 38,
+   "dcr_CombatResultLifetimeInDays": 750,
+   "dcr_FighterWeaponBreakout": false,
+   "dcr_LoggingLevel": "INFO",
+   "dcr_MaxCombatResultCount": 50,
+   "dcr_ShipCountLimit": 15,
+   "dcr_SimulationResultLifetimeInDays": 1,
+   "dcr_UninstallMode": false
+}

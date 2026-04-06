@@ -1,0 +1,12 @@
+{
+   "na_bounties": true,
+   "na_faction_gear": false,
+   "na_faction_gearrare": false,
+   "na_faction_merc": false,
+   "na_faction_nex": false,
+   "na_pascal_system": true,
+   "na_ships_spawn": true,
+   "na_stargazer_abyss": true,
+   "na_stargazer_gen": true,
+   "na_stargazer_spawn": true
+}

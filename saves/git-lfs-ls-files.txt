@@ -1,0 +1,10 @@
+2f32ca42e7 * saves/save_Widers_Lost-1st-fleet.zip
+146a2c62bf * Starsector Mods Index (Categorized).pdf
+eadbcaa8de * Starsector Mods for experienced players and new alike to consider.pdf
+8f4bb7d63c * saves/DME_backups/save_ClearNex_started.zip
+74d3319a1c * saves/DME_backups/save_DME_Academy.zip
+ef5c435025 * saves/DME_backups/save_DME_Manticore.zip
+c93f1d49e9 * saves/DME_backups/save_DME_ManyMods.zip
+2f32ca42e7 * saves/save_Widers_Reburn.zip
+3e7ae6c5da * saves/save_Widers_started.zip
+cff2215479 * starsector-core/data/config.zip

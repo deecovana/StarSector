@@ -1,0 +1,15 @@
+{
+   "alliedColor": "#ffff00",
+   "enemyColor": "#ff0000",
+   "friendlyColor": "#00ff00",
+   "hulkColor": "#c0c0c0",
+   "indicatorAlpha": 90,
+   "indicatorMode": "Auto-Scaling",
+   "indicatorSize": 20,
+   "indicatorThickness": 2,
+   "neutralColor": "#484848",
+   "outOfRangeMode": "Fade",
+   "singleWeaponAlternating": false,
+   "toggleKey": 43,
+   "useVanillaColors": true
+}

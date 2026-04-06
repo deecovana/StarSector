@@ -1,0 +1,17 @@
+{
+    "advanced": false,
+    "groupSize": 20,
+    "selected": "cat_default",
+    "settings": {
+        "aggro": "default",
+        "ai_cores": "none",
+        "ai_cores_derelict": "none",
+        "ai_cores_omega": "none",
+        "integrate_cores": "false",
+        "officers": "none",
+        "officers_custom": "none",
+        "quality": "no_dmods",
+        "randomize_variants": "false",
+        "second_in_command": "none"
+    }
+}

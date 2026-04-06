@@ -1,0 +1,16 @@
+{
+    "backgroundId": "nex_none",
+    "factions": {
+        "hegemony": true,
+        "independent": true,
+        "luddic_church": true,
+        "luddic_path": true,
+        "persean": true,
+        "pirates": true,
+        "roider": true,
+        "sindrian_diktat": true,
+        "tritachyon": true
+    },
+    "respawnFactions": true,
+    "selectedFactionForBackground": "player"
+}

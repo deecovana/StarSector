@@ -1,0 +1,8 @@
+jre
+jre/
+jre/*
+screenshots
+screenshots/
+screenshots/*
+*.exe
+*.bak

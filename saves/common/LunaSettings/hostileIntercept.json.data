@@ -1,0 +1,21 @@
+{
+   "BypassProcessor": false,
+   "BypassTimer": false,
+   "Debugging": false,
+   "ListCheat": false,
+   "disableBlueprintCheck": false,
+   "hostileIntercept_autopause": "Intercept Or Hostile",
+   "hostileIntercept_autopauseAlarm": true,
+   "hostileIntercept_autopauseCheat": false,
+   "hostileIntercept_autopauseSnoozedTime": "10.0",
+   "hostileIntercept_hostileRings": false,
+   "hostileIntercept_interceptAlarm": true,
+   "hostileIntercept_interceptRings": true,
+   "hostileIntercept_jumpPauseCheat": false,
+   "hostileIntercept_jumpPointAlarm": true,
+   "hostileIntercept_jumpPointPause": "Hostile Only",
+   "hostileIntercept_ringCheat": false,
+   "hostileIntercept_settingsAutopause": "Autopause",
+   "hostileIntercept_settingsFleets": "Fleets",
+   "hostileIntercept_settingsJumpPause": "Jump Pause"
+}

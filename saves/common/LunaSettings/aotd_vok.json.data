@@ -1,0 +1,20 @@
+{
+   "aotd_defence_max_val": 180,
+   "aotd_defence_min_val": 140,
+   "aotd_expedition_begin": 210,
+   "aotd_expedition_threshold": 240,
+   "aotd_pcf_amount": 50,
+   "aotd_research_speed_multiplier": 1,
+   "aotd_scale": 10,
+   "aotd_shipyard_pag_per_page": 60,
+   "aotd_tier_1_unlock": false,
+   "aotd_tier_2_unlock": false,
+   "aotd_tier_3_unlock": false,
+   "aotd_tier_4_unlock": false,
+   "aotd_tier_experimental_unlock": false,
+   "aotd_titans_of_industry": true,
+   "aotd_vok_header": "Settings",
+   "aotd_vok_header2": "Settings",
+   "aotd_vok_header3": "Settings",
+   "aotd_vok_header4": "Settings"
+}
