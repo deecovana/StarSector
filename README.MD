@@ -1,12 +1,15 @@
 # StarSector GitHub repo (CC4 2026)
 
-## 26.04.09 New DME 
-- Start new,
-  - Skip 1st Academy
+## 26.04.09 New AI DME 
 - Add DME, 
+  - AI Tweaks 
   - Sephira
   - Phaselab
-  - AI Tweaks 
+- Start new,
+  - Wide: 125% Discovery,
+  - Perfomance settings, no tunnels, no storms
+  - scaled expenses, 1.5x drop, rares on
+  - Skip 1st Academy
 
 ## Move repo from @deecovan to @deecovana
 

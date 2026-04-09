@@ -19,7 +19,8 @@
     ],
     "fighters": [
         "attack_swarm_wing",
-        "flash_wing"
+        "flash_wing",
+        "istl_pup_wing"
     ],
     "illustrations": [
         "abandoned_station2",

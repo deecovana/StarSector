@@ -1,6 +1,8 @@
 {
     "backgroundId": "nex_none",
     "factions": {
+        "dassault_mikoyan": true,
+        "dpl_phase_lab": true,
         "hegemony": true,
         "independent": true,
         "luddic_church": true,
