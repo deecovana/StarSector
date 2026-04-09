@@ -1,6 +1,12 @@
 # StarSector GitHub repo (CC4 2026)
 
-## 26.04.06 Continue
+## 26.04.09 New DME 
+- Start new,
+  - Skip 1st Academy
+- Add DME, 
+  - Sephira
+  - Phaselab
+  - AI Tweaks 
 
 ## Move repo from @deecovan to @deecovana
 
