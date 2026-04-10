@@ -3,5 +3,5 @@
     "core_IntelMarkerDialog_includeEntityDescInMarkerChecked": true,
     "core_IntelMarkerDialog_openIntelOnCreatingMarkerChecked": true,
     "core_IntelMarkerDialog_selectedIcon": "graphics/icons/intel/log_blue_circle_hollow.png",
-    "core_SaveAsDialog_makeSaveCurrentChecked": true
+    "core_SaveAsDialog_makeSaveCurrentChecked": false
 }
