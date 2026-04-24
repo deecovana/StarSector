@@ -106,6 +106,8 @@
         "synchrotron"
     ],
     "sc_aptitudes": [
+        "sc_automated",
+        "sc_engineering",
         "sc_improvisation",
         "sc_management",
         "sc_scavenging",
