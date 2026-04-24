@@ -1,1 +1,4 @@
-{"nexerelin": {"nex_ngcViewedIntro": true}}
+{
+   "nexerelin": {"nex_ngcViewedIntro": true},
+   "second_in_command": {"hasSeenTutorial": true}
+}
