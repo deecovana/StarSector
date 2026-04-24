@@ -1,5 +1,13 @@
 # StarSector GitHub repo (CC4 2026)
 
+## Updated and Add New mods: Behind, NPC-S-mods 
+- What We Left Behind
+- NPC S-mods
+### Updated:
+- DPL
+- Second In Command
+- QoL pack
+
 ## 26.04.09 New AI DME 
 - Add DME, 
   - AI Tweaks 
