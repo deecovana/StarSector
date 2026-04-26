@@ -7,7 +7,8 @@
         "independent",
         "remnant",
         "mercenary",
-        "luddic_church"
+        "luddic_church",
+        "luddic_path"
     ],
     "variants": [
         "cerberus_d_pirates_Standard",
@@ -157,6 +158,7 @@
         "venture_Exploration",
         "swp_nautilus_att",
         "medusa_Attack",
-        "brawler_tritachyon_Standard"
+        "brawler_tritachyon_Standard",
+        "hound_luddic_path_Attack"
     ]
 }
