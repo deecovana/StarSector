@@ -1,8 +1,13 @@
 # StarSector GitHub repo (CC4 2026)
 
+## Start Dee
+- Add Autosaves xmls
+- Continue autogit-loop
+
 ## Updated and Add New mods: Behind, NPC-S-mods 
 - What We Left Behind
 - NPC S-mods
+
 ### Updated:
 - DPL
 - Second In Command
