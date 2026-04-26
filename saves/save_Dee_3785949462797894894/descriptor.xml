@@ -4,16 +4,16 @@
 <characterName>Dee</characterName>
 <saveFileVersion>0.6</saveFileVersion>
 <gameVersion>0.98a-RC8</gameVersion>
-<characterLevel>3</characterLevel>
+<characterLevel>4</characterLevel>
 <compressed>false</compressed>
 <isIronMode>false</isIronMode>
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55651971168000</timestamp>
+<timestamp>-55651243680000</timestamp>
 </gameDate>
-<saveDate z="3">2026-04-26 21:02:10.868 UTC</saveDate>
-<slotCreationTimestamp>1777237330868</slotCreationTimestamp>
+<saveDate z="3">2026-04-26 21:19:28.774 UTC</saveDate>
+<slotCreationTimestamp>1777238368774</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
@@ -2312,6 +2312,6 @@ Note: soft dependency on Particle Engine. Will run without, but some visual effe
 </EnabledModData>
 </enabledMods>
 <desc></desc>
-<locDesc>Hyperspace</locDesc>
+<locDesc>Aztlan Star System</locDesc>
 <autosave>false</autosave>
 </SaveGameData>
