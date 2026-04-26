@@ -159,6 +159,10 @@
         "swp_nautilus_att",
         "medusa_Attack",
         "brawler_tritachyon_Standard",
-        "hound_luddic_path_Attack"
+        "hound_luddic_path_Attack",
+        "swp_eos_sta",
+        "omen_PD",
+        "monitor_Escort",
+        "istl_naja_mk1_std"
     ]
 }
