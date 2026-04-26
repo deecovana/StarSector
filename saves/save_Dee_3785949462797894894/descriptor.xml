@@ -10,10 +10,10 @@
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55648314720000</timestamp>
+<timestamp>-55647432864000</timestamp>
 </gameDate>
-<saveDate z="3">2026-04-26 21:35:22.18 UTC</saveDate>
-<slotCreationTimestamp>1777239322018</slotCreationTimestamp>
+<saveDate z="3">2026-04-26 21:46:17.670 UTC</saveDate>
+<slotCreationTimestamp>1777239977670</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
@@ -2312,6 +2312,6 @@ Note: soft dependency on Particle Engine. Will run without, but some visual effe
 </EnabledModData>
 </enabledMods>
 <desc></desc>
-<locDesc>Hyperspace</locDesc>
+<locDesc>Nikolaev Star System</locDesc>
 <autosave>false</autosave>
 </SaveGameData>

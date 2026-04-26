@@ -9,6 +9,7 @@
     "conditions": [
         "IndEvo_mineFieldCondition",
         "cabal_influence",
+        "istl_peremohy_condition",
         "luddic_majority",
         "niko_MPC_ftcDistricts",
         "niko_MPC_ultraMagneticField",
