@@ -10,10 +10,10 @@
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55657049184000</timestamp>
+<timestamp>-55656768096000</timestamp>
 </gameDate>
-<saveDate z="3">2026-05-31 20:38:20.660 UTC</saveDate>
-<slotCreationTimestamp>1780259900660</slotCreationTimestamp>
+<saveDate z="3">2026-05-31 20:39:13.107 UTC</saveDate>
+<slotCreationTimestamp>1780259953107</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
@@ -248,6 +248,6 @@
 </EnabledModData>
 </enabledMods>
 <desc></desc>
-<locDesc>Galatia Star System</locDesc>
+<locDesc>Hyperspace</locDesc>
 <autosave>false</autosave>
 </SaveGameData>
