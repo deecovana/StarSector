@@ -1,8 +1,7 @@
-{
-  "enabledMods": [
-    "lunalib",
-    "MagicLib",
-    "lw_lazylib",
-    "nexerelin"
-  ]
-}
+{"enabledMods": [
+  "lw_lazylib",
+  "lunalib",
+  "MagicLib",
+  "nexerelin",
+  "speedUp"
+]}
