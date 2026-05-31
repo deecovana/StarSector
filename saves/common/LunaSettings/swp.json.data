@@ -1,9 +1,0 @@
-{
-   "IBBAlwaysRecover": true,
-   "arcadeDifficultyScalar": 1,
-   "arcadeHeader": "Arcade",
-   "arcadePlayerShip": "swp_arcade_superhyperion_str",
-   "arcadeStartingDifficulty": 0,
-   "famousBounties": true,
-   "ibbHeader": "International Bounty Board"
-}

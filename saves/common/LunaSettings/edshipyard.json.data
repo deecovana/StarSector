@@ -1,5 +1,0 @@
-{
-   "ed_AllowEdSubmarketDefenseFleets": true,
-   "ed_AllowEdSubmarketTransportFleets": true,
-   "ed_NumberOfTradeFleetsToSendPerEdSubmarket": 1
-}

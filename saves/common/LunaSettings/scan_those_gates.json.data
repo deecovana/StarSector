@@ -1,6 +1,0 @@
-{
-   "ActivateInactiveGates": false,
-   "GateScanDiagnosticsInterval": "60",
-   "GateScanUsableCheckInterval": "1",
-   "RevealInactiveGates": false
-}
