@@ -10,10 +10,10 @@
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55665125280000</timestamp>
+<timestamp>-55664444448000</timestamp>
 </gameDate>
-<saveDate z="3">2026-05-31 19:29:25.435 UTC</saveDate>
-<slotCreationTimestamp>1780255765435</slotCreationTimestamp>
+<saveDate z="3">2026-05-31 19:44:34.3 UTC</saveDate>
+<slotCreationTimestamp>1780256674003</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
@@ -34,7 +34,7 @@
 <minorIsRC>false</minorIsRC>
 </versionInfo>
 <author>LazyWizard</author>
-<path>C:\Games\StarSector\starsector-core\..\mods\LazyLib</path>
+<path>C:\Projects\StarSector\starsector-core\..\mods\LazyLib</path>
 <dirName>LazyLib</dirName>
 <totalConversion>false</totalConversion>
 <utility>true</utility>
@@ -70,7 +70,7 @@
 <minorIsRC>false</minorIsRC>
 </versionInfo>
 <author>Lukas04</author>
-<path>C:\Games\StarSector\starsector-core\..\mods\LunaLib</path>
+<path>C:\Projects\StarSector\starsector-core\..\mods\LunaLib</path>
 <dirName>LunaLib</dirName>
 <totalConversion>false</totalConversion>
 <utility>false</utility>
@@ -115,7 +115,7 @@
 <minorIsRC>false</minorIsRC>
 </versionInfo>
 <author>Modding Community: Dark.Revenant, LazyWizard, Nicke, Originem, Rubi, Schaf-Unschaf, Snrasha, Tartiflette, Wisp, Wyvern...</author>
-<path>C:\Games\StarSector\starsector-core\..\mods\MagicLib</path>
+<path>C:\Projects\StarSector\starsector-core\..\mods\MagicLib</path>
 <dirName>MagicLib</dirName>
 <totalConversion>false</totalConversion>
 <utility>false</utility>
@@ -160,7 +160,7 @@
 <minorIsRC>false</minorIsRC>
 </versionInfo>
 <author>Histidine (original by Zaphide)</author>
-<path>C:\Games\StarSector\starsector-core\..\mods\Nexerelin</path>
+<path>C:\Projects\StarSector\starsector-core\..\mods\Nexerelin</path>
 <dirName>Nexerelin</dirName>
 <totalConversion>false</totalConversion>
 <utility>false</utility>
@@ -216,7 +216,7 @@
 <minorIsRC>false</minorIsRC>
 </versionInfo>
 <author>DarkRevenant</author>
-<path>C:\Games\StarSector\starsector-core\..\mods\SpeedUp</path>
+<path>C:\Projects\StarSector\starsector-core\..\mods\SpeedUp</path>
 <dirName>SpeedUp</dirName>
 <totalConversion>false</totalConversion>
 <utility>true</utility>
