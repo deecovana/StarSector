@@ -7,6 +7,9 @@
 - Tag NexerelinStarter
 - Start New
 
+1. Play tutorial
+  - Add SpeedUp
+
 ## Start Dee
 - Add Autosaves xmls
 - Continue autogit-loop
