@@ -1,5 +1,9 @@
 # StarSector GitHub repo (CC4 2026)
 
+## 26.06.01
+- Clear Mods
+- Start New
+
 ## Start Dee
 - Add Autosaves xmls
 - Continue autogit-loop
