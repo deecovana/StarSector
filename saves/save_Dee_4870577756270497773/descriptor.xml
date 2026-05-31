@@ -10,10 +10,10 @@
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55658669472000</timestamp>
+<timestamp>-55657919520000</timestamp>
 </gameDate>
-<saveDate z="3">2026-05-31 20:16:46.304 UTC</saveDate>
-<slotCreationTimestamp>1780258606304</slotCreationTimestamp>
+<saveDate z="3">2026-05-31 20:23:13.99 UTC</saveDate>
+<slotCreationTimestamp>1780258993099</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
@@ -248,6 +248,6 @@
 </EnabledModData>
 </enabledMods>
 <desc></desc>
-<locDesc>Corvus Star System</locDesc>
+<locDesc>Galatia Star System</locDesc>
 <autosave>false</autosave>
 </SaveGameData>
