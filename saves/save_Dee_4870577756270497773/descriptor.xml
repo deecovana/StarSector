@@ -4,16 +4,16 @@
 <characterName>Dee</characterName>
 <saveFileVersion>0.6</saveFileVersion>
 <gameVersion>0.98a-RC8</gameVersion>
-<characterLevel>2</characterLevel>
+<characterLevel>3</characterLevel>
 <compressed>false</compressed>
 <isIronMode>false</isIronMode>
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55657919520000</timestamp>
+<timestamp>-55657049184000</timestamp>
 </gameDate>
-<saveDate z="3">2026-05-31 20:23:13.99 UTC</saveDate>
-<slotCreationTimestamp>1780258993099</slotCreationTimestamp>
+<saveDate z="3">2026-05-31 20:38:20.660 UTC</saveDate>
+<slotCreationTimestamp>1780259900660</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
