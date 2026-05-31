@@ -2,7 +2,8 @@
 
 ## 26.06.01
 - Clear Mods
-- Nexerelin
+- add Nexerelin and libs
+- Delete settings files
 - Start New
 
 ## Start Dee
