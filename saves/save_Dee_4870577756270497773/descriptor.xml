@@ -12,8 +12,8 @@
 <secondsPerDay>10.0</secondsPerDay>
 <timestamp>-55665125280000</timestamp>
 </gameDate>
-<saveDate z="3">2026-05-31 19:22:06.67 UTC</saveDate>
-<slotCreationTimestamp>1780255326067</slotCreationTimestamp>
+<saveDate z="3">2026-05-31 19:29:25.435 UTC</saveDate>
+<slotCreationTimestamp>1780255765435</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
@@ -196,19 +196,55 @@
 </dependencies>
 </spec>
 </EnabledModData>
+<EnabledModData z="41">
+<spec z="42">
+<id>speedUp</id>
+<desc>Adds a key binding to speed the game up. Hold the middle mouse button or press the caps lock key. Controls are fully customizable.</desc>
+<name>SpeedUp</name>
+<gameVersion z="43">
+<major>0.98</major>
+<minor>7</minor>
+<patch></patch>
+<string>0.98a-RC7</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="44">
+<major>1</major>
+<minor>2</minor>
+<patch>2</patch>
+<string>1.2.2</string>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>DarkRevenant</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\SpeedUp</path>
+<dirName>SpeedUp</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.dark.speedup.SUModPlugin</modPluginClassName>
+<fullOverrides z="45"></fullOverrides>
+<jars z="46">
+<st>jars/SpeedUp.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="47"></dependencies>
+</spec>
+</EnabledModData>
 </allModsEverEnabled>
-<enabledMods z="41">
-<EnabledModData z="42">
+<enabledMods z="48">
+<EnabledModData z="49">
 <spec ref="6"></spec>
 </EnabledModData>
-<EnabledModData z="43">
+<EnabledModData z="50">
 <spec ref="13"></spec>
 </EnabledModData>
-<EnabledModData z="44">
+<EnabledModData z="51">
 <spec ref="22"></spec>
 </EnabledModData>
-<EnabledModData z="45">
+<EnabledModData z="52">
 <spec ref="31"></spec>
+</EnabledModData>
+<EnabledModData z="53">
+<spec ref="42"></spec>
 </EnabledModData>
 </enabledMods>
 <desc></desc>
