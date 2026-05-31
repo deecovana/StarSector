@@ -4,6 +4,7 @@
 - Clear Mods
 - add Nexerelin and libs
 - Delete settings files
+- Tag NexerelinStarter
 - Start New
 
 ## Start Dee
