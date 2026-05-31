@@ -1,0 +1,217 @@
+<?xml version="1.0" ?>
+<SaveGameData z="1">
+<portraitName>graphics/portraits/portrait24.png</portraitName>
+<characterName>Dee</characterName>
+<saveFileVersion>0.6</saveFileVersion>
+<gameVersion>0.98a-RC8</gameVersion>
+<characterLevel>1</characterLevel>
+<compressed>false</compressed>
+<isIronMode>false</isIronMode>
+<difficulty>normal</difficulty>
+<gameDate z="2">
+<secondsPerDay>10.0</secondsPerDay>
+<timestamp>-55666199232000</timestamp>
+</gameDate>
+<saveDate z="3">2026-05-31 19:03:04.633 UTC</saveDate>
+<slotCreationTimestamp>1780254184632</slotCreationTimestamp>
+<allModsEverEnabled z="4">
+<EnabledModData z="5">
+<spec z="6">
+<id>lw_lazylib</id>
+<desc>A collection of classes to aid modding. Not a mod in itself, but required by certain other mods.</desc>
+<name>LazyLib</name>
+<gameVersion z="7">
+<major>0.98</major>
+<minor>5</minor>
+<patch></patch>
+<string>0.98a-RC5</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="8">
+<major>3</major>
+<minor>0</minor>
+<patch>0</patch>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>LazyWizard</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\LazyLib</path>
+<dirName>LazyLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.lazywizard.lazylib.LazyLib</modPluginClassName>
+<fullOverrides z="9"></fullOverrides>
+<jars z="10">
+<st>jars/LazyLib.jar</st>
+<st>jars/LazyLib-Kotlin.jar</st>
+<st>jars/internal/LazyLib-Console.jar</st>
+<st>jars/internal/Kotlin-Runtime.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="11"></dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="12">
+<spec z="13">
+<id>lunalib</id>
+<desc>Library including utilities for players and mod developers.</desc>
+<name>LunaLib</name>
+<gameVersion z="14">
+<major>0.98</major>
+<minor>5</minor>
+<patch></patch>
+<string>0.98a-RC5</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="15">
+<major>2</major>
+<minor>0</minor>
+<patch>5</patch>
+<string>2.0.5</string>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>Lukas04</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\LunaLib</path>
+<dirName>LunaLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>lunalib.LunaLibPlugin</modPluginClassName>
+<fullOverrides z="16"></fullOverrides>
+<jars z="17">
+<st>jars/LunaLib.jar</st>
+<st>jars/libs/fuzzywuzzy-1.3.0.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="18">
+<ModDependency z="19">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="20">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="21">
+<spec z="22">
+<id>MagicLib</id>
+<desc>A collection of classes to aid modding. Not a mod in itself, but required by other mods.</desc>
+<name>MagicLib</name>
+<gameVersion z="23">
+<major>0.98</major>
+<minor>7</minor>
+<patch></patch>
+<string>0.98a-RC7</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="24">
+<major>1</major>
+<minor>5</minor>
+<patch>6</patch>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>Modding Community: Dark.Revenant, LazyWizard, Nicke, Originem, Rubi, Schaf-Unschaf, Snrasha, Tartiflette, Wisp, Wyvern...</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\MagicLib</path>
+<dirName>MagicLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>org.magiclib.Magic_modPlugin</modPluginClassName>
+<fullOverrides z="25"></fullOverrides>
+<jars z="26">
+<st>jars/MagicLib.jar</st>
+<st>jars/MagicLib-Kotlin.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="27">
+<ModDependency z="28">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="29">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="30">
+<spec z="31">
+<id>nexerelin</id>
+<desc>Join a faction and conquer the Sector!</desc>
+<name>Nexerelin</name>
+<gameVersion z="32">
+<major>0.98</major>
+<minor>8</minor>
+<patch></patch>
+<string>0.98a-RC8</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="33">
+<major>0</major>
+<minor>12</minor>
+<patch>1d</patch>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>Histidine (original by Zaphide)</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\Nexerelin</path>
+<dirName>Nexerelin</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>exerelin.plugins.ExerelinModPlugin</modPluginClassName>
+<fullOverrides z="34"></fullOverrides>
+<jars z="35">
+<st>jars/ExerelinCore.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="36">
+<ModDependency z="37">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="38">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+<ModDependency z="39">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="40">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+</allModsEverEnabled>
+<enabledMods z="41">
+<EnabledModData z="42">
+<spec ref="6"></spec>
+</EnabledModData>
+<EnabledModData z="43">
+<spec ref="13"></spec>
+</EnabledModData>
+<EnabledModData z="44">
+<spec ref="22"></spec>
+</EnabledModData>
+<EnabledModData z="45">
+<spec ref="31"></spec>
+</EnabledModData>
+</enabledMods>
+<desc></desc>
+<locDesc>Galatia Star System</locDesc>
+<autosave>false</autosave>
+</SaveGameData>
