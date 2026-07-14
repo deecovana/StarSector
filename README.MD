@@ -2,6 +2,7 @@
 
 ## Started Roid. 
 - Spent first scillpoint to Cargo and Salvage bonuses
+- Save Roid Started
 
 ## Backup and restart with Roider, QoLPack, SpeedUp and Libs
 - Add RetroLib 
