@@ -1,5 +1,8 @@
 # StarSector GitHub repo (CC4 2026)
 
+## Started Roid. 
+- Spent first scillpoint to Cargo and Salvage bonuses
+
 ## Backup and restart with Roider, QoLPack, SpeedUp and Libs
 - Add RetroLib 
 - NexQolRoider name/seed tagged
