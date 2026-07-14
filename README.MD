@@ -1,7 +1,7 @@
 # StarSector GitHub repo (CC4 2026)
 
 ## Backup and restart with Roider, QoLPack, SpeedUp and Libs 
-- NexQolRoider name/seed
+- NexQolRoider name/seed tagged
 
 ## 26.06.01
 - Clear Mods
