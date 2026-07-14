@@ -1,0 +1,34 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 5,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "roider_bombard",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_bombard_Patrol",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "mark9"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "heavymortar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "roider_marksman"}
+        }
+    ],
+    "wings": ["talon_wing"]
+}

@@ -1,0 +1,41 @@
+{
+    "displayName": "Rockpiper",
+    "fluxCapacitors": 15,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "roider_trailboss",
+    "hullMods": [
+        "expanded_deck_crew",
+        "solar_shielding"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_trailboss_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "miningblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "hammer",
+                "WS 005": "hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "roider_blastinglaser",
+                "WS 003": "roider_blastinglaser"
+            }
+        }
+    ],
+    "wings": [
+        "roider_breaker_wing",
+        "roider_breaker_wing"
+    ]
+}

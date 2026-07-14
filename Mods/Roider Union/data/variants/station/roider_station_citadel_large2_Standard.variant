@@ -1,0 +1,82 @@
+{
+  "variantId": "roider_station_citadel_large2_Standard",
+  "hullId": "roider_station_citadel_large2",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hellbore",
+        "WS0006": "hellbore",
+        "WS0021": "hellbore",
+        "WS0022": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0025": "roider_rotary_hammer",
+        "WS0026": "roider_rotary_hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "roider_pile_driver",
+        "WS0004": "roider_pile_driver",
+        "WS0007": "roider_spike_driver",
+        "WS0008": "roider_spike_driver",
+        "WS0009": "roider_spike_driver",
+        "WS0010": "roider_spike_driver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "mark9",
+        "WS0024": "mark9",
+        "WS0011": "arbalest",
+        "WS0012": "arbalest",
+        "WS0013": "arbalest",
+        "WS0014": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "devastator",
+        "WS0027": "lightag",
+        "WS0028": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "vulcan",
+        "WS0016": "vulcan",
+        "WS0017": "roider_marksman",
+        "WS0018": "roider_marksman",
+        "WS0019": "vulcan",
+        "WS0020": "roider_marksman"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "roider_hopskip2_wing",
+    "roider_hopskip2_wing"
+  ]
+}

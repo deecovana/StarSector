@@ -1,0 +1,30 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 9,
+    "fluxVents": 6,
+    "goalVariant": false,
+    "hullId": "condor",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_condor_Interference",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "salamanderpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 002": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "roider_bolt_wing",
+        "roider_bolt_wing"
+    ]
+}

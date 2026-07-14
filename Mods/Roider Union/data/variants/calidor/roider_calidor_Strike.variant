@@ -1,0 +1,56 @@
+{
+    "displayName": "Pluton",
+    "fluxCapacitors": 15,
+    "fluxVents": 8,
+    "hullId": "roider_calidor",
+    "hullMods": [
+        "roider_trackerSwap",
+        "roider_trackerCoreShip"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_calidor_Strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "pilum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "roider_doldrums",
+                "WS 007": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "roider_marksman",
+                "WS 009": "roider_marksman"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "lightac",
+                "WS 005": "lightac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightmortar",
+                "WS 003": "lightmortar"
+            }
+        }
+    ],
+    "wings": [
+        "roider_armature_wing",
+        "roider_armature_wing"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 8,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "colossus",
+    "hullMods": [
+		"roider_fighterClamps",
+		"roider_midas"
+	],
+    "permaMods": [],
+    "variantId": "roider_colossus_Roider",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "roider_marksman",
+            "WS 002": "roider_marksman",
+            "WS 003": "roider_marksman",
+            "WS 004": "roider_marksman"
+        }
+    }],
+    "wings": [
+        "roider_breaker_wing",
+        "roider_breaker_wing"
+    ]
+}

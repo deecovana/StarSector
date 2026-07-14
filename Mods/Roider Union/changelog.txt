@@ -1,0 +1,890 @@
+Version 2.3.1
+ Bug Fixes
+ - Fixed Orbital Station variant IDs
+
+
+Version 2.3.0
+ New Features
+ - Added Roider battlestation!
+
+ Changes
+ - Removed codex unlock requirement from most Roider ships
+ - Removed manufacturer names from ships - back to "Roider Union" again
+ - Added "military" tag to Union HQ - should now contribute to military operations in Nexerelin.
+ - Fighter Clamps can no longer be S-modded.
+ - Buffed Gambit-class cruiser
+   - Flux dissipation from 300 to 500
+   - OP from 100 to 120
+   - Shield efficiency from 1.2 to 1.0
+ - Buffed Wrecker-class cruiser
+   - Speed from 45 to 60
+   - Shield efficiency from 1.1 to 0.8
+ - Buffed Telamon-class battleship
+   - Flux dissipation from 400 to 800
+   - OP from 310 to 340
+
+ Bug Fixes
+ - Tried to fix random save break from RoiderMinerAssignmentAI when using non-standard JVM - may or may not actually work.
+ - Arc Zapper now correctly arcs 25% of the time instead of 75%.
+
+
+Version 2.2.9
+ Changes
+ - Buffed Roaming XO's Ringer Mods fleet maneuvering bonus from +20% to +30%.
+ - Nerfed Roaming XO's Salvaging crew loss reduction from 75% to 50% in line with Second in Command's skill changes.
+
+ Bug Fixes
+ - Can no longer have your last Argos mothership convert itself into a frame hull.
+ - Fixed Roider Dives and Union HQ not supplying resources after loading a saved game.
+
+
+Version 2.2.8
+ Bug Fixes
+ - Fixed crash when Union HQ submarket failed to initialize correctly
+
+
+Version 2.2.7
+ Changes
+ - Added Shielded Cargo Holds to Basker phase destroyer
+ - Added Nexerelin mining strength for Rotary Hammer Launcher
+ - Roaming's Storm dissipation buff scales from 0% to 100% from its max range to 50% of max
+ - Improved Hulks' description
+
+
+Version 2.2.6
+ Bug Fixes
+ - Fixed crash in NomadWarningTaggingScript
+
+
+Version 2.2.5
+ Bug Fixes
+ - (Second in Command) Fixed Hulks armor and hull buffs becoming debuffs in some cases
+
+
+Version 2.2.4
+ Bug Fixes
+ - Fixed codex crash
+ - (Second in Command) Fixed Hulks shield buff becoming a debuff in some cases
+ - (Second in Command) Fixed Hulks applying shield buff to shieldless NPC ships
+
+
+Version 2.2.3
+ Bug Fixes
+ - Hopefully fixed crash in Hulks deployment script
+
+
+Version 2.2.2
+ New Features
+ - (Second in Command) NPC fleets are able to use Hulks skill
+ - (Second in Command) Added (future?) tag so Roaming aptitude codex does not need to be unlocked
+
+ Changes
+ - (Second in Command) Replaced Storm skill's OP discount with flux buffs
+   - Active venting is 10% faster
+   - Passive dissipation is 20% faster when near enemies, depending on size of largest non-missile weapon slot
+ - (Second in Command) Replaced placeholder Roaming aptitude description
+ - Reduced how often Phasenet Tow Pattern code runs
+   - Enabled it for NPC fleets
+
+ Bug Fixes
+ - Fixed Roider Union Reformer script not being added when mod is added to a save
+
+
+Version 2.2.1
+ New Features
+ - (Second in Command) Added Roaming logistics aptitude
+ - Added missing Basker retrofits
+
+ Changes
+ - Changed a couple NPC post names
+
+ Bug Fixes
+ - Fixed Roider ships playing wrong explosion/shield/etc. sound effects
+ - Fixed Tracker Core description
+ - Stopped Interdiction Sequence from targeting allies
+ - Added MODULE hint to armor modules
+
+
+Version 2.2.0
+ New Features
+ - (Nexerelin) Added Desperado super start
+ - Added Basker-class phase destroyer
+ - Added Garrucha-class phase drone
+ - Added Garrucha Phase Draw hullmod
+ - Added two built-in Hazard MRM Autoloader weapons to Gambit-class fast cruiser
+ - Hazard MRMs always explode when destroyed
+   - Including if they have not been fired yet
+ - Added Arc Zapper
+ - Added Arc Cannon
+
+ Changes
+ - Buffed Calidor
+   - Increased speed from 40 to 50
+   - Increased OP from 100 to 110
+   - Increased cargo space from 120 to 180
+ - Buffed Jane's cargo space from 30 to 40
+ - Buffed Pile Driver
+   - Increased damage from 600 to 800
+   - Increased projectile width from 8 to 10
+ - Buffed Spike Driver
+   - Increased damage from 300 to 400
+   - Nerfed flux per shot from 240 to 250
+   - Increased projectile width from 5 to 8
+ - Buffed Spike Driver and Pile Driver's damage, flux efficiency, and projectile width
+ - Buffed Phasenet GREATLY
+   - In turn, Wreckers can no longer stack Phasenets on a single target
+ - Replaced Rocksaw's Vulcan with a Dual LMG because I hilariously miscalculated Broadsword's kinetic DPS
+ - Nerfed Breaker drone
+   - Reduced armor from 75 to 60
+   - Reduced hull from 400 to 300
+ - Nerfed Glitz drone's flare EMP damage from 400 to 100
+ - Nerfed Tracker's replacement time from 18 seconds to 20
+ - Nerfed Hopskip Mk.II's replacement time from 15 seconds to 18
+ - Improved Tracker Core's description - the speed buff affects fighters from the same carrier
+
+ Bug Fixes
+ - Rockroach can now activate Temporal Shell while Damper Field is active and vice versa
+ - Fixed NPE in MIDAS hullmod
+ - Fixed Fighter Clamps being addable to some phase ships
+ - Fixed crash when Roider Dives is on a market in hyperspace
+ - Fixed nomad bases trying to spawn when the economy doesn't exist
+ - Fixed NPE when trying to add null industry
+ - Fixed bugs with Dives/Union HQ when nothing available to mine
+ - Fixed highlight in Union HQ BP requirement text
+ - Fixed missing token replacement in Argos salvage hullmod's description
+ - (Nexerelin) Fixed Roider Dives and Rockpiper Shipworks not being buildable at faction colonies you are governing
+   - Not sure if this actually made it into 2.1.1
+
+
+Version 2.1.1
+ New Features
+ - Renamed variants to roider-style names
+ - Renamed Roider Union mercenary fleets with "militia" names
+ - Added Montauk-class heavy destroyer - an Enforcer conversion with Fortress Shield
+ - Added Glitz-class interceptor drone - it keeps a ring of flares around itself
+   - Added Glitz Switch hullmod - like Tracker Swap, it changes the built-in drones on Roider ships
+ - Made several internal lists editable by other mods
+
+ Changes
+ - Built-in Advanced Turret Gyros to Telamon to highlight its anti-small ship role
+   - Reduced Telamon's OP from 320 to 310, accordingly
+ - Widened Gambit's side hardpoint arcs from 5 to 9 degrees for comfort
+ - Reduced prospector fleet spawns
+ - Reduced Pile Driver's auxiliary front smoke puffs
+
+ Bug Fixes
+ - Fixed several bugs with Phasenet ship system - PULLING TOWARDS WRECKER WORKS NOW
+ - Fixed Roider Dives saying you need a BP when your spaceport isn't built yet
+ - Fixed crash when adding Converted Flight Decks to Argos
+ - Fixed crash when Fighter Clamps is shown on a FIGHTER-sized ship
+ - Fixed retrofit BPs not requiring you to know their specific source ships
+ - Fixed "Rock and Stone!" greeting's tokens
+ - (Nexerelin) Fixed Roider Dives and Rockpiper Shipworks not being buildable at faction colonies you are governing
+
+
+Version 2.1.0
+ New Features
+ - Added Historical Roider Charter special item for Roider Dives and Union HQ
+   - Boosts production, mining range, and fleet size
+ - Organics are now available as void resources for Dives and Union HQ to gather
+ 
+ Changes
+ - Nerfed Calidor's Interdiction Sequence
+   - Reduced range from 1000 to 800
+   - Restarts target's engines after a few seconds
+ - Void resources in Roider systems are now preset
+ - Rebalanced void resource generation - roughly a bell curve, now
+ 
+ Bug Fixes
+ - Fixed cargo screen lag 100%
+ - Fixed nomad bases in fringe not accurately tracking commodity sales for shortages/surpluses
+ - Fixed Mad MIDAS bar event's bad result not being shown - it was still happening, though
+
+
+Version 2.0.6
+ Bug Fixes
+ - Fixed initialization crash on new game
+
+
+Version 2.0.6
+ Bug Fixes
+ - Fixed prospector fleets being spammed
+ - Fixed Union HQ submarket and retrofitting not using Roider Union rep/commission
+ - Fixed NPE from Rockpiper Shipworks
+ - Reduced lag when opening inventory - still looking for main cause
+
+
+Version 2.0.5
+ Bug Fixes
+ - Fixed random Phasenet crash
+ - Added missing Ring Flare Launcher description
+ - Blocked roider prospectors from spawning in some invalid places
+
+
+Version 2.0.4
+ New Features
+ - Added Ring Flare Launcher
+   - Used by Argos-class mothership and Jane-class tanker
+ 
+ Bug Fixes
+ - Fixed incompatibility crash with Ashes of the Domain
+ - Stopped Neural Link hullmods from being transferred to armor modules
+
+
+Version 2.0.3
+ Changes
+ - Improved Zap SRM's zap visual
+ - Improved Phasenet's zapping visuals
+
+ Bug Fixes
+ - Fixed Wrecker towing crash
+
+
+Version 2.0.2
+ Bug Fixes
+ - Fixed crash when replacing Roider Union capital
+ - Corrected Rocksaw normal map's name
+
+
+Version 2.0.1
+ Changes
+ - Roach's armor module now temporal shifts with it
+ - Fixed a few variants affected by vanilla's weapon OP changes that slipped by my first pass
+
+ Bug Fixes
+ - Fixed NoClassDefFoundError crash when starting a game with Nexerelin
+
+
+Version 2.0
+ New Features
+ - Moved all code from Java to Kotlin
+ - Added Doldrums Chaingun - small kinetic burst gun
+ - Added Calidor-class carrier - premium destroyer carrier
+ - Added Cowboy-class light (frigate) carrier
+   - Renamed destroyer Cowboy to Trailboss
+ - Added S-Mod effect to MIDAS - reduces kinetic damage to hull/armor
+ - Added S-Mod effect to Firestorm Integration -  gives Ballistic Rangefinder's effects
+ - Unified fringe mechanics under "nomads" concept
+   - Fringe stations come in various sizes and all offer retrofits through special Argosi Bazaari industry
+   - Nomad trade fleets travel between fringe stations and core worlds
+   - Systems with Roider Union stations display transponder warning on jump points
+   - If Korovin is lost, a fringe Roider station will replace it as Roider Union's capital
+ - Added an industry BP for Roider Dives, which now costs less to build
+ - Improved Sharpshooter's hit chance
+ - Moved most retrofitting code to new RetroLib library mod
+   - Added generic frame hulls - convert any ship to a Roider ship!
+ - Externalized all strings for translators
+ - Maybe other stuff not covered in Changes section
+ 
+ Changes
+ - Reworked Argos mothership
+   - Replaced some weapon mounts with drone wings
+   - Added Drone Reserves hullmod - 100% replacement rate and replaces whole wing at a time
+ - Reworked Ranch carrier into heavy carrier
+   - Armor! Guns! Still lots of fighters!
+ - Reworked Gambit fast cruiser
+   - Added pirate Gambit
+ - Gave Bombard destroyer the LIDAR Array system
+   - Removed DTC hullmod
+ - Blasting Laser is now a Hybrid (Energy) weapon
+ - Rotary Hammer Launcher is now a premium 12 OP missile weapon
+   - Triple shot with select-fire
+ - Added Holistic Gyro-Stabilizer hullmod to Cyclops
+   - Reduced recoil, faster turret rotation, increased medium ballistic/hybrid range
+ - Added an escape burn system to Hopskip Mk.II bomber
+   - Reduced cruise speed
+ - Renamed Onager destroyer to Aurochs destroyer
+   - Removed old Aurochs
+ - Renamed Cowboy light carrier to Trailboss light carrier
+   - Changed built-in drones to open slot
+   - Added Outrider hullmod - blocks bombers
+   - Changed medium ballistic turret to energy
+ - Renamed Sheriff frigate to Desperado frigate
+   - Removed drone wing and reworked weapon mounts
+ - Reworked Rocksaw heavy fighter
+   - Now has Doldrums Chaingun as main armament
+ - Renamed Armature strike drone to Tracker strike drone
+   - Removed old Tracker
+   - If carrier has MIDAS, provides a speed boost to carrier's other fighters
+ - SP-improved a couple Roider Union industries
+ - Removed Ogrov, Dragline, Nolasher
+ - Removed ability to build in Tracker Swap
+ - Reduced number of particles in Pile Driver's onFire effects
+ - Other changes I've lost track of
+ 
+ Bug Fixes
+ - Removed a lot of possible NPEs
+ - Fixed some issues with Phasenet pull speed
+
+
+Version 1.4.4
+ New Features
+ - New music!
+ - Added pirate skin of Wrecker
+ - Added zapping mechanic for Zap SRMs
+ - Redesigned Firestorm's mount arcs - can now focus forward
+
+ Changes
+ - Reworked Zap SRM
+   - Reduced EMP damage from 180 to 70
+   - Added 280 bonus EMP damage versus fighters
+   - Increased damage from 50 to 60
+ - Nerfed Bolt interceptor into a specialized anti-fighter
+   - Reduced hull from 500 to 450
+   - Reduced armod from 75 to 50
+   - Increased refit time from 6 to 10
+   - Reduced Zap SRM's missiles per burst from 4 to 2
+ - Spike Driver and Pile Driver
+   - Buffed initial accuracy from 5 degrees to 0
+   - Nerfed initial rate of fire - starts at 50% and reaches normal at worst accuracy
+   - Changed recoil per shot (to smooth rate of fire spin-up) from 5 degrees to 3
+   - Increased range of Spike Driver from 600 to 650
+ 
+ Bug Fixes
+ - Fixed Expedition crashes and save leak
+
+
+Version 1.4.3
+ Bug Fixes
+ - Fixed some null pointer crashes from Roider Dives
+ - Fixed crash when tech expedition can't find a target system
+ - Fixed Mad MIDAS retconning itself onto ships after a load
+
+
+Version 1.4.2
+ Bug Fixes
+ - Fixed random NPE from salvage gen in nebula systems sometimes not having an orbit
+
+
+Version 1.4.1
+ Bug Fixes
+ - Fixed save breaking typo
+   - Manual fix in your save file: find "roider__expIntel" entries and change the "ld" entry with a number to "lod"
+
+
+Version 1.4.0
+ New Features
+ - Reworked Tech Expeditions
+   - It is now a race to beat them to their stashes!
+   - Major stashes show their minefield in the campaign - thanks SirHartley!
+ - Phasenet now properly accelerates its victims!
+   - Can now be toggled off
+   - Added display when your ship is affected by a Phasenet
+ - Added campaign music by MesoTroniK for roider-controlled systems
+ 
+ Changes
+ - Deactivated conversion fleets pending rework
+ - Temporarily disabled MIDAS asteroid impact reduction
+   - Waiting on MagicLib release to add/fix code hookups
+ - Increased Breaker wing's fighter count from 3 to 4
+ - Reduced Hopskip wing's fighter count from 3 to 2
+ - Reduced Hopskip wing's OP cost from 20 to 13
+ - Reduced Armature wing's OP cost from 22 to 20
+ - Reduced Armature (single)'s OP cost from 10 to 9
+ - Changed Bombard's ship system to Active Flare Launcher
+ - Increased Bombard's DP and supplies per month from 8 to 11
+ - Nerfed Wrecker's shield efficiency from 1 to 1.1
+ - Gave Ballistic Rangefinder to Jane as a built-in
+ - Removed split-gen for Roider Union roider fleets
+   - More likely to see bigger Roider ships
+ 
+ Bug Fixes
+ - Fixed Gambit skin crashes
+ - Fixed the Madman's built-in MIDAS hullmod from being de-permafied
+ - Stopped Union HQ from selling multiples of a BP
+ - Fixed Nex sometimes changing Union HQ's faction
+ - Fixed a random Union HQ NPE
+ - Fixed pirate retrofit BP learning script not being added to existing games
+ - Fixed MIDAS showing module armor values on normal ships
+
+
+Version 1.3.13
+ Bug Fixes
+ - Updated Gambit normal maps
+ - Added Gambit (P) retrofits
+ - Fixed Gambit (P) description
+ - Fixed Shipworks blocking Union HQ retrofit at player colonies
+
+
+Version 1.3.12
+ Bug Fixes
+ - Fixed crash when viewing MIDAS modspec
+
+Version 1.3.11
+ New Features
+ - MIDAS-X hullmods now show their armor modules' armor and hull (with modifiers!)
+ - Added Mad Rockpiper bar encounter
+ - Added Roider Union intro description to Nexerelin faction selection screen
+ - Roider Union now posts regular bounties
+ - Improved Rotary Hammer Launcher
+   - Added sound effects to reload
+   - Clarified special ammo regen mechanic
+ - Reworked Gambit to be a "fast" cruiser
+   - Now has a large composite mount!
+   - Added pirate version
+
+ Changes
+ - Made Roider Union hostile to Anarakis Reparations Society because they are pirates
+ - Reduced Breaker drone's replacement time from 10 seconds to 5 seconds
+ - Increased Sharpshooter's (and Mini's) range to 700
+ - Tweaked Nexerelin starting fleet options
+ - Roider fringe bases no longer spawn in unpopulated core systems
+ - Removed Sheriff-class frigate from Roider Union's import hulls
+
+ Bug Fixes
+ - Fixed crash when Rockpiper Shipworks gets disrupted
+ - Route tokens created by miner fleets should get cleaned up now
+   - Old tokens will remain leaked
+ - Improved MIDAS Armor hullmod transfer
+ - Fixed rare null conversion fleet crash
+
+
+Version 1.3.10
+ Changes
+ - Standardized armor modules' hull and armor
+   - Base hull is 20% of parent's base hull
+   - Base armor is 150% of parent's base armor
+ - Buffed Aurochs' armor from 250 to 300
+ - Buffed Gambit's armor from 900 to 1000
+ - Buffed Ranch's armor from 400 to 700
+
+ Bug Fixes
+ - Fixed crash when trying to use Argos retrofitting
+
+
+Version 1.3.9
+ Bug Fixes
+ - Fixed Union HQ submarket null pointer crash
+ - Fixed progressive slowdown from loading retrofit data
+ - Fixed Breaker drone's offset shield center
+
+
+Version 1.3.8
+ Changes
+ - Union HQ submarket is more lenient about commission and reputation requirements for ships
+ - When picking a retrofit target, unavailable hulls are listed last
+ 
+ Bug Fixes
+ - Fixed s-mod and Starship Legends reputation transfer when retrofitting
+ - Fixed a crash with Argos conversions
+ - Fixed Rotary Hammer Launcher animation sometimes stopping on the wrong frame
+
+
+Version 1.3.7
+ Changes
+ - Gave Rotary Hammer Launcher a special ammo regen mechanic
+   - Regen 1 torpedo every 2 minutes, but only when ammo is less than 2
+ - Buffed Armature strike drone's accuracy with its torpedoes
+ 
+ Bug Fixes
+ - Fixed minor loot stashes always spawning capital ship derelicts
+ - Fixed major expeditions delay
+ - Fixed modded crash with wing swapping hullmod
+ - Made Roider Union hostile with Omega and Remnants
+ - Fixed Roider patrols in the fringe sometimes hitting you twice with transponder-off warnings
+
+
+Version 1.3.6
+ Debug code got into the jar somehow, sorry.
+
+Version 1.3.5
+ Same as 1.3.4, but with the right .jar file.
+
+Version 1.3.4
+ Bug Fixes
+ - Fixed a null pointer crash when a conversion fleet is defeated
+ - Fixed conversion fleets requiring the player to know the target hull
+ - Fixed pirate conversion fleets requiring rep to use their services
+ - Fixed a case-sensitive file name
+
+
+Version 1.3.3
+ Bug Fixes
+ - Fixed conversion fleet null pointer crashes
+ - Added conversion fleet intel's small description
+ - Fixed Rockpiper Shipworks' missing upkeep
+
+
+Version 1.3.2
+ Bug Fixes
+ - Fixed more infinite loops
+ - Fixed random crash at end of battle with Sheriff in it
+ - Fixed random Phasenet AI crash during battle
+
+
+Version 1.3.1
+ Bug Fixes
+ - Fixed infinite loop from badly positioned fringe roider bases
+ - Stopped fringe roider bases from spawning in bad systems
+ - Fixed MIDAS not negating damaging asteroid impacts
+
+
+Version 1.3.0
+ New Features
+ - Added new ships, fighters, and weapons:
+   - Added Argos-class mothership
+   - Added Wrecker-class cruiser
+   - Added Aurochs-class destroyer's armor module, finally
+   - Added Jane-class tanker
+   - Added Sheriff-class frigate
+   - Added Armature-class strike drone
+	 - Comes in 2 wings sizes: 1 drone and 2 drones
+   - Added Tracker-class defense drone
+	 - Added Tracker Swap hullmod - switch built-in Breaker drones to Trackers
+   - Added Rotary Hammer Launcher
+ 
+ - Added roider tech expeditions - new fleets can be found exploring in the fringe
+ - Added rare fleets that sell conversion services
+ - Added Rockpiper Shipworks industry
+   - When you build it, you can go to the bar to retrofit ships that you know the blueprints for
+ - New and improved art for Union HQ and Roider Dives
+ - Added several alternate conversions
+ - Added sprites for Spike Driver and Pile Driver projectiles
+ - Non-Union roider fleets always have some Roider Union ships now
+ - Ship retrofitting now transfers S-mods and Starship Legends Reputation hullmods
+ - Added MagicSettings support
+ - Aliased class and variables names for slightly smaller save files
+ - Roider ships now have their own engine style
+
+ Changes
+ - Changed Colossus Mk.2 (R) modified freighter to Ogrov-class torpedo cruiser
+   - Matched certain stat changes from Ogrov's vanilla counterpart
+ - Moved BPs for Cyclops-class frigate and Onager-class destroyer to the Roider BP Package
+ - Made low-end conversions no longer require commission with the Roider Union
+ - Made Onager a little more common
+ - Removed Dram (R)
+ - Removed Phaeton (R)
+ - Removed Buffalo (R)
+ - Buffed Duster-class heavy fighter's speed from 200 to 220
+ - Nerfed Zap SRM - less EMP on hit, even less EMP on arc - and the Bolt-class interceptor by extension
+ - Nerfed Dragline-class support fighter
+   - Nerfed Mini Sharpshooter's sustained rate of fire
+   - Halved built-in Annihilator Pod's rate of fire, but now it double taps
+ - Made Midway mission a little easier since vanilla nerfed the Ranch's ship system
+ - Roider Union ships are somewhat less likely to spawn in their own fleets
+ - Roider Union is now hostile to various modded pirate factions and such
+ - Improved ship conversions backend
+   - Ship conversion costs are now autogenerated and are more accurate
+   - data/config/modSettings/roider_retrofits.csv is where conversions are defined now
+     - data/retrofits/roider_retrofits.csv still works, but is deprecated
+ - Armor modules no longer have OP and can no longer be refit
+ - Added Civ Grade hullmod to Roider ships with built-in Militarized Subsystems to match how 0.95a does it
+ - Extra transponder warning from certain patrols should be more obvious
+   - And no longer scans your cargo
+ - Removed Union HQ retrofitting service entry fee
+ - Retrofit dialog now shows available conversions as lists of ships instead of names when no retrofit is selected
+ - Roider mining fleets now only spawn when the player is nearby
+ - Tweaked Roider Union's Nexerelin alignments and gave them Temperamental trait
+
+ Bug Fixes
+ - Added script to help stop fighters from escorting Roider armor modules
+ - Hopefully stopped roider fringe bases from spawning inside of stars
+ - Fixed miner fleets hanging out around jump points
+ - Fixed miner fleets showing cargo types they aren't anywhere near
+ - Actually fixed no random bar events appearing at markets with Union HQs
+ - Fixed some variants with incorrect OP following 0.95a's weapon changes
+ - Removed redundant and buggy Commissioned Crews code from EVA Expertise
+ - Can no longer commission with Roiders when your faction is already in a Nexerelin alliance
+ - Armor modules should now all show correctly in the mini-ship displays like fleet encounters
+
+
+Version 1.2.2
+ New Features
+ - Added Colossus Mk.3 to Colossus Mk.2 (R) conversion
+
+ Changes
+ - Updated stats of armor module version of Heavy Armor to match 0.95a Heavy Armor
+
+ Bug Fixes
+ - Patched incorrectly configured vanilla star system causing multiple mods to crash
+ - Fixed no random bar events appearing at markets with Union HQs
+
+
+Version 1.2.1b
+ Bug Fixes
+ - Fixed crash when declining to pay retrofit fee
+
+
+Version 1.2.1
+ Bug Fixes
+ - Fixed crash caused by referencing a removed skill
+ - Fixed crashes caused by Nexerelin renaming classes
+ - Retrofit bar event should always appear again
+ - Pirate roider fleets now go around transponder-off
+
+
+Version 1.2.0
+ New Features
+ - Updated to 0.95a!
+ - Spike Driver and Pile Driver no longer spawn exhaust on certain mod-ship weapon slots such as LoA's Alistair's larges
+ - Added new projectile sprites for Spike Driver and Pile Driver
+ - Fighter Clamps hullmod straight-up blocks bombers now
+
+ Bug Fixes
+ - Pirates can now learn retrofit templates added mid-save
+ - Roider Union stuff should no longer spawn when faction is disabled in Nexerelin random mode
+ - Faction relations are now set properly when Nexerelin is disabled
+ - Added autofit variants for Gambit-class light cruiser
+ - Blocked Fighter Clamps on SWP Arcade ships
+ - Added support for Unknown Skies' Psychosomatic Fungus condition
+ - Independent roider base bar rumors should no longer chain-spawn
+
+
+Version 1.1.0
+ New Features
+ - Added automatic hullmod transfer from parent hull to armor modules
+ - Added support for Unknown Skies' parasitic spores condition
+ - Added Atlas Mk.2 to Telamon conversion
+ - Added MIDAS to fighters
+ 
+ Changes
+ - Roider Dives and Union HQs can harvest from same-faction planets
+ - Union HQs spawn more/less patrols depending on colony size
+ - Raised Roider Neutral/Friendly Encounter music's volume slightly
+ - Nerfed Spike Driver
+   - Increased flux per shot from 220 to 240
+   - Increased minimum spread from 0 to 5
+ - Buffed Pile Driver
+   - Projectiles now pierce missiles
+   - Reduced flux per shot from 650 to 600
+   - Nerfed minimum spread; increased from 0 to 5 to match Spike Driver thematically
+ - Pile Driver shots now pierce missiles
+ - Buffed Sharpshooter's rate of fire by 20%
+ - Increased Bolt-class interceptor's wing size from 3 to 4
+ - Tweaked Hopskip Mk.2 bomber and Hazard MRM's visuals
+ - Buffed Dragline-class support fighter
+   - Mini Sharpshooter turrets can rotate 360 degrees
+   - Annihilator Pod can fire continuously
+ - Nerfed Rocksaw-class heavy assault fighter
+   - Reduced roam range from 4000 to 3000
+   - Reduced chaingun's burst size from 40 to 20
+   - Nerfed chaingun's DPS by 10%
+ - Buffed Breaker drone's speed from 180 to 200
+ - Buffed Duster's sustained kinetic DPS by 40%
+ - Reduced Roach-class heavy frigate's DP from 8 to 6 to make it more useful late-game
+   - Gave it High Maintenance to compensate early-game
+ - Buffed Aurochs-class destroyer
+   - Increased flux capacity from 4000 to 4500
+   - Improved shield efficiency from 1.0 to 0.7
+ - Buffed Cowboy-class light carrier
+   - Changed rear turrets from BALLISTIC to COMPOSITE
+   - Increased flux dissipation from 100 to 150
+   - Increased maneuverability
+ - Buffed Onager-class destroyer
+   - Increased main hull's armor from 600 to 650
+   - Increased armor module's armor from 800 to 950
+ - Buffed Firestorm-class destroyer
+   - Reduced forward turret coverage to improve AI performance
+   - Increased main hull armor from 500 to 600
+   - Increased armor module armor from 750 to 800
+   - Increased flux capacity from 5000 to 6000
+   - Increased flux dissipation from 200 to 250
+   - Increased OP from 40 to 60
+   - Increased speed from 50 to 65
+ - Buffed Gambit's maneuverability
+ - Buffed Ranch-class carrier
+   - Increased armor module's size to cover entire front
+   - Increased armor module's hull from 700 to 1000
+   - Added 2 new small ballistic turrets at the front
+   - Increased OP from 90 to 100
+   - Increased flux capacity from 4500 to 5000
+   - Increased maneuverability
+   - Nerfed supply/DP cost; increased from 20 to 22
+ - Rebalanced Telamon as fast battleship
+   - Buffed speed from 25 to 35
+   - Nerfed armor from 1300 to 1250
+   - Buffed front module's hull from 2000 to 2500
+   - New hullmod transfer system removed armor modules' unintended super-durability
+ 
+ Bug Fixes
+ - Buffalo Mk.2 to Aurochs conversion now requires commission
+ - Made giving yourself Union HQ BP through Console Commands safe
+   - Was possible to malform the command and get a save-corrupting BP
+   - Save-fix here: https://fractalsoftworks.com/forum/index.php?topic=9547.msg303345#msg303345
+ - Fixed bug causing bar rumors for fringe bases to disappear if not viewed immediately
+
+
+Version 1.0.9
+ Bug Fixes
+ - Undid a silly save-breaking change.
+ 
+ 
+ Version 1.0.8
+ Changes
+ - Reduced price of Union HQ industry blueprint. Existing blueprints will still be high value.
+ - Reduced cost of converting Buffalo (A) and (R) to Aurochs.
+
+ Bug Fixes
+ - Fixed transponder check repeating when comms are reopened.
+ - Retrofit tariff price adjustment is more accurate.
+ - Fixed crash when upgrading to Union HQ.
+ - Recoded Roider Dives and Union HQ. Should be less buggy.
+
+
+Version 1.0.7
+ New Features
+ - Retrofits adjust costs based on Nexerelin's 18% tariffs
+ 
+ Changes:
+ - MIDAS now reduces EMP damage instead of kinetic damage
+ - Tried to make MIDAS Armor correctly transfer hull and armor improvements
+ - Matching upcoming vanilla changes:
+   - Dragline's roaming range is now 0
+   - Rocksaw's chaingun nerfed from 90 damage to 75 damage
+ 
+ Bug Fixes:
+ - Extra transponder warning from certain Roider patrols now works
+ - Fixed crash bug when sometimes starting a Nexerelin random mode game
+ - Fixed typos in a couple dialogs
+ - Hopefully fixed some zombie fringe fleet spawning
+ - Fixed incorrectly blocked retrofit access payment
+
+
+Version 1.0.6
+ New Features:
+ - Added extra transponder warning to certain Roider Union patrols
+ 
+ Changes:
+ - Duster is now a heavy fighter with a Light Machine Gun
+ 
+ Bug Fixes:
+ - MIDAS Armor's description now mentions it reduces kinetic damage
+ - Fixed Union HQ submarket refreshing too often
+ - Added Nexerelin alliance support to Union HQ submarket and retrofitting
+ - Retrofitting now mentions that it restores hulls to pristine condition
+ - Fixed bugs with spawning Rockpiper Perch station in Nexerelin random mode:
+   - Station shows market stuff instead of an empty dialog
+   - Midline star fortress gets replaced instead of spawning separately
+ - Fixed a crash when adding Roider Dives in Nexerelin random mode
+
+
+Version 1.0.5
+ Bug Fixes:
+ - MIDAS no longer instantly removes itself
+
+
+Version 1.0.4
+ Bug Fixes:
+ - Actually for real fixed the Mudskipper variant this time
+ 
+
+Version 1.0.3
+ Bug Fixes:
+ - Added kinetic damage reduction to MIDAS Armor hullmod
+ - Added Telamon variants to autofit
+ - Added UI tags for MIDAS hullmod
+ - Added speed and maneuverability descriptions to Zap SRM and Hazard MRM
+ - Blocked MIDAS on ships with MIDAS-X built in
+ - Blocked Extreme Modifications + Fighter Clamps exploit
+ 
+
+Version 1.0.2
+ New Features:
+ - Whitelisted ships and Roider Union faction for Industrial.Evolution mechanics
+ 
+ Changes:
+ - Reduced crew requirements for Fighter Clamps:
+   - destroyers from 20 to 10 crew
+   - cruisers from 40 to 30 crew
+   - capital ships from 100 to 70 crew
+ 
+ Bug Fixes:
+ - Fixed crash from broken Mudskipper variant
+ - Fixed nulls in Fighter Clamps description
+
+
+Version 1.0.1
+ Bug Fixes:
+ - Fixed crash when loading invalid retrofits from retrofits.csv
+
+
+Version 1.0
+ New Features:
+ - The Roider Union is now a full-fledged faction
+ - All new art by Gwyvern
+ - Added Commissioned Crews compatibility
+ - Added full Nexerelin compatibility, including random mode
+ 
+ - Added four star systems:
+	- Atka (main Roider Union system by Tyle star system)
+	- Attu
+	- Kiska Nebula
+	- Ounalashka
+ 
+ - Added new fighters:
+   - Breaker drone
+   - Duster heavy interceptor
+   - Dragline support fighter
+   - Hopskip Mk.II bomber
+   - Rocksaw heavy assault fighter
+ 
+ - Added new ships:
+   - Dram (R) class tanker
+   - Nolasher-class frigate
+   - Pepperbox-class frigate
+   - Roach-class heavy frigate
+   - Aurochs-class destroyer
+   - Buffalo (R) class freighter
+   - Cowboy-class light carrier
+   - Firestorm-class destroyer
+   - Onager-class destroyer
+   - Phaeton (R) class tanker
+   - Colossus Mk.II (R) class modified freighter
+   - Gambit-class light cruiser
+   - Ranch-class carrier
+   - Telamon-class battleship
+ 
+ - Added new weapons:
+   - Blasting Laser
+   - Hazard MRM
+   - Sharpshooter
+   - Spike Driver
+   - Pile Driver
+   
+ - Added special blueprint item for Roider conversions
+   - Can be bought at Union HQs
+ - Added Massive Impact Deflection/Avoidance System (MIDAS) hullmod
+   - A number after MIDAS indicates # of armor modules
+ - Added Fighter Clamps hullmod - gives ship one or more wings of non-replaceable fighters
+ - Added Roider Union encounter and market music
+ - Added Midway mission
+ - Added bar event to help find independent roider fringe markets
+ - Other minor additions
+ 
+ Changes:
+ - Commission is now with Roider Union instead of independents
+ - New sprites for existing ships, fighters, and weapons
+   - Zap SRM
+   - Bolt interceptor
+   - Cyclops-class frigate
+   - Bombard-class destroyer
+ - Improved retrofitting
+   - Now accessed from the bar
+   - UI improved
+   - Retrofits are now instant
+ - Buffed Zap SRM's EMP damage from 50 to 200
+ - Buffed Bolt's speed from 400 to 500
+ - Nerfed Bolt's engagement range from 4000 to 3000 
+ - Nerfed how much stuff independent fringe markets have
+ - Made Roider Dives and Union HQ buildable
+   - Union HQ requires buying the blueprint from an existing Union HQ
+ - Improved Easy Prey and Eye of the Storm missions
+ - Changed fleet names to clarify the faction of roider miner and patrol fleets
+ - Reduced how many mining fleets spawn from Roider Dives.
+ - Probably other stuff I've forgotten
+ 
+ Bugs:
+ - Fixed
+
+ 
+Version 0.8.1
+ Changes:
+ - Made retrofit intel and UI more consistent.
+ 
+ Bug Fixes:
+ - Fixed crash when starting a new game with Nexerelin active.
+ - Fixed a crash when a market has no faction.
+
+
+Version 0.8.0
+ The Roider Union returns!

@@ -1,0 +1,188 @@
+{
+  "hullName": "Montauk",
+  "hullId": "roider_montauk",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/roider_montauk.png",
+  "style": "ROIDER_HULL",
+  "height": 158,
+  "width": 146,
+  "center": [73, 79],
+  "collisionRadius": 100,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas"
+  ],
+  "builtInWeapons": {
+    "MASK": "roider_montauk_mask"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [66, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [48, 39]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [48, -39]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [29, 42]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [29, -42]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 60,
+      "locations": [-11, 51]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -60,
+      "locations": [-11, -51]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 100,
+      "locations": [-30, 18]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -100,
+      "locations": [-30, -18]
+    },
+    {
+      "id": "MASK",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [56, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-78, 21],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-78, -21],
+      "length": 64,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-75, 33],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-75, -33],
+      "length": 64,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-70, 46.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-70, -46.5],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -45, -7,
+    -76, -18,
+    -68, -49,
+    -50, -51,
+    -18, -69,
+    48, -55,
+    41, -19,
+    65, -18,
+    77, -10,
+    77, 10,
+    65, 18,
+    41, 19,
+    48, 55,
+    -18, 69,
+    -50, 51,
+    -68, 49,
+    -76, 18,
+    -45, 7,
+    -25, -0,
+    1, 26,
+    29, -0,
+    1, -26,
+    -25, -0,
+    -45, 7
+  ]
+}

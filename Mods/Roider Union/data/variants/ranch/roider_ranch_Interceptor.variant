@@ -1,0 +1,52 @@
+{
+    "displayName": "Priest",
+    "fluxCapacitors": 14,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "roider_ranch",
+    "hullMods": [
+        "augmentedengines",
+        "roider_glitzSwitch"
+    ],
+    "modules": [{"PROW ARMOR": "roider_ranch_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_ranch_Interceptor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "hveldriver"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "pilum",
+                "WS 004": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "lightac",
+                "WS 008": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "roider_marksman",
+                "WS 002": "roider_marksman",
+                "WS 005": "roider_marksman",
+                "WS 006": "roider_marksman"
+            }
+        }
+    ],
+    "wings": [
+        "roider_bolt_wing",
+        "roider_bolt_wing"
+    ]
+}

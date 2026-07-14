@@ -4,7 +4,9 @@ id,trigger,conditions,script,text,options,notes
 # NGC options,,,,,,
 ExerelinOnNewGameCreationStart,BeginNewGameCreation,!$doesFakeVariableExist score:999,FireBest ExerelinNGCIntroPicker,,,override SS+ NGC
 ,,,,,,
-ExerelinNGCSkipIntro,ExerelinNGCIntroPicker,,FireAll ExerelinNGCStep1,,,
+ExerelinNGCSkipIntro,ExerelinNGCIntroPicker,,"$isInIntro = false 0
+FireAll ExerelinNGCIntroPage
+FireAll ExerelinNGCStep1",,,
 ExerelinNGCDoIntro,ExerelinNGCIntroPicker,Nex_NGCIntroPicker false,"$isInIntro = true 0
 $introPage = 1.0 0
 FireAll ExerelinNGCIntroPage",,,
@@ -3570,7 +3572,7 @@ $HeOrShe chugs the wine. ""But I suppose we won't be so fortunate, will we? You 
 Abruptly $heOrShe cuts off, placing two fingers to $hisOrHer temple, eye flickering at an image visible only on $hisOrHer retina.","nex_remSalvation_arroyo11Bad:What—
 nex_remSalvation_arroyo11Good:Danger!",
 nex_remSalvation_arroyoSkillCheck,Nex_RemSalvation_ArroyoSkillCheck,$nex_remSalvation_combatSkillLevel < 5.0,"SetEnabled nex_remSalvation_arroyo11Good false
-SetTooltip nex_remSalvation_arroyo11Good ""Not enough combat skill level.""",,,
+SetTooltip nex_remSalvation_arroyo11Good ""Not enough combat proficiency.""",,,
 nex_remSalvation_arroyo11Bad,DialogOptionSelected,$option == nex_remSalvation_arroyo11Bad,"Call $global.nex_remSalvation_ref explosionSound
 HideVisual","You're just starting to stand up when a door on the wall opposite you explodes, flying off its hinges to slam into the far wall. The noise is stunning, deafening. Briefly staggered, you reach for your sidearm.
 
@@ -4503,6 +4505,19 @@ nex_dissonantConvo2-2,DialogOptionSelected,$option == nex_dissonantConvo2-2,Adju
 nex_dissonantConvo2End,DialogOptionSelected,$option == nex_dissonantConvo2End,FireAll PopulateOptions,"$personLastName makes no comment, although you imagine a sniffling sound.",,
 ,,,,,,
 nex_dissonantConvoEnd,DialogOptionSelected,$option == nex_dissonantConvoEnd,FireAll PopulateOptions,,,
+,,,,,,
+nex_rem_enableRaidsOpt,PopulateOptions,"$id == nex_dissonant score:10
+$global.nex_remSalvation_missionCompleted
+$personFaction.nex_disableRaidFromBases_remnantContact",,,10:nex_rem_enableRaids:Propose resuming Remnant raids,
+nex_rem_disableRaidsOpt,PopulateOptions,"$id == nex_dissonant score:10
+$global.nex_remSalvation_missionCompleted
+!$personFaction.nex_disableRaidFromBases_remnantContact",,,10:nex_rem_disableRaids:Propose ending Remnant raids,
+nex_rem_enableRaids,DialogOptionSelected,$option == nex_rem_enableRaids,"Nex_MiscCMD enableRemnantRaids
+AddTextSmall ""Remnants will resume periodic raids"" h
+FireAll PopulateOptions","""If friend $playerFirstName thinks it wise, raids of human territories resume.""",,
+nex_rem_disableRaids,DialogOptionSelected,$option == nex_rem_disableRaids,"Nex_MiscCMD disableRemnantRaids
+AddTextSmall ""Remnants will cease periodic raids"" h
+FireAll PopulateOptions","""Then it will be as friend $playerFirstName proposes. Cease raiding of human polities shall.""",,
 ,,,,,,
 nex_dissonantAndSierraConvoOpt,PopulateOptions,"$id == nex_dissonant
 !$nex_sierraConvoSeen

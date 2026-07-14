@@ -1,0 +1,14 @@
+{
+	"ROIDER_ENGINE":{
+		"engineColor":[255,125,25,255],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[75,75,75,33],
+		"contrailCampaignColor":[150,100,25,75],
+		"type":"GLOW" # GLOW or SMOKE
+	}
+}
+

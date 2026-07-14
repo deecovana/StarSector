@@ -1,0 +1,22 @@
+{
+	"id":"roider_phasenet",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"roiderUnion.combat.phasenet.PhasenetAI",
+	
+	"statsScript":"roiderUnion.combat.phasenet.PhasenetController",
+	
+	
+	"useSound":"roider_system_phasenet_activate",
+	#"deactivateSound":"system_high_energy_focus_deactivate",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"roider_system_phasenet_loop",	
+	
+	"aiHints":{
+		"threatRange":2000,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

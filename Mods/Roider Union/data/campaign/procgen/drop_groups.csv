@@ -1,0 +1,25 @@
+commodity,group,freq
+"item_roider_retrofit_bp:{tags:[roider_retrofit, !roider_no_drop]}",blueprints,25
+item_roider_industry_bp:{tags:[roider_union_hq]},blueprints,0
+item_roider_industry_bp2:{tags:[roider_shipworks]},blueprints,0
+,,
+"item_roider_retrofit_bp:{tags:[roider_retrofit, !roider_no_drop]}",blueprints_low,25
+item_roider_industry_bp:{tags:[roider_union_hq]},blueprints_low,0
+item_roider_industry_bp2:{tags:[roider_shipworks]},blueprints_low,0
+,,
+"item_roider_retrofit_bp:{tags:[roider_retrofit, !roider_no_drop]}",blueprints_guaranteed,25
+,,
+"item_roider_retrofit_bp:{tags:[roider_retrofit, !roider_no_drop]}",ship_bp,25
+,,
+"item_roider_retrofit_bp:{tags:[roider_retrofit, !rare_bp, !roider_no_drop]}",roider_market_blueprints,150
+"item_roider_retrofit_bp:{tags:[roider_retrofit, !roider_no_drop]}",roider_market_blueprints,25
+item_roider_package,roider_market_blueprints,25
+"item_fighter_bp:{tags:[roider, !rare_bp]}",roider_market_blueprints,50
+"item_fighter_bp:{tags:[roider, rare_bp]}",roider_market_blueprints,20
+"item_weapon_bp:{tags:[roider, rare_bp]}",roider_market_blueprints,10
+,,
+item_roider_charter,rare_tech,3
+,,
+item_roider_charter,rare_tech_low,3
+,,
+item_roider_charter,techmining_first_find,1

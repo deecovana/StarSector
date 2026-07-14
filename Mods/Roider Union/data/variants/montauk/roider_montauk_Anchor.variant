@@ -1,0 +1,51 @@
+{
+    "displayName": "Anchor",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "roider_montauk",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_montauk_Anchor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "gravitonbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "breach",
+                "WS0003": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "arbalest",
+                "WS0006": "arbalest",
+                "WS0007": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "heavymortar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "roider_marksman",
+                "WS0009": "roider_marksman"
+            }
+        }
+    ]
+}

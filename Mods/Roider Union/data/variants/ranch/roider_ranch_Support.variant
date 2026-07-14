@@ -1,0 +1,55 @@
+{
+    "displayName": "Nomad",
+    "fluxCapacitors": 18,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "roider_ranch",
+    "hullMods": ["expanded_deck_crew"],
+    "modules": [{"PROW ARMOR": "roider_ranch_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_ranch_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualac",
+                "WS 002": "lightdualac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "salamanderpod",
+                "WS 004": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "flak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "vulcan",
+                "WS 008": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "roider_marksman",
+                "WS 006": "roider_marksman"
+            }
+        }
+    ],
+    "wings": [
+        "roider_hopskip2_wing",
+        "roider_hopskip2_wing"
+    ]
+}

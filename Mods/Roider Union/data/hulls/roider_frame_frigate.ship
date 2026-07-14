@@ -1,0 +1,71 @@
+{
+  "hullName": "Frame",
+  "hullId": "roider_frame_frigate",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/frames/roider_frameFrigate.png",
+  "style": "ROIDER_HULL",
+  "height": 91,
+  "width": 66,
+  "center": [33, 46],
+  "collisionRadius": 60,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas",
+	"civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [11, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 14],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-46, -14],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-46, 19],
+      "length": 40,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-46, -19],
+      "length": 40,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -44, -21,
+    24, -30,
+    43, 0,
+    24, 30,
+    -44, 21,
+    -30, -0
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"starSystem":"roider_attu",
+	"markets":[
+		{
+			"entities":["roider_attuStation"],
+			"faction":"hegemony",
+			"size":4,
+			"startingConditions":[
+				"population_4"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"roider_union_hq",
+				"refining",
+				"orbitalstation",
+				"heavybatteries"
+			]
+		}
+	]
+
+}
+
+
+

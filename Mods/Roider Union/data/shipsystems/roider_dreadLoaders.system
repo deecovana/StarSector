@@ -1,0 +1,17 @@
+{
+	"id":"roider_dreadLoaders",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"roiderUnion.combat.DreadLoaderStats",
+	
+	"weaponGlowColor":[255,0,0,255],
+	"weaponTypes":[BALLISTIC],
+	
+	
+	"useSound":"roider_system_dread_loaders_activate",
+	#"deactivateSound":"system_high_energy_focus_deactivate",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"roider_system_dread_loaders_loop",	
+}

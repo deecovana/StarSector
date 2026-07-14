@@ -1,0 +1,14 @@
+{
+	"id":"roider_reservewing",
+	"type":"STAT_MOD",
+	"aiType":"RESERVE_DEPLOYMENT",
+	
+	"statsScript":"roiderUnion.combat.RanchReserveWing",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+}
+
+
+
+

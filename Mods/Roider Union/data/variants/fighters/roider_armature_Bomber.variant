@@ -1,0 +1,28 @@
+{
+	"quality":1,
+	"displayName":"Strike Drone",
+	"hullId":"roider_armature",
+	"variantId":"roider_armature_Bomber",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{
+			"autofire": false,
+			"mode":"LINKED",
+			"weapons":{
+		 		"WS 001":"roider_hammer_armature"
+			}
+		},
+		{
+			"autofire": false,
+			"mode":"LINKED",
+			"weapons":{
+				"WS 002":"roider_mini_vulcan"
+		    }
+		}
+	],
+}

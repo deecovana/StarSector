@@ -1,0 +1,51 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "roider_ranch_damper",
+    "hullMods": ["dedicated_targeting_core"],
+    "modules": [{"PROW ARMOR": "roider_ranch_armor_damper_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_ranch_damper_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "hveldriver",
+                "WS 004": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualac",
+                "WS 007": "lightdualac",
+                "WS 008": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "roider_duster_wing",
+        "roider_duster_wing",
+        "talon_wing",
+        "talon_wing"
+    ]
+}

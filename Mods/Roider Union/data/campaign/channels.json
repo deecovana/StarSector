@@ -1,0 +1,15 @@
+{
+	"roider_internal":{
+		"name":"Roider Union Intelligence",
+		"logo":"graphics/icons/intel/comms64.png",
+		"icon":"graphics/icons/intel/comms64.png",
+		"image":"graphics/factions/neutral_traders.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"roider",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}
+
+
+

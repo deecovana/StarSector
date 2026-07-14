@@ -1,0 +1,68 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 13,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "roider_wrecker_p",
+    "hullMods": [
+        "dedicated_targeting_core",
+        "ballistic_rangefinder"
+    ],
+    "modules": [{"PROW ARMOR": "roider_wrecker_p_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_wrecker_p_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "roider_spike_driver",
+                "WS 007": "roider_spike_driver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "hammer",
+                "WS 011": "hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "miningblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "roider_arcCannon",
+                "WS 005": "roider_arcCannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "lightac",
+                "WS 013": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "roider_marksman",
+                "WS 002": "roider_marksman",
+                "WS 003": "roider_marksman"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "vulcan"}
+        }
+    ]
+}

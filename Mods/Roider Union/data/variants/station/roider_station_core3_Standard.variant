@@ -1,0 +1,38 @@
+{
+	"displayName": "Star Fortress",
+	"fluxCapacitors": 0,
+	"fluxVents": 0,
+	"hullId": "roider_station_core3",
+	"hullMods": [],
+	"quality": 0.5,
+	"variantId": "roider_station_core3_Standard",
+	"weaponGroups": [],
+	"modules": [
+		{ "WS 012": "module_armour1_Standard" },
+		{ "WS 001": "module_armour1_Standard" },
+		{ "WS 002": "module_armour1_Standard" },
+		{ "WS 003": "module_armour1_Standard" },
+		{ "WS0004": "module_armour2_Standard" },
+		{ "WS0005": "module_armour2_Standard" },
+		{ "WS0006": "module_armour1_Standard" },
+		{ "WS0007": "module_armour1_Standard" },
+		{ "WS0008": "module_armour1_Standard" },
+		{ "WS0009": "module_armour1_Standard" },
+		{ "WS 010A": "module_armour2_Standard" },
+		{ "WS 011A": "module_armour2_Standard" },
+		{ "WS 010B": "module_armour2_Standard" },
+		{ "WS 011B": "module_armour2_Standard" },
+
+		{ "WS 009":"roider_station_citadel_large2_Standard" },
+		{ "WS 010": "roider_station_hangar_Standard" },
+		{ "WS 011": "roider_station_hangar_Standard" },
+
+		{ "WS 018":"roider_station_spur_Standard" },
+		{ "WS 019": "roider_station_spur_Standard" },
+		{ "WS 020": "roider_station_spur_Standard" },
+
+		{ "WS 006":"roider_station_bastion_Standard" },
+		{ "WS 007": "roider_station_bastion_Standard" },
+		{ "WS 008": "roider_station_bastion_Standard" }
+	]
+}

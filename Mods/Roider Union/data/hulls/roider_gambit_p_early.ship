@@ -1,0 +1,189 @@
+{
+  "hullName": "Gambit (P)",
+  "hullId": "roider_gambit_p_early",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/gambit/roider_gambit_p.png",
+  "style": "ROIDER_HULL",
+  "height": 188,
+  "width": 152,
+  "center": [76, 96],
+  "collisionRadius": 130,
+  "shieldCenter": [-3, -0],
+  "shieldRadius": 125,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas",
+	"ill_advised",
+	"comp_structure"
+  ],
+  "builtInWeapons": {
+    "HAZARD1": "roider_hazard_mrm_gambit",
+    "HAZARD2": "roider_hazard_mrm_gambit",
+    "MED MASK": "roider_gambit_p_mask"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 9,
+      "angle": 0,
+      "locations": [17, 54]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 9,
+      "angle": 0,
+      "locations": [17, -54]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [23, -0],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [50, 0]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 130,
+      "locations": [-28, 49]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -130,
+      "locations": [-28, -49]
+    },
+    {
+      "id": "MANTLE",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [64, -0]
+    },
+    {
+      "id": "MED MASK",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [36, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "HAZARD1",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, 16],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "HAZARD2",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, -16],
+      "renderOrderMod": 200
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-90, -36.5],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-90, 36.5],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-83, -59],
+      "length": 42,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-83, 59],
+      "length": 42,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-90.5, 49],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-90, -49],
+      "length": 64,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -56, -10,
+    -48, -25,
+    -92, -21,
+    -78, -63,
+    -5, -73,
+    19, -66,
+    18, -35,
+    66, -33,
+    79, -0,
+    66, 33,
+    18, 35,
+    19, 66,
+    -5, 73,
+    -78, 63,
+    -92, 21,
+    -48, 25,
+    -56, 10
+  ]
+}

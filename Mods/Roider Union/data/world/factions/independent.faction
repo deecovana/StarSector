@@ -1,0 +1,25 @@
+{
+    "knownShips":{
+        "tags":["roider_bp",],
+		"hulls":[
+			"roider_cyclops",
+			"roider_pepperbox",
+			"roider_jane",
+			"roider_onager",
+			"roider_bombard",
+			#"roider_phaeton",
+			#"roider_colossus2",
+			"roider_gambit_early",
+		],
+    },
+    "knownFighters":{
+        "tags":["roider_bp",],
+		"fighters":[
+			"roider_bolt_wing",
+			"roider_hopskip2_wing",
+		],
+    },
+    "knownWeapons":{
+        "tags":["roider_bp",],
+    },
+},

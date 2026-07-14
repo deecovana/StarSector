@@ -1,0 +1,84 @@
+{
+    "displayName": "Pluton",
+    "fluxCapacitors": 11,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "roider_telamon",
+    "hullMods": [
+        "dedicated_targeting_core",
+        "ballistic_rangefinder",
+        "stabilizedshieldemitter"
+    ],
+    "modules": [
+        {"PROW ARMOR": "roider_telamon_front_Standard"},
+        {"LEFT ARMOR": "roider_telamon_left_Standard"},
+        {"RIGHT ARMOR": "roider_telamon_right_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_telamon_Elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 017": "harpoonpod",
+                "WS 018": "harpoonpod",
+                "WS 021": "locust"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "roider_pile_driver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 010": "roider_pile_driver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 022": "mjolnir"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "roider_doldrums",
+                "WS 012": "roider_doldrums",
+                "WS 015": "roider_doldrums",
+                "WS 016": "roider_doldrums",
+                "WS 019": "roider_doldrums",
+                "WS 020": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "flak",
+                "WS 004": "flak",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 007": "roider_marksman",
+                "WS 008": "roider_marksman",
+                "WS 013": "roider_marksman",
+                "WS 014": "roider_marksman"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "roider_arcCannon",
+                "WS 002": "roider_arcCannon"
+            }
+        }
+    ],
+    "wings": [
+        "roider_breaker_wing",
+        "roider_glitz_wing"
+    ]
+}

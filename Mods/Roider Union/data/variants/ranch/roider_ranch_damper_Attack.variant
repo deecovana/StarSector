@@ -1,0 +1,62 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "roider_ranch_damper",
+    "hullMods": [
+        "missleracks",
+        "roider_trackerCoreShip"
+    ],
+    "modules": [{"PROW ARMOR": "roider_ranch_armor_damper_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_ranch_damper_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "arbalest"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "harpoonpod",
+                "WS 004": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "roider_doldrums"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "lightac",
+                "WS 008": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "roider_marksman"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "vulcan",
+                "WS 006": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing",
+        "roider_armature_single_wing",
+        "roider_bolt_wing"
+    ]
+}

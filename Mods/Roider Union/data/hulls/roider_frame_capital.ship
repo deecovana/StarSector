@@ -1,0 +1,177 @@
+{
+  "hullName": "Frame",
+  "hullId": "roider_frame_capital",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/frames/roider_frameCapital.png",
+  "style": "ROIDER_HULL",
+  "height": 343,
+  "width": 170,
+  "center": [85, 172],
+  "collisionRadius": 200,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 196,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas",
+	"civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 100,
+      "locations": [-35, 34]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -100,
+      "locations": [-35, -34]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-171, 47],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-171, -47],
+      "length": 48,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-171, 54],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-171, -54],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-171, 40],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-171, -40],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-165, 63],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-165, -63],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-166, 58],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-166, -58],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-166, 36],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-166, -36],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-165, 31],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-165, -31],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -140, -7,
+    -121, -18,
+    -163, -28,
+    -170, -47,
+    -164, -65,
+    -88, -73,
+    -84, -56,
+    -24, -56,
+    -20, -82,
+    130, -74,
+    168, -13,
+    154, -0,
+    168, 13,
+    130, 74,
+    -20, 82,
+    -24, 56,
+    -84, 56,
+    -88, 73,
+    -164, 65,
+    -170, 47,
+    -163, 28,
+    -121, 18,
+    -140, 7
+  ]
+}

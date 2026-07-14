@@ -1,0 +1,67 @@
+{
+    "displayName": "Anchor",
+    "fluxCapacitors": 16,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "roider_firestorm",
+    "hullMods": [
+        "fluxbreakers",
+        "reinforcedhull"
+    ],
+    "modules": [
+        {"LEFT ARMOR": "roider_firestorm_left_Standard"},
+        {"RIGHT ARMOR": "roider_firestorm_right_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_firestorm_Defense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "roider_zap"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "roider_doldrums",
+                "WS 003": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "lightag",
+                "WS 011": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "lightmortar",
+                "WS 013": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "lightac",
+                "WS 005": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "roider_marksman",
+                "WS 007": "roider_marksman",
+                "WS 008": "roider_marksman",
+                "WS 009": "roider_marksman"
+            }
+        }
+    ]
+}

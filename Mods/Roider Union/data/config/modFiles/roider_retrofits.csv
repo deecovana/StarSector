@@ -1,0 +1,52 @@
+id,fitter,source,target,cost,time,reputation,commission
+roider_nolasher_wayfarer,"roider, roider_full, roider_argos, roider_all",wayfarer,roider_nolasher,,0,0,FALSE
+roider_jane_dram,"roider, roider_full, roider_argos, roider_all",dram,roider_jane,,0,0,FALSE
+roider_jane_phaeton,"roider, roider_full, roider_argos, roider_all",phaeton,roider_jane,,0,0,FALSE
+roider_condor_tarsus,"roider, roider_full, roider_argos, roider_all",tarsus,condor,,0,0,FALSE
+roider_condor_firestorm,"roider, roider_full, roider_argos, roider_all",roider_firestorm,condor,,0,0,FALSE
+roider_onager_mule,"roider, roider_full, roider_argos, roider_all",mule,roider_onager,,0,1,FALSE
+roider_onager_mule_p,"roider, roider_full, roider_argos, roider_all",mule_d_pirates,roider_onager,,0,1,FALSE
+roider_bombard_crig,"roider, roider_full, roider_argos, roider_all",crig,roider_bombard,,0,1,FALSE
+roider_firestorm_tarsus,"roider, roider_full, roider_argos, roider_all",tarsus,roider_firestorm,,0,1,FALSE
+roider_firestorm_condor,"roider, roider_full, roider_argos, roider_all",condor,roider_firestorm,,0,1,FALSE
+roider_roach_scarab,"roider, roider_full, roider_argos, roider_all",scarab,roider_roach,,0,2,TRUE
+roider_aurochs_omen,"roider, roider_full, roider_argos, roider_all",omen,roider_aurochs,,0,2,TRUE
+roider_cowboy_nebula,"roider, roider_full, roider_argos, roider_all",nebula,roider_cowboy,,0,2,TRUE
+roider_gambit_venture,"roider, roider_full, roider_all",venture,roider_gambit,,0,2,FALSE
+roider_gambit_gambit_p,"roider, roider_full, roider_all",roider_gambit_p,roider_gambit,,0,2,FALSE
+roider_gambit_gambit_early,"roider, roider_full, roider_all",roider_gambit_early,roider_gambit,,0,2,FALSE
+roider_gambit_gambit_p_early,"roider, roider_full, roider_all",roider_gambit_p_early,roider_gambit,,0,2,FALSE
+roider_gambit_p_venture,"pirate, roider_all",venture,roider_gambit_p,,0,2,FALSE
+roider_gambit_p_gambit,"pirate, roider_all",roider_gambit,roider_gambit_p,,0,2,FALSE
+roider_gambit_p_gambit_early,"pirate, roider_all",roider_gambit_early,roider_gambit_p,,0,2,FALSE
+roider_gambit_p_gambit_p_early,"pirate, roider_all",roider_gambit_p_early,roider_gambit_p,,0,2,FALSE
+roider_colossus_2,"roider, roider_full, roider_all",colossus,roider_colossus2,,0,1,FALSE
+roider_colossus3_2,"roider, roider_full, roider_all",colossus3,roider_colossus2,,0,1,FALSE
+roider_argos_prometheus,"roider, roider_full, roider_all",prometheus,roider_argos,,0,3,FALSE
+roider_argos_prometheus2,"roider, roider_full, roider_all",prometheus2,roider_argos,,0,3,FALSE
+roider_ranch_starliner,"roider, roider_full, roider_all",starliner,roider_ranch,,0,3,TRUE
+roider_wrecker_eagle,"roider, roider_full, roider_all",eagle,roider_wrecker,,0,3,TRUE
+roider_wrecker_eagle_xiv,"roider, roider_full, roider_all",eagle_xiv,roider_wrecker,,0,3,TRUE
+roider_wrecker_falcon,"roider, roider_full, roider_all",falcon,roider_wrecker,,0,3,TRUE
+roider_wrecker_falcon_xiv,"roider, roider_full, roider_all",falcon_xiv,roider_wrecker,,0,3,TRUE
+roider_wrecker_falcon_p,"roider, roider_full, roider_all",falcon_p,roider_wrecker,,0,3,TRUE
+roider_wrecker_wrecker_p,"roider, roider_full, roider_all",roider_wrecker_p,roider_wrecker,,0,3,TRUE
+roider_wrecker_p_eagle,"pirate, roider_all",eagle,roider_wrecker_p,,0,3,TRUE
+roider_wrecker_p_eagle_xiv,"pirate, roider_all",eagle_xiv,roider_wrecker_p,,0,3,TRUE
+roider_wrecker_p_falcon,"pirate, roider_all",falcon,roider_wrecker_p,,0,3,TRUE
+roider_wrecker_p_falcon_xiv,"pirate, roider_all",falcon_xiv,roider_wrecker_p,,0,3,TRUE
+roider_wrecker_p_falcon_p,"pirate, roider_all",falcon_p,roider_wrecker_p,,0,3,TRUE
+roider_wrecker_p_wrecker,"pirate, roider_all",roider_wrecker,roider_wrecker_p,,0,3,TRUE
+roider_telamon_atlas,"roider, roider_full, roider_all",atlas,roider_telamon,,0,4,TRUE
+roider_telamon_atlas2,"roider, roider_full, roider_all",atlas2,roider_telamon,,0,4,TRUE
+,,,,,,,
+roider_cyclops_hermes,"roider, roider_full, roider_light, roider_argos, roider_all",hermes,roider_cyclops,,0,0,FALSE
+roider_cyclops_cerberus,"roider, roider_full, roider_light, roider_argos, roider_all",cerberus,roider_cyclops,,0,0,FALSE
+,,,,,,,
+roider_pepperbox_mudskipper,"roider, roider_full, roider_light, roider_argos, roider_all",mudskipper,roider_pepperbox,,0,0,FALSE
+roider_pepperbox_mudskipper2,"roider, roider_full, roider_light, roider_argos, roider_all",mudskipper2,roider_pepperbox,,0,0,FALSE
+roider_aurochs_buffalo,"roider, roider_full, roider_light, roider_argos, roider_all",buffalo,roider_aurochs,,0,2,TRUE
+roider_aurochs_buffalo2,"roider, roider_full, roider_light, roider_argos, roider_all",buffalo2,roider_aurochs,,0,2,TRUE
+roider_aurochs_buffalo_a,"roider, roider_full, roider_light, roider_argos, roider_all",buffalo_hegemony,roider_aurochs,,0,2,TRUE
+roider_colossus2_2,"roider, roider_full, roider_light, roider_argos, roider_all",colossus2,roider_colossus2,,0,1,FALSE
+,,,

@@ -1,0 +1,16 @@
+{
+    "displayName": "Priest",
+    "fluxCapacitors": 4,
+    "fluxVents": 3,
+    "hullId": "mudskipper2",
+    "hullMods": ["roider_fighterClamps"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "roider_mudskipper2_Escort",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {"WS 002": "mark9"}
+    }],
+    "wings": ["talon_wing"]
+}

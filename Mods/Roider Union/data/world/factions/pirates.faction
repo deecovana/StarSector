@@ -1,0 +1,14 @@
+{
+	"hullFrequency":{
+		"hulls":{
+			# Make strong version uncommon
+			"roider_gambit_p":0.1,
+		}
+	},
+    "knownShips":{
+		"hulls":[
+			"roider_gambit_p",
+			"roider_gambit_p_early",
+		],
+    },
+},

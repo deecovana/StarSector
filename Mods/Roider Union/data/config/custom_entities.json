@@ -1,0 +1,67 @@
+{
+	"roider_station_rockpiper":{
+		"defaultName":"Roider Asteroid Station", # used if name=null in addCustomEntity()
+		"defaultRadius":80, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/urban03.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/roider_station_rockpiper.png",
+		"spriteWidth":111,
+		"spriteHeight":136,
+		"renderShadow":false, #true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS] # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"roider_loot_stash_major":{
+		"defaultName":"Small Minefield", # used if name=null in addCustomEntity()
+		"nameInText":"small minefield",
+		"shortName":"minefield",
+		"aOrAn":"a",
+		"isOrAre":"is",
+		"detectionRange":100, # must be >0 for discoverable/discoveryXP to be used
+		"discoverable":true,
+		"defaultRadius":40, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"roider_cache_major",
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"icon":"graphics/icons/roider_majorStash.png",
+		"iconWidth":25,
+		"iconHeight":25,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "neutrino_high", "salvage_music", "roider_expLootMajor"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+		"pluginClass":"roiderUnion.nomads.minefields.MajorLootStashPlugin"
+	},
+	
+	
+	"roider_nomad_junk":{
+		"defaultName":"Nomads", # used if name=null in addCustomEntity()
+		"defaultRadius":0, # used if radius<0 in addCustomEntity()
+		"sheet":"graphics/stations/roider_nomads_junk_sheet.png",
+		"sheetCellSize":32,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":false,
+		"showNameOnMap":false,
+		"interactable":false,
+		"tags":["roider_nomad_junk", "orbital_junk"],
+		"layers":[STATIONS] # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	}
+}
+
+

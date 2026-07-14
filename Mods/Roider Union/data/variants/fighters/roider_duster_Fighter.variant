@@ -1,0 +1,37 @@
+{
+	"quality":1,
+	"displayName":"Heavy Interceptor",
+	"hullId":"roider_duster",
+	"variantId":"roider_duster_Fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":["no_weapon_flux"], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{
+			"autofire": true,
+			"mode":"LINKED",
+			"weapons":{
+				#"WS 001":"roider_mini_vulcan"
+				#"WS 001":"vulcan"
+				"WS 001":"roider_marksman_mini"
+		    }
+		},
+        {
+			"autofire": false,
+			"mode":"LINKED",
+			"weapons":{
+		 		"WS 002":"roider_fragbomb"
+		 	}
+		},
+        {
+			"autofire": false,
+			"mode":"LINKED",
+			"weapons":{
+		 		"WS 003":"swarmer_fighter"
+		 	}
+		}
+	],
+}

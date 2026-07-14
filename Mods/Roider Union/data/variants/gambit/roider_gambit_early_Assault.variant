@@ -1,0 +1,46 @@
+{
+    "displayName": "Ringalowda",
+    "fluxCapacitors": 10,
+    "fluxVents": 15,
+    "hullId": "roider_gambit_early",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_gambit_early_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "hammerrack"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "HAZARD1": "roider_hazard_mrm_gambit",
+                "HAZARD2": "roider_hazard_mrm_gambit"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "roider_spike_driver",
+                "WS 003": "roider_spike_driver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightag",
+                "WS 007": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "vulcan"}
+        }
+    ]
+}

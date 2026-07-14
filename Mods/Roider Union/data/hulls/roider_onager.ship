@@ -1,0 +1,199 @@
+{
+  "hullName": "Aurochs",
+  "hullId": "roider_onager",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/roider_onager.png",
+  "style": "ROIDER_HULL",
+  "height": 176,
+  "width": 100,
+  "center": [50, 90],
+  "collisionRadius": 130,
+  "shieldCenter": [5, 0],
+  "shieldRadius": 120,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-66, 0]
+    },
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [54, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-6, 0]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 80,
+      "locations": [5, 39]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -80,
+      "locations": [5, -39]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 60,
+      "locations": [41, 25]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -60,
+      "locations": [41, -25]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -40, 21,
+        -40, -21,
+        -52, 21,
+        -52, -21
+      ]
+    },
+    {
+      "id": "PROW ARMOR",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [65.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-90, -25],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-90, 25],
+      "length": 48,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-91, -15.5],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-91, 15.5],
+      "length": 64,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-83, -32.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-83, 32.5],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-71, 39.5],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-71, -39.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -75, -9,
+    -85, -9,
+    -85, -27,
+    -57, -46,
+    -34, -40,
+    -13, -47,
+    12, -46,
+    13, -34,
+    23, -26,
+    29, -31,
+    60, -31,
+    68, -15,
+    81, -6,
+    81, 6,
+    68, 15,
+    60, 31,
+    29, 31,
+    23, 26,
+    13, 34,
+    12, 46,
+    -13, 47,
+    -34, 40,
+    -57, 46,
+    -85, 27,
+    -85, 9,
+    -75, 9
+  ]
+}

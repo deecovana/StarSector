@@ -1,0 +1,50 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "roider_basker",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_basker_Holtz",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavyac"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "reaper",
+                "WS 003": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "railgun",
+                "WS 006": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "vulcan",
+                "WS 008": "vulcan"
+            }
+        }
+    ]
+}

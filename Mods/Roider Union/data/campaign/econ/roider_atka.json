@@ -1,0 +1,53 @@
+{
+	"starSystem":"roider_atka_solo",
+	"markets":[
+		{
+			"entities":["roider_korovin", "roider_rockpiperPerch"],
+			"faction":"roider",
+			"size":5,
+			"startingConditions":[
+				"ruins_widespread",
+				"population_5",
+				"hot",
+				"tectonic_activity",
+				"toxic_atmosphere",
+				"ore_moderate",
+				"rare_ore_sparse"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				["roider_union_hq", "roider_charter"],
+				"orbitalworks",
+				"techmining",
+				"roider_starfortress",
+				"heavybatteries"
+			]
+		},
+		{
+			"entities":["roider_coldRock", "roider_coldRock_bastion"],
+			"faction":"pirates",
+			"size":3,
+			"freePort":true,
+			"startingConditions":[
+				"population_3",
+				"thin_atmosphere",
+				"poor_light",
+				"very_cold",
+				"volatiles_trace"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"militarybase",
+				"battlestation",
+				"heavybatteries",
+				"roider_dives"
+			]
+		}
+	]
+
+}
+
+
+

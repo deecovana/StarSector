@@ -1,0 +1,53 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 20,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "roider_basker",
+    "hullMods": [
+        "reinforcedhull",
+        "fluxbreakers",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_basker_Dak",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavymortar"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "breach"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "heatseeker"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "shredder"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "roider_doldrums",
+                "WS 006": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "roider_marksman",
+                "WS 008": "roider_marksman"
+            }
+        }
+    ]
+}

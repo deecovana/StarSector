@@ -1,0 +1,57 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Arc Zapper,roider_arcZapper,2,,500,500,,20,100,0,50,5,,,,ENERGY,20,,0.15,0,,,0,15,2,5,,1500,,,,,,,"energy7, rare_bp, hist1t, roider, codex_unlockable",,Roider Union,,Suppression,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,2
+Blasting Laser,roider_blastinglaser,0,,400,500,490,,,0,30,6,,,,ENERGY,,600,0.1,0.1,0.3,1,,,,,10000,,,,,,,"PD, ANTI_FTR, PD_ALSO","pd7, roider, roider_bp, codex_unlockable",,Roider Union,,Point Defense,,,,,,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hazard MRM,roider_hazard_mrm,0,,150,2000,,250,,15,30,1,4,,,HIGH_EXPLOSIVE,0,,0,8,4,0.25,0,0,0,0,,400,200,7.5,75,,,DO_NOT_AIM,"missile6, strike1, roider, roider_bp, codex_unlockable",,Roider Union,,Finisher,Medium,Medium,,,Missiles explode when destroyed. A failsafe mechanism ejects defective missiles when the launch rack is disabled.,,,,,
+Zap SRM Launcher,roider_zap,1,,200,1000,,60,70,0,50,4,60,0.5,8,FRAGMENTATION,0,,0,3,4,0.1,0,0,0,0,,400,150,4,50,,,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, roider, roider_bp, codex_unlockable",,Roider Union,,Anti Fighter,Fast,Excellent,,,Each missile fires an electric arc at up to %s range when a target passes in front of it. Fighters take an extra %s EMP damage.,500 | 280,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rotary Hammer Launcher,roider_rotary_hammer,1,,800,1200,,1500,,30,12,12,11,,,HIGH_EXPLOSIVE,0,,0,0.5,1,0,8,8,0,0,,500,40,4,350,,,"CONSERVE_ALL, CONSERVE_FOR_ANTI_ARMOR, STRIKE","strike11, rocket8, roider, roider_bp",,Roider Union,,Torpedo,Fast,None,,,The drum can hold %s torpedoes and is reloaded %s torpedoes at a time from the internal magazine. Rotation of the drum resets the reload.,3 | 2,Drum reload delay (seconds): %s,4.45,TRUE,16.4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sharpshooter,roider_marksman,1,,250,700,,75,,10,75,4,,,,FRAGMENTATION,25,,0,0.5,1,,0,0,0,10,,1000,,,100,,,"PD, ANTI_FTR","pd7, LR, roider, roider_bp, codex_unlockable",,Roider Union,,Point Defense,,,,,,,,,,109
+Doldrums Chaingun,roider_doldrums,2,,600,500,,100,100,15,30,7,12,0.4,6,KINETIC,25,,0,7,6,0.1,0,15,3,5,,1000,,,50,,,,"kinetic8, roider, rare_bp, hist1t, merc, codex_unlockable",,Roider Union,,Anti Shield,,,,,,,,,,110
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Arc Cannon,roider_arcCannon,2,,1500,600,,60,300,0,15,12,,,,ENERGY,72,,0.1,0.3,,,0,0,,,,1500,,,,,,,"energy12, rare_bp, hist1t, roider, codex_unlockable",,Roider Union,,Suppression,,,,,"Hits on hull or armor arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Spike Driver,roider_spike_driver,1,,1200,650,,400,,20,20,10,,,,KINETIC,250,,0,1,1,,0,15,3,3,,650,,,500,,,,"kinetic13, roider, roider_bp, codex_unlockable",,Roider Union,,Anti Shield,,,,,Rate of fire starts at %s and increases as accuracy degrades.,50%,,,,110
+Pile Driver,roider_pile_driver,1,,3500,750,,800,,70,15,20,,,,KINETIC,600,,0,1,1,,0,15,3,3,,600,,,500,,,,"kinetic19, roider, rare_bp, codex_unlockable",,Roider Union,,Anti Shield,,,,,Rate of fire starts at %s and increases as accuracy degrades.,50%,,,,111
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Built-in,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Doldrums Chaingun,roider_doldrums_fighter,2,,600,500,,100,100,15,30,7,12,0.4,6,KINETIC,25,,0,7,6,0.1,0,15,3,5,,1000,,,50,,,SYSTEM,,,,,Anti Shield,,,,,,,,,,110
+Vulcan Cannon,roider_vulcan,4,,0,250,,25,,1,75,4,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,"SYSTEM, PD",,,,,Point Defense,,,,,,,,,,102
+Hazard MRM,roider_hazard_mrm_bomber,4,,0,2000,,250,,15,30,1,4,,,HIGH_EXPLOSIVE,0,,0,8,4,0.25,0,0,0,0,,400,200,7.5,75,,,"STRIKE, SYSTEM, GUIDED_POOR",,,,,Close Support,Medium,Medium,,,Missiles explode when destroyed. A failsafe mechanism ejects defective missiles when the launch rack is disabled.,,,,,106
+Hazard MRM Autoloader,roider_hazard_mrm_gambit,4,,0,2000,,250,,15,30,,32,,,HIGH_EXPLOSIVE,0,,0,8,4,0.25,0,0,0,0,,400,200,7.5,75,,,"STRIKE, SYSTEM, GUIDED_POOR",codex_unlockable,,,,Close Support,Medium,Medium,,,Missiles explode when destroyed. A failsafe mechanism ejects defective missiles when the launch rack is disabled.,,,,,106
+Zap SRM Launcher (Fighter),roider_zap_fighter,4,,0,1000,,60,70,0,50,,,,,FRAGMENTATION,0,,0,3,2,0.1,0,0,0,0,,400,150,4,50,,,"ANTI_FTR, DO_NOT_AIM, SYSTEM,DO_NOT_CONSERVE",codex_unlockable,,,,Anti Fighter,Fast,Excellent,,,Each missile fires an electric arc at up to %s range when a target passes in front of it. Fighters take an extra %s EMP damage.,500 | 280,,,,108
+Mini Vulcan Cannon,roider_mini_vulcan,0,,0,250,,25,,1,75,2,,,,FRAGMENTATION,1,,0,1.05,20,0.05,0,15,1,15,,800,,,10,,,"SYSTEM,PD",codex_unlockable,,,,Point Defense,,,,,,,This weapon is built-in only.,,,109
+Mini Sharpshooter,roider_marksman_mini,0,,0,700,,50,,10,75,3,,,,FRAGMENTATION,20,,0,0.5,1,,0,0,0,10,,1000,,,100,,,"SYSTEM, PD, ANTI_FTR",show_in_codex,,,,Point Defense,,,,,,,,,,111
+Hammer-class Torpedo (Single),roider_hammer_armature,0,,75,1200,,1500,,30,10,1,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,500,40,4,350,,,"STRIKE, SYSTEM",,,,,Torpedo,Fast,None,,,,,,,TRUE,9.9
+Heavy Machine Gun,roider_heavymg,2,,0,450,,40,,3,40,10,,,,KINETIC,15,,0,0.2,4,0.1,0,5,1,15,,700,,,30,,,"PD, SYSTEM",,,,,Point Defense,,,,,,,,,,3.85
+"Light ""Quad"" Machine Gun",roider_lightdualmg,2,,400,300,,25,,1,50,,,,,KINETIC,3,,0,0.18,4,0.1,0,5,1,15,,600,,,10,,,"PD, SYSTEM",codex_unlockable,,,,Point Defense,,,,,,,,,,3.95
+Stinger-class Proximity Mine,roider_fragbomb,0,,100,500,,500,,10,0,,2,0.1,,FRAGMENTATION,0,,0,1,1,,0,0,0,0,,50,20,7,150,,,"DO_NOT_AIM, ANTI_FTR, PD_ONLY, SYSTEM",,,,,Anti Fighter,,,,,,,,,TRUE,3.2
+Entropic Machine Gun,roider_entropicmg,0,,100,300,,38,,1,50,,20,4,20,KINETIC,2.25,,0,0.3,5,0.075,0,5,1,15,,600,,,10,,,"PD, SYSTEM","SR, codex_unlockable",,,,Point Defense,,,,,,,,,,0.5
+Entropic Assault Gun,roider_entropicag,1,,300,700,,60,,3,40,,15,1.5,15,HIGH_EXPLOSIVE,30,,0,0.19,1,,0,5,1,5,,800,,,30,,,"SYSTEM",codex_unlockable,,,,Anti Armor,,,,,,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Roider Flare Launcher,roider_flareLauncher,,,,500,,10,400,,,,,0,,ENERGY,0,0,0,0.1,3,0.1,90,90,0,0,,400,200,7,1,,,SYSTEM,,,,,,,,,,,,,,,38
+Roider Flare Launcher,roider_flareLauncher2,,,,500,,10,100,,,,,0,,ENERGY,0,0,0,0.1,3,0.1,90,90,0,0,,400,200,7,500,,,SYSTEM,,,,,,,,,,,,,,,38
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Special,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+roider_sheriff_glow,roider_sheriff_glow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,30001
+roider_sheriff_mask,roider_sheriff_mask,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,30002
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+roider_montauk_mask,roider_montauk_mask,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,30101
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+roider_firestorm_mask,roider_firestorm_mask,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,30901
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+roider_jane_mask_fl,roider_jane_mask_fl,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,31001
+roider_jane_mask_fr,roider_jane_mask_fr,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,31002
+roider_jane_mask_rl,roider_jane_mask_rl,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,31003
+roider_jane_mask_rr,roider_jane_mask_rr,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,31004
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+roider_gambit_mask,roider_gambit_mask,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,32001
+roider_gambit_p_mask,roider_gambit_p_mask,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,32001
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+roider_wrecker_glow1,roider_wrecker_glow1,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,30001
+roider_wrecker_glow2,roider_wrecker_glow2,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,30001
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+roider_argos_leftMask,roider_argos_leftMask,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,32001
+roider_argos_rightMask,roider_argos_rightMask,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,Roider Union,,,,,,,,,This weapon is built-in only.,,TRUE,32002

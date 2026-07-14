@@ -1,0 +1,183 @@
+{
+  "hullName": "Trailboss",
+  "hullId": "roider_trailboss",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/roider_trailboss.png",
+  "style": "ROIDER_HULL",
+  "height": 184,
+  "width": 114,
+  "center": [57, 92],
+  "collisionRadius": 130,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 120,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas",
+    "roider_outrider"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 60,
+      "locations": [77, 29]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -60,
+      "locations": [77, -29]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 95,
+      "locations": [-21, 41]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -95,
+      "locations": [-21, -41]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        16, 38,
+        4, -40,
+        4, 40,
+        16, -38
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        27, -5,
+        27, 5,
+        38, -0,
+        50, -0
+      ]
+    },
+    {
+      "id": "SYSTEM 1",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 125,
+      "locations": [-30, 33]
+    },
+    {
+      "id": "SYSTEM 2",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -125,
+      "locations": [-30, -33]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-90, -12],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-90, 12],
+      "length": 64,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-89, 5],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-89, -5],
+      "length": 30,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-89, 19],
+      "length": 38,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-89, -19],
+      "length": 38,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -85, -22,
+    -53, -36,
+    -36, -36,
+    -33, -48,
+    -18, -55,
+    -8, -45,
+    18, -46,
+    79, -35,
+    89, -21,
+    83, -10,
+    83, 10,
+    89, 21,
+    79, 35,
+    18, 46,
+    -8, 45,
+    -18, 55,
+    -33, 48,
+    -36, 36,
+    -53, 36,
+    -85, 22
+  ]
+}

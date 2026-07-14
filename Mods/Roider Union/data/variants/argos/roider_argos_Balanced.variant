@@ -1,0 +1,48 @@
+{
+    "displayName": "Ringalowda",
+    "fluxCapacitors": 50,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "roider_argos",
+    "hullMods": [
+        "eccm",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_argos_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "hammerrack"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "sabotpod",
+                "WS 008": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "roider_spike_driver",
+                "WS 012": "roider_spike_driver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "roider_marksman",
+                "WS 004": "roider_marksman",
+                "WS 005": "roider_marksman",
+                "WS 006": "roider_marksman"
+            }
+        }
+    ],
+    "wings": []
+}

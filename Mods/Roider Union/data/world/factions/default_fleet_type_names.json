@@ -1,0 +1,17 @@
+{
+	"roider_miner":"Roiders",
+	"roider_mining_fleet":"Roider Gang",
+	"roider_mining_armada":"Roider Expedition",
+	
+	"roider_patrolSmall":"Roiders",
+	"roider_patrolMedium":"Roider Gang",
+	"roider_patrolLarge":"Roider Armada",
+	
+	"roider_expedition":"Roiders",
+	"roider_expeditionMajor":"Roider Expedition",
+	"roider_expeditionMother":"Roider Expedition",
+
+	"roider_nomads":"Roider Nomads",
+	"roider_nomadsMotherFleet":"Roider Nomads Flotilla",
+	"roider_nomadsMiniMotherFleet":"Roider Nomads Fleet"
+}

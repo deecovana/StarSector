@@ -1,0 +1,59 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 16,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "roider_firestorm",
+    "hullMods": ["converted_hangar"],
+    "modules": [
+        {"LEFT ARMOR": "roider_firestorm_left_Standard"},
+        {"RIGHT ARMOR": "roider_firestorm_right_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_firestorm_Patrol",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "pilum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualac",
+                "WS 003": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "lightmortar",
+                "WS 005": "lightmortar",
+                "WS 006": "lightmortar",
+                "WS 007": "lightmortar",
+                "WS 008": "lightmortar",
+                "WS 009": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "lightac",
+                "WS 011": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "roider_marksman",
+                "WS 013": "roider_marksman"
+            }
+        }
+    ],
+    "wings": ["roider_duster_wing"]
+}

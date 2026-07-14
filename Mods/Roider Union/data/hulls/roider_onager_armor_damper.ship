@@ -1,0 +1,29 @@
+{
+  "hullName": "Ram Aurochs Armor Module",
+  "hullId": "roider_onager_armor_damper",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/roider_onager_prow.png",
+  "style": "ROIDER_HULL",
+  "height": 52,
+  "width": 75,
+  "center": [38, 26],
+  "collisionRadius": 50,
+  "shieldCenter": [-11.5, 0],
+  "shieldRadius": 44,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_armor",
+    "reduced_explosion",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -24, -34,
+    -4, -36,
+    22, -9,
+    22, 9,
+    -4, 36,
+    -24, 34
+  ]
+}

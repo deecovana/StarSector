@@ -1,0 +1,58 @@
+{
+    "displayName": "Ringalowda",
+    "fluxCapacitors": 10,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "roider_firestorm",
+    "hullMods": ["unstable_injector"],
+    "modules": [
+        {"LEFT ARMOR": "roider_firestorm_left_Standard"},
+        {"RIGHT ARMOR": "roider_firestorm_right_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_firestorm_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "roider_rotary_hammer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "roider_doldrums",
+                "WS 003": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightag",
+                "WS 009": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "lightdualac",
+                "WS 005": "lightdualac",
+                "WS 006": "lightdualac",
+                "WS 007": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "roider_marksman",
+                "WS 011": "roider_marksman",
+                "WS 012": "roider_marksman",
+                "WS 013": "roider_marksman"
+            }
+        }
+    ]
+}

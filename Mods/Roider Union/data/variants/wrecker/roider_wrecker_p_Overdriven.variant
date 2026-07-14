@@ -1,0 +1,61 @@
+{
+    "displayName": "Ringalowda",
+    "fluxCapacitors": 15,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "roider_wrecker_p",
+    "hullMods": ["safetyoverrides"],
+    "modules": [{"PROW ARMOR": "roider_wrecker_p_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_wrecker_p_Overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "shredder",
+                "WS 007": "shredder"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "sabot",
+                "WS 011": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "miningblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "heavymortar",
+                "WS 005": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg",
+                "WS 003": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "lightmg",
+                "WS 012": "lightmg",
+                "WS 013": "lightmg"
+            }
+        }
+    ]
+}

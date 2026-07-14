@@ -1,0 +1,9 @@
+{
+	"baseHullId":"roider_cyclops",
+	"skinHullId":"roider_cyclops_early",
+	"hullName":"Cyclops (Early)",
+	"restoreToBaseHull":true, # default false
+	"descriptionPrefix":"An early version of the design, this ship is riddled with defects.",
+	"builtInMods":["ill_advised"],
+	"tags":["codex_unlocked"],
+}

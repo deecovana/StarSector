@@ -1,0 +1,440 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME Roider Union DEV,,,,,,
+,,,,,,
+# Roider fleet greeting lines,,,,,,
+roider_GreetingFriendly,OpenCommLink,"$faction.id == roider
+$faction.friendlyToPlayer
+","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Seen any raiders around?""
+OR
+""Burn bright, friend.""",,
+roider_GreetingWeaker,OpenCommLink,"$faction.id == roider
+$entity.isHostile
+$entity.relativeStrength < 0
+",$entity.ignorePlayerCommRequests = true 1,"""You knock off us and every Roider in the Sector is gonna come down on your head like a pile o' rocks.""
+ The Roider $personRank fidgets.
+OR
+""Keep your distance. We don't want trouble.""",cutCommLink:Cut the comm link,
+roider_GreetingHostileWeakerDefiant,OpenCommLink,"$faction.id == roider
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding
+",$entity.ignorePlayerCommRequests = true 1,"The Roider $personRank makes a rude gesture over the vid-screen before killing the comm link.
+OR
+$personName glares defiantly and spits before killing the comm link.",cutCommLink:Cut the comm link,
+roider_GreetingHostileStronger,OpenCommLink,"$faction.id == roider
+$entity.isHostile
+$entity.relativeStrength >= 0
+",$entity.ignorePlayerCommRequests = true 1,"""You came to the wrong part of the Sector, rock licker.""
+OR
+""You call that derelict a ship?"" The Roider $personRank spits derisively.
+OR
+""Rock and stone, roiders!"" $personName shouts. A chorus of ""Rock and stone!"" echoes $himOrHer before $heOrShe cuts the comm link.",cutCommLink:Cut the comm link,
+roider_GreetingNeutral,OpenCommLink,"$faction.id == roider
+$faction.neutralToPlayer
+","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Keep your distance. We don't want trouble.""",,
+#END Roider fleet greeting lines,,,,,,
+,,,,,,
+# Trade panel flavor text,,,,,,
+roiderFlavorTextMarket,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == roider score:100
+","AddText ""Roider warships blend together with the dust-covered freighters and mining ships that fill the port concourse."" marketFlavorTextColor
+AddText ""Gruff captains negotiate deals in run-down bars surrounded by port workers, miners, and other spacers trading drinks and tall tales."" marketFlavorTextColor",,,
+roiderNomadFlavorTextMarket,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$roider_nomadBase score:100","AddText ""Roider nomads of all ages throng the port concourse's causeways, streaming to and from clusters of spacecraft. Colorful market stalls clash with each other, proprietors hawking their services and wares to all who pass by."" marketFlavorTextColor",,,
+roiderNomadFlavorTextMarketLowStability,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$roider_nomadBase score:100
+$stability <= 1","AddText ""Clusters of spacecraft form pseudo-compounds on the port concourse, their roider nomad crews not straying far. The few faded market stalls are visited by only one armed group at a time."" marketFlavorTextColor",,,
+roiderUnionNomadFlavorTextMarket,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == roider score:100
+$roider_nomadBase score:100","AddText ""Crowds of roider nomads stream between rows of starships and a jungle of colorful market stalls covering the port concourse. A prominent bulkhead is dominated by a giant neon Roider Union emblem."" marketFlavorTextColor",,,
+#END Trade panel flavor text,,,,,,
+,,,,,,
+# Relationship level descriptions,,,,,,
+roider_RelLevelNeutral,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == roider",,"You're not generally well known by $faction officers, for good or ill.",,
+roider_RelLevelFavorable,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == roider",,"You have connections in $theFaction. Enough to get some low-grade military equipment, at least.",,
+roider_RelLevelWelcoming,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == roider",,"Your name is known to some senior captains in $theFaction, to your benefit.",,
+roider_RelLevelFriendly,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == roider",,"You're relatively well-known within $theFaction, whether in person or by reputation. Unimportant officers know to stay out of your way.",,
+roider_RelLevelCooperative,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == roider",,You know some $faction CEOs personally. You have access to some of the best equipment $theFaction has to offer.,,
+roider_RelLevelSuspicious,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == roider",,"Though nothing has been proven (yet), $faction officers tend to view you with distrust. Link access to the port authority is granted only grudgingly.",,
+roider_RelLevelInhospitable,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == roider",,"Suspicions have risen to an actionable level. $faction captains aren't gunning for you quite yet, but $faction ports will refuse to trade with you.",,
+roider_RelLevelHostile,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == roider",,"$Faction captains have authorization to engage your fleet on sight, and all markets refuse to trade with you. You might still recover good standing with $theFaction, but it's going to take some serious work.",,
+roider_RelLevelVengeful,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == roider",,"A holo of your face and an IDENT-hash of your last known fleet are both regular parts of news broadcasts in $faction security broadcasts. It's fairly certain there's a high-ranking $faction captain assigned to hunt you down, if the other captains don't beat them to it that is.",,
+#END Relationship level descriptions,,,,,,
+,,,,,,
+# cargo scan from smuggling suspicion,,,,,,
+roider_CargoScanFirstComms,OpenCommLink,"$entity.cargoScanConv score:100
+$faction.id == roider","AddText ""\""Heave to, spacer! Your fleet matches the profile of a suspected smuggler posted by $market authorities. You're hereby ordered to submit to a cargo scan.\""""
+",,"0:cargoScan_comply:Allow the scan
+1:cargoScan_refuse:Refuse and cut the comm link",
+roider_CargoScanPods,CargoScanResult,"$scan_podsFound score:1000
+$faction.id == roider",unset $scan_podsFound,"The $faction $personRank pauses and looks off-screen.
+
+""And what do we have here - pods full of illegal cargo. Not yours? No? Good, we'll be taking them, then.""",0:scan_podsCont:Continue,
+roider_CargoScanContraband,CargoScanResult,"$scan_contrabandFound score:10
+$faction.id == roider",,"""Well, well. Just as I suspected, we've got a smuggler here. Eject the contraband and we can all be on our way.""
+
+$PersonRank $personLastName looks rather pleased. You wonder just where the goods will end up.","0:cargoScan_comply_contraband:Surrender the contraband and cut the comm link
+1:cargoScan_refuse:Refuse and cut the comm link",
+#END cargo scan from smuggling suspicion,,,,,,
+,,,,,,
+# Roider Commission,,,,,,
+roider_askForCommissionOpt,PopulateOptions,"$isPerson
+$personFaction.id == roider score:100
+Roider_Commission personCanGiveCommission
+!Commission hasFactionCommission",,,"20:roider_cmsn_askCommission:""I'd like to be commissioned by the Roider Union""",
+roider_resignCommissionOpt,PopulateOptions,"$isPerson
+$personFaction.id == roider score:100
+Roider_Commission personCanGiveCommission
+Commission hasFactionCommission",,,"20:cmsn_resignCommission:""I'd like to resign my Roider commission""",
+roider_lolNo,DialogOptionSelected,"$option == roider_cmsn_askCommission
+$personFaction.isHostile score:100
+$personFaction.id == roider score:100","SetEnabled roider_cmsn_askCommission false
+FireBest CMSNTextRejectHostile",,,
+roider_hasOther,DialogOptionSelected,"$option == roider_cmsn_askCommission
+$personFaction.id == roider score:100
+!$personFaction.isHostile
+Commission hasOtherCommission","SetEnabled roider_cmsn_askCommission false
+FireBest CMSNTextHasOther",,,
+roider_doesNotMeetCriteria,DialogOptionSelected,"$option == roider_cmsn_askCommission
+!Commission playerMeetsCriteria","SetEnabled roider_cmsn_askCommission false
+FireBest CMSNTextUnsuited
+Roider_Commission printRequirements",,,
+roider_meetsCriteria,DialogOptionSelected,"$option == roider_cmsn_askCommission
+$personFaction.id == roider score:100
+Commission playerMeetsCriteria",FireBest CMSNTextSuitedPart1,,0:cmsn_continueMeetsReq:Continue,
+roider_meetsCriteria2,DialogOptionSelected,"$option == cmsn_continueMeetsReq
+$personFaction.id == roider score:100","Commission printInfo
+FireBest CMSNTextSuitedPart2",,"0:cmsn_accept:Accept a Roider commission
+1:cmsn_cancel:""Perhaps I'm not quite ready for this.""",
+roider_accept,DialogOptionSelected,"$option == cmsn_accept
+$personFaction.id == roider score:100","FireBest CMSNTextWelcomePart1
+Commission accept
+FireBest CMSNTextWelcomePart2
+FireAll PopulateOptions",,,
+roider_resignConfirm,DialogOptionSelected,"$option == cmsn_resignConfirm
+$personFaction.id == roider score:100","FireBest CMSNResignConfirmed
+Commission resign
+FireAll PopulateOptions",,,
+,,,,,,
+# Conversation Strings,,,,,,
+roider_CMSNTextRejectHostile,CMSNTextRejectHostile,$personFaction.id == roider score:100,,"""Is this some kind of joke? If you are who you say you are, you're on several Union wanted lists!""",,
+roider_CMSNTextHasOther,CMSNTextHasOther,$personFaction.id == roider score:100,,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by the Roider Union.""",,
+roider_CMSNTextUnsuited,CMSNTextUnsuited,$personFaction.id == roider score:100,,"""I'm sorry, but you don't meet our criteria for receiving a commission.""",,
+roider_CMSNTextSuitedPart1,CMSNTextSuitedPart1,$personFaction.id == roider score:100,,"""Hmm, yes, you're a suitable candidate.
+
+""Accepting a commission is a serious matter. You will be required to fight enemies of the Roider Union, wherever they may be found.
+
+""You'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
+roider_CMSNTextSuitedPart2,CMSNTextSuitedPart2,$personFaction.id == roider score:100,,"""So, how about it? Still want to sign on?""",,
+roider_CMSNTextWelcomePart1,CMSNTextWelcomePart1,$personFaction.id == roider score:100,,"""Excellent! Welcome to the Union, captain.""",,
+roider_CMSNTextWelcomePart2,CMSNTextWelcomePart2,$personFaction.id == roider score:100,,"""Anything else I can do for you?""",,
+roider_CMSNTextChangeMind,CMSNTextChangeMind,$personFaction.id == roider score:100,,"""Yes, not everyone has it in them to uphold the values of the Roider Union to such a high standard. No shame in it.
+
+""Anything else I can do for you?""",,
+roider_CMSNResignAskToConfirm,CMSNResignAskToConfirm,$personFaction.id == roider score:100,,"""Are you sure? The Roider Union needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
+roider_CMSNResignConfirmed,CMSNResignConfirmed,$personFaction.id == roider score:100,,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
+roider_CMSNResignCancelled,CMSNResignCancelled,$personFaction.id == roider score:100,,"""A good decision. We can use people like you.""",,
+#END Conversation Strings,,,,,,
+#END Roider Commission,,,,,,
+,,,,,,
+# Turning AI Cores in,,,,,,
+roider_aiCores_turnInOption,PopulateOptions,"$isPerson
+Roider_AICores personCanAcceptCores",FireBest DisableTurnInCoresOptionIfNeeded,,"10:aiCores_startTurnIn:""I'd like to turn in these AI cores that I've acquired...""",
+roider_aiCores_turnInOptionSel,DialogOptionSelected,"$option == aiCores_startTurnIn
+$personFaction.id == roider score:100",FireAll Roider_PopulateCoresTurnInOptions,"""A fascinating offer. Why, if one of the major factions caught you with these, they might just seize them outright. Tell you what - I'll do you a favour and give you a good price.""",,
+roider_aiCores_playerHasOption,Roider_PopulateCoresTurnInOptions,,,,0:roider_aiCores_selectCores:Select AI cores to turn in,
+roider_aiCores_neverMindOption,Roider_PopulateCoresTurnInOptions,,,,"100:aiCores_neverMind:""Never mind, I don't actually have any.""",
+roider_aiCores_turnInOptionSelected,DialogOptionSelected,$option == roider_aiCores_selectCores,AICores selectCores,,,
+roider_aiCores_turnInResponseDefault,AICoresTurnedIn,$personFaction.id == roider,FireAll PopulateOptions,$PersonRank $personLastName thanks you and the conversation moves on to other matters.,,
+#END Turning AI Cores in,,,,,,
+,,,,,,
+# Retrofitting,,,,,,
+roider_addRetrofitBarOption,AddBarEvents,Roider_UnionHQFunctional,Roider_RetrofitAccess addBarEvent,,,
+roider_retrofitRefuse,DialogOptionSelected,$option == roider_retrofitRefuse,Roider_RetrofitAccess refuse,,backToBar:Leave,
+roider_retrofitDescribe,DialogOptionSelected,$option == roider_retrofitDescribe,Roider_RetrofitAccess describe,,,
+roider_retrofitPay,DialogOptionSelected,$option == roider_retrofitPay,Roider_RetrofitAccess payFee,,,
+roider_retrofitStraight,DialogOptionSelected,$option == roider_retrofitStraight,Roider_RetrofitAccess retrofit,,,
+roider_retrofitStorage,DialogOptionSelected,$option == roider_retrofitStorage,Roider_RetrofitAccess payFee,,,
+roider_swAddRetrofitBarOption,AddBarEvents,"Roider_SWRetrofitAccess shipworksFunctional
+$faction.id == player",Roider_SWRetrofitAccess addBarEvent,,,
+roider_swRetrofitStraight,DialogOptionSelected,$option == roider_swRetrofitStraight,Roider_SWRetrofitAccess retrofit,,,
+roider_nomadRetrofitsBarOption,AddBarEvents,$roider_nomadBase,Roider_NomadRetrofitsAccess addBarEvent,,,
+roider_nomadRetrofitsAccess,DialogOptionSelected,$option == roider_nomadRetrofitsAccess,Roider_NomadRetrofitsAccess access,,,
+,,,,,,
+# Argos Paid Retrofitting,,,,,,
+roider_aprDefaultStart,BeginFleetEncounter,"$roider_aprIsRetrofitting score:100
+$player.transponderOn
+RepIsAtWorst $faction.id NEUTRAL
+!$ignorePlayerCommRequests
+!$cfai_makeHostile
+!$cfai_makeAggressive
+!$cfai_makeAggressiveLastsOneBattle",Roider_APRHail,,,
+roider_aprIndieStart,BeginFleetEncounter,"$roider_aprIsRetrofitting score:100
+$roider_aprIgnoreTransponder score:100
+!$roider_aprIgnoreRep
+RepIsAtWorst $faction.id NEUTRAL
+!$ignorePlayerCommRequests
+!$cfai_makeHostile
+!$cfai_makeAggressive
+!$cfai_makeAggressiveLastsOneBattle",Roider_APRHail,,,
+roider_aprPirateStart,BeginFleetEncounter,"$roider_aprIsRetrofitting score:100
+$roider_aprIgnoreTransponder score:100
+$roider_aprIgnoreRep
+!$cfai_makeHostile
+!$cfai_makeAggressive
+!$cfai_makeAggressiveLastsOneBattle","unset $ignorePlayerCommRequests
+Roider_APRHail",,,
+roider_aprDefaultGreeting,OpenCommLink,"$entity.roider_aprIsRetrofitting score:100
+$player.transponderOn
+RepIsAtWorst $faction.id NEUTRAL
+!$entity.cfai_makeHostile
+!$entity.cfai_makeAggressive
+!$entity.cfai_makeAggressiveLastsOneBattle","Roider_APRAccess catalog
+AddText ""\""We can convert your civilian ships into pristine warships right here, right now. Interested?\"" $heOrShe asks.""
+FireAll PopulateOptions",,,
+roider_aprIndieGreeting,OpenCommLink,"$entity.roider_aprIsRetrofitting score:100
+$entity.roider_aprIgnoreTransponder score:100
+!$entity.roider_aprIgnoreRep
+RepIsAtWorst $faction.id NEUTRAL
+!$entity.cfai_makeHostile
+!$entity.cfai_makeAggressive
+!$entity.cfai_makeAggressiveLastsOneBattle","Roider_APRAccess catalog
+AddText ""\""We can convert your civilian ships into pristine warships, if you'd like. Are you interested?\"" $heOrShe asks.""
+FireAll PopulateOptions",,,
+roider_aprPirateGreeting,OpenCommLink,"$entity.roider_aprIsRetrofitting score:100
+$entity.roider_aprIgnoreTransponder score:100
+$entity.roider_aprIgnoreRep
+!$entity.cfai_makeHostile
+!$entity.cfai_makeAggressive
+!$entity.cfai_makeAggressiveLastsOneBattle","Roider_APRAccess catalog
+AddText ""\""We can convert junk civvy stuff into real warships for you. Wanna make a deal?\"" $heOrShe asks.""
+FireAll PopulateOptions",,,
+roider_aprAddDefaultRetrofitOption,PopulateOptions,"$entity.roider_aprIsRetrofitting score:100
+!$entity.roider_aprIgnoreTransponder
+$player.transponderOn
+RepIsAtWorst $faction.id NEUTRAL
+!$ignorePlayerCommRequests
+!$entity.cfai_makeHostile
+!$entity.cfai_makeAggressive
+!$entity.cfai_makeAggressiveLastsOneBattle",,,roider_aprRetrofit:Talk retrofits,
+roider_aprAddIndieRetrofitOption,PopulateOptions,"$entity.roider_aprIsRetrofitting score:100
+$entity.roider_aprIgnoreTransponder score:100
+!$entity.roider_aprIgnoreRep
+RepIsAtWorst $faction.id NEUTRAL
+!$entity.cfai_makeHostile
+!$entity.cfai_makeAggressive
+!$entity.cfai_makeAggressiveLastsOneBattle",,,roider_aprRetrofit:Talk retrofits,
+roider_aprAddPirateRetrofitOption,PopulateOptions,"$entity.roider_aprIsRetrofitting score:100
+$entity.roider_aprIgnoreTransponder score:100
+$entity.roider_aprIgnoreRep
+!$entity.cfai_makeHostile
+!$entity.cfai_makeAggressive
+!$entity.cfai_makeAggressiveLastsOneBattle",,,roider_aprRetrofit:Talk retrofits,
+roider_aprRetrofitOptionSelected,DialogOptionSelected,$option == roider_aprRetrofit,Roider_APRAccess retrofit,,,
+roider_aprReturn,DialogOptionSelected,$option == roider_argosFinishedConverting,"ShowPersonVisual
+AddText ""Return"" buttonText
+#AddText ""You complete your dealings and the conversation turns to other matters.""
+Roider_APRAccess catalogCont
+UpdateMemory
+FireAll PopulateOptions",,,
+#END Argos Paid Retrofitting,,,,,,
+#END Retrofitting,,,,,,
+,,,,,,
+# Fringe HQ free transponder warning,,,,,,Adds a no rep-loss warning at the fringe Union HQ base(s) before the vanilla warning - attack sequence can occur.
+roider_tOffPatrolBegin,BeginFleetEncounter,"Roider_NomadWarning score:100
+CaresAboutTransponder
+!$tOff_didAlready
+!$isHostile
+!$faction.c:allowsTransponderOffTrade
+!$sourceMarket.mc:free_market
+$isPatrol
+$sawPlayerTransponderOff score:100","$tOff_didAlready = true 0
+Roider_SetNomadBaseName
+MakeOtherFleetAggressive tOff false
+unset $ignorePlayerCommRequests
+$roider_transponderOffConv = true 0
+AddText ""You're being hailed by the $faction $otherShipOrFleet."" $faction.baseColor
+OpenComms",,,
+roider_tOffPatrolOpenComm,OpenCommLink,$entity.roider_transponderOffConv score:100,"AddText ""\""You are in the vicinity of $roider_nomadBaseName, a member of $theFaction. Turn your transponder back on and I'll let you off with just a warning.\""""
+unset $entity.roider_transponderOffConv
+Roider_NomadWarning given",,"0:roider_tOff_comply:Turn the transponder on
+1:tOff_refuse:Refuse and cut the comm link",
+roider_tOffPatrolOpenCommUnknown,OpenCommLink,"$entity.roider_transponderOffConv score:100
+!$entity.knowsWhoPlayerIs","AddText ""\""$roider_nomadBaseName patrol to unknown $shipOrFleet, identify yourself! This space is under the jurisdiction of $theFaction. Running with the transponder off is against the law here; you are ordered to turn your transponder on immediately!\""""
+unset $entity.roider_transponderOffConv
+Roider_NomadWarning given",,"0:roider_tOff_comply2:Turn the transponder on and identify yourself
+1:tOff_refuse:Refuse and cut the comm link",
+roider_tOffPatrolOpenCommTOn,OpenCommLink,"$entity.roider_transponderOffConv score:100
+$player.transponderOn","unset $entity.roider_transponderOffConv
+Roider_NomadWarning given","""The space around $roider_nomadBaseName is under the jurisdiction of $theFaction. Running with your transponder off here is against the law. I'll let you off with a warning this time, but don't do it again.""
+
+The comm link is cut before you have a chance to respond.",0:roider_tOff_letGoEnd:Continue,
+roider_tOffComply,DialogOptionSelected,$option == roider_tOff_comply,"unset $entity.transponderOffConv
+unset $entity.sawPlayerTransponderOff
+ActivateAbility $player.fleetId transponder
+UpdateMemory",You issue an order to activate the transponder.,0:roider_tOff_letGo:Continue,
+roider_tOffComply2,DialogOptionSelected,$option == roider_tOff_comply2,"unset $entity.transponderOffConv
+unset $entity.sawPlayerTransponderOff
+ActivateAbility $player.fleetId transponder
+UpdateMemory",You issue an order to activate the transponder and transmit your identification.,0:roider_tOff_letGo:Continue,
+roider_tOffLetGo,DialogOptionSelected,$option == roider_tOff_letGo,,"$PersonRank $personName seems satisfied.
+
+""If I catch you running with the transponder off again, we'll have more than words.""
+
+The comm link is cut before you have a chance to respond.",0:roider_tOff_letGoEnd:Continue,
+roider_tOffLetGoHostile,DialogOptionSelected,"$option == roider_tOff_letGo
+$entity.isHostile","ShowDefaultVisual
+EndConversation","However, instead of responding, the $faction $fleetName shuts down comms and powers up combat systems.",,
+roider_tOffLetGoHostileStronger,DialogOptionSelected,"$option == roider_tOff_letGo
+$entity.isHostile
+$entity.relativeStrength < 0","MakeOtherFleetAggressive tOff false
+MakeOtherFleetPreventDisengage tOff false
+ShowDefaultVisual
+EndConversation","However, instead of responding, the $faction $fleetName shuts down comms and powers up combat systems.",,
+roider_tOffLetGoFinish,DialogOptionSelected,$option == roider_tOff_letGoEnd,"MakeOtherFleetPreventDisengage tOff false
+BroadcastCancelPlayerAction 5000 $sawPlayerTransponderOff
+ShowDefaultVisual
+EndConversation NO_CONTINUE
+$sourceMarket.smugglingScanTimeout = true 30",,,
+#END Fringe HQ free transponder warning,,,,,,
+,,,,,,
+# Tech Expeditions,,,,,,
+roider_expeditionDefaultDetails,ShowSalvageEntityDetails,$roider_expeditionLoot score:100,"ShowDefaultVisual
+PrintDescription 1",There are roider claim markers on the $shortName and it is emitting neutrinos at a high rate.,,
+roider_expeditionWreckDetails,ShowSalvageEntityDetails,"$customType == wreck
+$roider_expeditionLoot score:100","ShowDefaultVisual
+PrintWreckDescription",There are roider claim markers on the $shortName and it is emitting neutrinos at a high rate.,,
+roider_expeditionLootInitialMajor,OpenInteractionDialog,$tag:roider_expLootMajor score:100,"Roider_ExpeditionLoot printDesc
+FireBest Roider_SalvageCheckHostile",Your $shipOrFleet approaches $aOrAn $nameInText. It is emitting neutrinos at a high rate.,,
+roider_expeditionHostileNearby,Roider_SalvageCheckHostile,HostileFleetNearbyAndAware,SetShortcut defaultLeave ESCAPE,"A nearby hostile fleet is tracking your movements, making exploration impossible.",100:defaultLeave:Leave,
+roider_expeditionNoHostileNearby,Roider_SalvageCheckHostile,!HostileFleetNearbyAndAware,"$salvageLeaveText = Leave 0
+FireBest Roider_PopulateExpeditionOptions",,,
+roider_expeditionAssessMajor,Roider_PopulateExpeditionOptions,$tag:roider_expLootMajor score:100,"SetStoryOption roider_expeditionDisableMinefield ui_char_spent_story_point ""Robbed a Roider loot stash""",,"0:roider_expeditionDisableMinefield:Disable the minefield
+100:defaultLeave:Leave",
+roider_expeditionDisableMinefield,DialogOptionSelected,$option == roider_expeditionDisableMinefield,Roider_ExpeditionLoot minefieldDisable,The mines are a Hegemony export type with known vulnerabilities. Your sensors officer tries different variations of several exotic sensor sweeps before getting lucky - weak IFF signatures appear across the display and turn green as the minefield stands down for disposal. Your $shipOrFleet is clear to scan the volume.,0:roider_expeditionExplore:Proceed to scan,
+roider_expeditionScanResult,DialogOptionSelected,$option == roider_expeditionExplore,Roider_ExpeditionLoot scanDebris,,100:defaultLeave:Continue,
+#END Tech Expeditions,,,,,,
+,,,,,,
+# Nexerelin Intro,,,,,,
+roider_nex_NGCPickStartingShips,ExerelinNGCStep3,"$playerFaction == roider
+!$roider_ChangeMind","AddText ""The Roider Union was forged by strong, self-reliant captains like you. Bring derelicts to Union HQs for retrofit and we'll provide you the warships you need.""
+SetTextHighlightColors ""242,208,141,255"" ""242,208,141,255"" good
+SetTextHighlights ""Roider Union"" ""Union HQs"" retrofit
+
+AddText ""While most roiders are still nomadic miners, a few have settled on fringe outposts across the Sector. Only some of them are Unionists, but they'll welcome you nonetheless.""
+SetTextHighlightColors ""150,150,150,255"" good ""242,208,141,255""
+SetTextHighlights ""nomadic miners"" ""fringe outposts"" Unionists
+$roider_ChangeMind = true 0",,,
+roider_nex_NGCPickStartingShips2,ExerelinNGCStep3,"$playerFaction == roider
+Roider_HasModId timid_commissioned_hull_mods","AddText ""Commissioned Crews Bonus: Faster combat repairs and reduced crew losses.""
+SetTextHighlights Commissioned Crews Bonus",,,
+#END Nexerelin Intro,,,,,,
+,,,,,,
+# Mad Rockpiper,,,,,,Adds free built-in MIDAS hullmod to a ship
+roider_mRPBlurbFirst,roider_madRockpiper_blurbBar,,,An unkempt $manOrWoman wearing a finely polished medal rants and raves to $roider_mrp_himselfOrHerself at a corner table.,,
+roider_mRPBlurb,roider_madRockpiper_blurbBar,$player.roider_metMadRockpiper,,You see the mad Rockpiper besotted and rambling to $roider_mrp_himselfOrHerself at a corner table.,,
+roider_mRPBarOptionFirst,roider_madRockpiper_optionBar,,,,roider_madRockpiper_startBar:Approach the $roider_mrp_madmanOrWoman with the medal,
+roider_mRPBarOption,roider_madRockpiper_optionBar,$player.roider_metMadRockpiper,,,roider_madRockpiper_startBar:Talk to the Mad Rockpiper,
+roider_mRPStart,DialogOptionSelected,$option == roider_madRockpiper_startBar,"$missionId = roider_madRockpiper
+FireBest Roider_MRPMet
+$player.roider_metMadRockpiper = true
+FireBest Roider_MRPRant
+FireAll Roider_MRPOptions",,,
+roider_mRPMetBeforeText,Roider_MRPMet,$player.roider_metMadRockpiper,,The mad Rockpiper doesn't seem to recognize you.,,
+roider_mRPNotMetText,Roider_MRPMet,,,"By $hisOrHer medal, you can tell the $roider_mrp_madmanOrWoman is, or was, a distinguished member of the Rockpiper Engineering Society.",,
+roider_mRPPickShip,Roider_MRPOptions,"!$roider_mrp_requiresSP
+!$roider_mrp_isInhosp",Call $roider_madRockpiper_ref canPick,,roider_mRPShowPicker:Show $roider_mrp_himOrHer to one of your ships,
+roider_mRPDecline,Roider_MRPOptions,"!$roider_mrp_isInhosp
+!$roider_mrp_requiresSP",,,100:contact_declineBarNoContinue:Decline,
+roider_mRPShowPickerSelected,DialogOptionSelected,$option == roider_mRPShowPicker,Call $roider_madRockpiper_ref showPicker,,,
+roider_mRPPostTextDefault,Roider_MRPPostText,,,"The mad Rockpiper finishes $hisOrHer work. A superb job! $HeOrShe takes the crew bar crawling to celebrate, but by the time you catch up $heOrShe is nowhere to be found and no one seems to know when $heOrShe got separated.",,
+roider_mRPPostTextComplication,Roider_MRPPostText,$roider_mrp_illAdvised,Roider_ShowHullModDesc ill_advised,"The mad Rockpiper finishes $hisOrHer work and slips off with some of the crew to go bar crawling. Shortly after, your chief engineer reports that the MIDAS installation has caused subtle but severe damage to the weapon systems and engines! You search high and low, but the Rockpiper is long gone.",,
+roider_mRPExit,Roider_MRPPicked,!$roider_mrp_picked,BarCMD returnFromEvent false,,,
+roider_mRPEnd,Roider_MRPPicked,$roider_mrp_picked,,,contact_acceptBarNoText:Continue,
+,,,,,,
+# MRP SP Branch,,,,,,
+roider_mRPConvinceOption,Roider_MRPOptions,"$roider_mrp_requiresSP
+!$roider_mrp_isInhosp","SetStoryOption roider_mRPConvince 1 roider_mrp ui_char_spent_story_point ""Convinced mad Rockpiper to work with you""",,roider_mRPConvince:Convince $roider_mrp_himOrHer to work with you,
+roider_mRPConvinceSelected1,DialogOptionSelected,$option == roider_mRPConvince,"Call $roider_madRockpiper_ref spentSP
+FireBest Roider_MRPRant
+FireAll Roider_MRPOptions","You calm the $roider_mrp_madmanOrWoman. Very carefully. $HeOrShe stares off into the distance for a few moments, like an android rebooting, before launching into a more coherent rant. It takes you a minute to get $roider_mrp_himOrHer back on track.",,
+roider_mRPSPRant1,Roider_MRPRant,"$roider_mrp_requiresSP
+!$roider_mrp_isInhosp
+Roider_MadRockpiperCheckRant sp",Roider_MadRockpiperSetRant sp,"""... is how they got my crew! No crew! No eyes! No hands!"" $heOrShe frantically whispers, almost catatonic.
+
+$HeOrShe suddenly looks at you, startled, ""You! You have ships! I can build in MIDAS on them!"" $HeOrShe cowers, covering $hisOrHer face. ""No! The rockmen! I can't! Not again!""",,
+roider_mRPSPLeave,Roider_MRPOptions,$roider_mrp_requiresSP,,,100:contact_declineBarNoContinue:Leave,
+#END MRP SP Branch,,,,,,
+,,,,,,
+# Standard Rants,,,,,,
+roider_mRPRant1,Roider_MRPRant,"!$roider_mrp_isInhosp
+!$roider_mrp_requiresSP
+Roider_MadRockpiperCheckRant","Roider_MadRockpiperSetRant
+Roider_ShowHullModDesc roider_midas","""For decades I've done good by them!"" $heOrShe shrieks. $HeOrShe slams $hisOrHer mug down, glares into the distance, and is ignored by the rest of the bar. ""I ironed out the Gambit cruiser conversion, you know?! They didn't listen to me about the rock crabs. 'Has to be built from the ground up,' they say! 'Can't put MIDAS onto any old hull like that,' they say!""
+
+""'Seamless!' I say!"" $HeOrShe finally acknowledges you, a manic look in $hisOrHer eyes, and says, ""Give me a work crew and I'll prove it. I'll build in MIDAS on one of your ships, nice as you please. And for free!""",,
+roider_mRPRant2,Roider_MRPRant,"!$roider_mrp_isInhosp
+!$roider_mrp_requiresSP
+Roider_MadRockpiperCheckRant","Roider_MadRockpiperSetRant
+Roider_ShowHullModDesc roider_midas","$HeOrShe turns to you at your approach and starts chanting whimsically, ""The crabs. The crabs! Rock crabs! Who'd have thought?!""
+
+""The Rockpipers don't believe me,"" $heOrShe explains. ""We have to stop the rockmen's machines. That's why I figured out how to build MIDAS in on any ship. Any roid could be crabby! Give me a work crew and I'll prove I can do it."" $HeOrShe suddenly starts shouting. ""No cost! Crabs everywhere!"" The rest of the bar ignores $roider_mrp_himOrHer.",,
+#END Standard Rants,,,,,,
+,,,,,,
+# Inhospitable Rants,,,,,,
+roider_mRPInhospRant1,Roider_MRPRant,"$roider_mrp_isInhosp score:100
+Roider_MadRockpiperCheckRant inhosp",Roider_MadRockpiperSetRant inhosp,"Apparently lucid for the moment, $heOrShe addresses you, ""Give me a chance. I can build in MIDAS on your ships. I'll work for just room and board!""
+
+Then $heOrShe seems to vaguely recognize you. $HeOrShe suddenly shouts, ""Enemy! I can smell the rock men on you! Stay away!"" No one else pays attention.",,
+roider_mRPInhospLeave,Roider_MRPOptions,$roider_mrp_isInhosp,,,100:contact_declineBarNoContinue:Leave,
+#END Inhospitable Rants,,,,,,
+#END Mad Rockpiper,,,,,,
+,,,,,,
+# Nomad Outposts,,,,,,
+roider_nomadOutpostOpen,OpenInteractionDialog,$roider_nomadOutpost,FireAll Roider_PopulateNomadOutpostOptions,nomad outpost opened,,
+roider_nomadOutpostLeaveOpt,Roider_PopulateNomadOutpostOptions,,,,roider_nomadOutpostLeave:Leave,
+roider_nomadOutpostHostileOpt,,$faction.id != player,,,,
+roider_nomadOutpostLeaveSel,DialogOptionSelected,$option == roider_nomadOutpostLeave,DismissDialog,,,
+roider_nomadOutpostHostileOptSel,,,,,,
+#END Nomad Outposts,,,,,,
+,,,,,,
+# Prospecting,,,,,,
+roider_openAsteroid,OpenInteractionDialog,"$isAsteroid
+!Roider_HasModId nexerelin
+!Roider_HasModId stellar_industrialist","ShowDefaultVisual
+PrintDescription 3
+FireAll PopulateOptions",Your $shipOrFleet approaches the asteroid.,,
+roider_leaveAsteroid,PopulateOptions,"$isAsteroid
+!Roider_HasModId nexerelin
+!Roider_HasModId stellar_industrialist",SetShortcut marketLeave ESCAPE,,100:marketLeave:Leave,
+roider_prospectEntry,PopulateOptions,Roider_ProspectingCheck,,,roider_enterProspecting:Roid cutting,
+roider_prospectEntrySelected,DialogOptionSelected,$option == roider_enterProspecting,"Roider_ProspectingText summary
+$roider_prospectingText = summary
+FireAll Roider_ProspectingPopulate",,,
+roider_prospectBreakdownOption,Roider_ProspectingPopulate,$roider_prospectingText == summary,,,0:roider_miningBreakdown:Per-ship breakdown,
+roider_prospectBreakdownOptionSelected,DialogOptionSelected,$option == roider_miningBreakdown,"Roider_ProspectingText breakdown
+$roider_prospectingText = breakdown
+FireAll Roider_ProspectingPopulate",,,
+roider_prospectSummaryOption,Roider_ProspectingPopulate,$roider_prospectingText == breakdown,,,0:roider_miningSummary:Summary,
+roider_prospectSummaryOptionSelected,DialogOptionSelected,$option == roider_miningSummary,"Roider_ProspectingText summary
+$roider_prospectingText = summary
+FireAll Roider_ProspectingPopulate",,,
+roider_prospectStartOption,Roider_ProspectingPopulate,,,,10:roider_miningStart:Prospect,
+roider_prospectStartOptionBlocked,Roider_ProspectingPopulate,$roider_prospectingBlocked,SetEnabled roider_miningStart false,,,
+roider_prospectStartOptionSelected,DialogOptionSelected,$option == roider_miningStart,"$player.roider_isProspecting = true
+Roider_ProspectingActivate
+DismissDialog",,,
+roider_prospectBackOption,Roider_ProspectingPopulate,SetShortcut roider_miningBack ESCAPE,,,999:roider_miningBack:Back,
+roider_prospectBackOptionSelected,DialogOptionSelected,$option == roider_miningBack,FireAll PopulateOptions,,,
+#END Prospecting,,,,,,

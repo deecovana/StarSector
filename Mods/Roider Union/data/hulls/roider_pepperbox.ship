@@ -1,0 +1,91 @@
+{
+  "hullName": "Pepperbox",
+  "hullId": "roider_pepperbox",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/roider_pepperbox.png",
+  "style": "ROIDER_HULL",
+  "height": 79,
+  "width": 62,
+  "center": [31, 37],
+  "collisionRadius": 61,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas",
+	"civgrade",
+    "militarized_subsystems"
+  ],
+  "builtInWeapons": {
+    "WS 002": "devastator"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [15, -0]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-15, 19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, -0],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-36, 24],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-36, -24],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [19, 29],
+      "length": 16,
+      "width": 8,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [19, -29],
+      "length": 16,
+      "width": 8,
+      "angle": 210,
+      "contrailSize": 128,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -33, 28,
+    35, 22,
+    41, 0,
+    35, -22,
+    -33, -28
+  ]
+}

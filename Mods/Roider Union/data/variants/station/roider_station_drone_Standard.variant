@@ -1,0 +1,20 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "roider_station_drone",
+    "hullMods": ["turretgyros"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "roider_station_drone_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+            	"WS 001": "roider_marksman",
+            	"WS 002": "roider_marksman"
+            }
+        }
+    ]
+}

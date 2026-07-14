@@ -1,0 +1,70 @@
+{
+	"plugins":{
+		"roider_baskerHowl":"roiderUnion.combat.transducer.BaskerHowlEffectManager",
+		"roider_armorCleaner":"roiderUnion.combat.ArmorCleaner",
+		"roider_armorNoEscort":"roiderUnion.combat.ArmorNoEscort",
+		"roider_phasenetMan":"roiderUnion.combat.phasenet.PhasenetEffectManager",
+		"roider_hamDirector":"roiderUnion.combat.HammerDirector",
+		"roider_trackerSpeedBoost":"roiderUnion.combat.TrackerSpeedBoost",
+		"roider_sharpAim":"roiderUnion.combat.SharpshooterScript",
+		"roider_hulksDeployer":"roiderUnion.combat.HulksDeployer",
+		"roider_stationDroneScript":"roiderUnion.combat.StationDroneScript"
+	},
+	
+	"roider_techExpDebug":false,
+
+	"ruleCommandPackages":[
+		"scripts.campaign.rulecmd",
+		"roiderUnion.rulecmd"
+	],
+	
+    "designTypeColors":{
+        "Roider Union":[242,208,141,255],
+		"Korovin Shipbreakers":[233,116,67,255],
+		"Rockpiper Engineering Society":[168,216,217,255]
+    },
+	
+	"graphics":{
+		"industry":{
+			"roider_hq":"graphics/icons/industry/roider_hq.png"
+		},
+	
+		"characters":{
+			"roider_maggie":"graphics/portraits/portrait14.png",
+			"roider_madRockpiperMale":"graphics/portraits/characters/roider_madman_male.png",
+			"roider_madRockpiperFemale":"graphics/portraits/characters/roider_madman_female.png"
+		},
+		
+		"intel":{
+			"roider_retrofit":"graphics/icons/intel/roider_retrofit.png",
+			"roider_base":"graphics/icons/markets/orbital_station.png",
+			"roider_expedition":"graphics/icons/intel/roider_tech_expedition.png",
+			"roider_persecution":"graphics/icons/intel/roider_persecution.png"
+		},
+		
+		"blueprint_packages":{
+			"roider_package":"graphics/factions/roider_flag.png"
+		},
+		"roider_combat":{
+			"wrecker_glow1":"graphics/ships/wrecker/roider_wrecker_glow101.png",
+			"wrecker_glow2":"graphics/ships/wrecker/roider_wrecker_glow201.png",
+			
+			"phasenet":"graphics/icons/hullsys/roider_phasenet.png",
+
+			"rotary_hammer_3ammoTurret":"graphics/weapons/roider_rotary_hammer/three_ammo_glow_turret.png",
+			"rotary_hammer_2ammoTurret":"graphics/weapons/roider_rotary_hammer/two_ammo_glow_turret.png",
+
+			"rotary_hammer_3ammoHP":"graphics/weapons/roider_rotary_hammer/three_ammo_glow_hardpoint.png",
+			"rotary_hammer_2ammoHP":"graphics/weapons/roider_rotary_hammer/two_ammo_glow_hardpoint.png"
+		},
+		"roider_stashMines": {
+			"mine4": "graphics/mines/mine4.png",
+			"mineGlow": "graphics/mines/mineGlow.png"
+		}
+    },
+
+	"bonusXP":{
+		"roider_insurance":1,
+		"roider_mrp":1
+	}
+}

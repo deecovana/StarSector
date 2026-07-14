@@ -1,0 +1,46 @@
+{
+    "displayName": "Ringalowda",
+    "fluxCapacitors": 10,
+    "fluxVents": 22,
+    "hullId": "roider_gambit_p_early",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_gambit_p_early_Overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "chaingun",
+                "WS 003": "chaingun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "HAZARD1": "roider_hazard_mrm_gambit",
+                "HAZARD2": "roider_hazard_mrm_gambit"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "roider_doldrums"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "heavymg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightmg",
+                "WS 007": "lightmg"
+            }
+        }
+    ]
+}

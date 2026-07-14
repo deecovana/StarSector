@@ -1,0 +1,34 @@
+{
+  "hullName": "Telamon Armor Module",
+  "hullId": "roider_telamon_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/roider_telamon_rightarmor.png",
+  "style": "ROIDER_HULL",
+  "height": 144,
+  "width": 38,
+  "center": [19, 72],
+  "collisionRadius": 100,
+  "shieldCenter": [0, 5],
+  "shieldRadius": 90,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_armor",
+    "reduced_explosion",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    69, 12,
+    69, 5,
+    53, -16,
+    27, -16,
+    19, -13,
+    -8, -12,
+    -11, 2,
+    -42, 2,
+    -46, 5,
+    -70, 5,
+    -68, 14
+  ]
+}

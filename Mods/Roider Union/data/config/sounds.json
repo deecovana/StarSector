@@ -1,0 +1,157 @@
+{
+	"music":{
+		"roider_encounter":[
+			{"file":"roider_encounter.ogg","source":"sounds/music/factions","volume":0.2}, 
+		],
+		"roider_encounter_hostile":[
+			{"file":"roider_encounter_hostile.ogg","source":"sounds/music/factions","volume":0.2}, 
+		],
+		"roider_market":[
+			{"file":"roider_market.ogg","source":"sounds/music/factions","volume":0.2}, 
+		],
+		"roider_star_system":[
+			{"file":"roider_star_system.ogg","source":"sounds/music","volume":0.6}, 
+		],
+		"roider_retrofit":[
+			{"file":"roider_special.ogg","source":"sounds/music/factions","volume":0.2}, 
+		]
+	},
+	"roider_silent":[
+		{"file":"sounds/roider_silent.ogg","pitch":1,"volume":0.5},
+	],
+	"roider_blastinglaser":[
+		{"file":"sounds/weapons/roider_blasting_laser.ogg","pitch":1.03,"volume":0.49},
+		{"file":"sounds/weapons/roider_blasting_laser.ogg","pitch":1.0,"volume":0.50},
+		{"file":"sounds/weapons/roider_blasting_laser.ogg","pitch":0.97,"volume":0.51},
+	],
+	"roider_marksman":[
+		{"file":"sounds/weapons/roider_marksman.ogg","pitch":1.03,"volume":0.69},
+		{"file":"sounds/weapons/roider_marksman.ogg","pitch":1.0,"volume":0.70},
+		{"file":"sounds/weapons/roider_marksman.ogg","pitch":0.97,"volume":0.71},
+	],
+	"roider_hazard":[
+		{"file":"sounds/weapons/roider_hazard_mrm.ogg","pitch":1.03,"volume":0.49},
+		{"file":"sounds/weapons/roider_hazard_mrm.ogg","pitch":1.0,"volume":0.50},
+		{"file":"sounds/weapons/roider_hazard_mrm.ogg","pitch":0.97,"volume":0.51},
+	],
+	"roider_zap":[
+		{"file":"sounds/weapons/roider_zap_srm.ogg","pitch":1.03,"volume":0.39},
+		{"file":"sounds/weapons/roider_zap_srm.ogg","pitch":1.0,"volume":0.40},
+		{"file":"sounds/weapons/roider_zap_srm.ogg","pitch":0.97,"volume":0.41},
+	],
+	"roider_zap_arc":[
+		{"file":"sounds/weapons/roider_zap_srm_arc.ogg","pitch":1.03,"volume":0.49},
+		{"file":"sounds/weapons/roider_zap_srm_arc.ogg","pitch":1.0,"volume":0.50},
+		{"file":"sounds/weapons/roider_zap_srm_arc.ogg","pitch":0.97,"volume":0.51},
+	],
+	"roider_arcZapper_fire":[
+		{"file":"sounds/weapons/roider_arcZapper.ogg","pitch":1.03,"volume":0.49},
+		{"file":"sounds/weapons/roider_arcZapper.ogg","pitch":1.0,"volume":0.50},
+		{"file":"sounds/weapons/roider_arcZapper.ogg","pitch":0.97,"volume":0.51},
+	],
+	"roider_arcCannon_fire":[
+		{"file":"sounds/weapons/roider_arcCannon.ogg","pitch":1.03,"volume":0.99},
+		{"file":"sounds/weapons/roider_arcCannon.ogg","pitch":1.0,"volume":1.00},
+		{"file":"sounds/weapons/roider_arcCannon.ogg","pitch":0.97,"volume":1.01},
+	],
+	"roider_spikeDriver_fire":[
+		{"file":"sounds/weapons/roider_spike_driver.ogg","pitch":1.03,"volume":0.99},
+		{"file":"sounds/weapons/roider_spike_driver.ogg","pitch":1.0,"volume":1.00},
+		{"file":"sounds/weapons/roider_spike_driver.ogg","pitch":0.97,"volume":1.01},
+	],
+	"roider_pileDriver_fire":[
+		{"file":"sounds/weapons/roider_pile_driver.ogg","pitch":1.03,"volume":0.99},
+		{"file":"sounds/weapons/roider_pile_driver.ogg","pitch":1.0,"volume":1.00},
+		{"file":"sounds/weapons/roider_pile_driver.ogg","pitch":0.97,"volume":1.01},
+	],
+	"roider_doldrums_fire":[
+		{"file":"sounds/weapons/roider_doldrums_chaingun.ogg","pitch":1.03,"volume":0.59},
+		{"file":"sounds/weapons/roider_doldrums_chaingun.ogg","pitch":1.0,"volume":0.60},
+		{"file":"sounds/weapons/roider_doldrums_chaingun.ogg","pitch":0.97,"volume":0.61},
+	],
+	
+	"roider_system_phasenet_activate":[ 
+		{"file":"sounds/systems/roider_phasenet_activate.ogg","pitch":1,"volume":1.2},
+	],
+	"roider_system_phasenet_loop":[ 
+		{"file":"sounds/systems/roider_phasenet_loop.ogg","pitch":1,"volume":1.0},
+	],
+	"roider_system_phasenet_arc":[ 
+		{"file":"sounds/systems/roider_phasenet_arc.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/systems/roider_phasenet_arc.ogg","pitch":1.03,"volume":0.9},
+		{"file":"sounds/systems/roider_phasenet_arc.ogg","pitch":0.97,"volume":0.9},
+	],
+	"roider_system_phasenet_arc_start":[ 
+		{"file":"sounds/systems/roider_phasenet_arc_start.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/systems/roider_phasenet_arc_start.ogg","pitch":1.03,"volume":1.0},
+		{"file":"sounds/systems/roider_phasenet_arc_start.ogg","pitch":0.97,"volume":1.0},
+	],
+	
+	"roider_system_dread_loaders_activate":[ 
+		{"file":"sounds/systems/roider_dread_loaders_activate.ogg","pitch":1,"volume":1.0},
+	],
+	"roider_system_dread_loaders_loop":[ 
+		{"file":"sounds/systems/roider_dread_loaders_loop.ogg","pitch":1,"volume":0.9},
+	],
+
+	"roider_system_transducer_activate":[
+		{"file":"sounds/systems/roider_transducer_start.ogg","pitch":1,"volume":1.0},
+	],
+	"roider_system_transducer_loop":[
+		{"file":"sounds/systems/roider_transducer_loop.ogg","pitch":1,"volume":1.0},
+	],
+	"roider_system_transducer_end":[
+		{"file":"sounds/systems/roider_transducer_end.ogg","pitch":1,"volume":1.0},
+	],
+	
+	"roider_rhl_click":[ 
+		{"file":"sounds/systems/roider_reloading_click.ogg","pitch":1,"volume":0.15},
+	],
+	"roider_rhl_clack":[ 
+		{"file":"sounds/systems/roider_reloading_clack.ogg","pitch":1.03,"volume":0.15},
+		{"file":"sounds/systems/roider_reloading_clack.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/systems/roider_reloading_clack.ogg","pitch":0.97,"volume":0.15},
+	],
+	"roider_rhl_clickLoud":[ 
+		{"file":"sounds/systems/roider_reloading_click.ogg","pitch":1,"volume":0.6},
+	],
+	"roider_rhl_clackLoud":[ 
+		{"file":"sounds/systems/roider_reloading_clack.ogg","pitch":1.03,"volume":0.6},
+		{"file":"sounds/systems/roider_reloading_clack.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/systems/roider_reloading_clack.ogg","pitch":0.97,"volume":0.6},
+	],
+	"roider_glitz_flare_launcher":[ 
+		{"file":"sounds/sfx_systems/flare_launcher_active_oneshot.ogg","pitch":1,"volume":0.4},
+	],
+	"engine_loop":{
+		"ROIDER_HULL":{"sounds":[5,6,7,8,9], "pitch":1, "volume":0.3}
+	},
+	"engine_accelerate":{
+		"ROIDER_HULL":{"sounds":[0,1,2], "pitch":0.9, "volume":1}
+	},
+	"shield_burnout":{
+		"ROIDER_HULL":{"sounds":[0], "pitch":0.7, "volume":1}
+	},
+	"emp_loop":{
+		"ROIDER_HULL":{"sounds":[0], "pitch":0.7, "volume":1}
+	},
+	"flux_loop":{
+		"ROIDER_HULL":{"sounds":[0], "pitch":0.7, "volume":1}
+	},
+	"vent_flux":{
+		"ROIDER_HULL":{"sounds":[0], "pitch":0.7, "volume":1}
+	},
+	"shield_lower":{
+		"ROIDER_HULL":{"sounds":[0,1,2], "pitch":1, "volume":0.75}
+	},
+	"shield_raise":{
+		"ROIDER_HULL":{"sounds":[0,1,2], "pitch":1, "volume":0.75}
+	},
+	"explosion_ship":{
+		"ROIDER_HULL":{"sounds":[0,1,2,3], "pitch":1.0, "volume":1}
+	}
+},
+
+
+
+

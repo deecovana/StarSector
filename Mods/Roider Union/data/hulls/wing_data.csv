@@ -1,0 +1,15 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+roider_rocksaw_wing,roider_rocksaw_Fighter,"fighter6, fighter, rare_bp, roider, merc, codex_unlockable",2,,9,14,CLAW,3000,500,300,2,FIGHTER,Heavy Fighter,15,12000,,,,,,,,,,,,,1
+roider_garrucha_wing,roider_garrucha_Fighter,"stay_in_front_of_ship, fighter8, fighter, rare_bp, merc, roider, auto_fighter, no_sell, no_bp_drop, restricted, codex_unlockable",4,,11,22,V,4000,600,400,1,FIGHTER,Super Fighter,30,20000,,,,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,101
+roider_duster_wing,roider_duster_Fighter,"interceptor4, interceptor, roider, roider_bp, merc",1,,6,10,V,4000,500,100,3,INTERCEPTOR,Heavy Interceptor,8,10000,,,,,,,,,,,,,4
+roider_bolt_wing,roider_bolt_Fighter,"interceptor4, interceptor, roider, merc, rare_bp, codex_unlockable",2,,5,8,V,3000,1000,600,4,INTERCEPTOR,Interceptor,10,8000,,,,,,,,,,,,,5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,102
+roider_breaker_wing,roider_drone_breaker,"fighter2, fighter, roider, roider_bp, merc, auto_fighter",0,,3,2,V,4000,500,600,4,FIGHTER,Assault Drone,5,3000,,,,,,,,,,,,,7
+roider_glitz_wing,roider_glitz_Fighter,"fighter3, fighter, roider, roider_bp, merc, auto_fighter",0,,3,4,BOX,4000,500,,4,INTERCEPTOR,Interceptor Drone,5,3000,,,,,,,,,,,,,8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,103
+roider_hopskip2_wing,roider_hopskip2_Bomber,"bomber4, bomber, roider, merc, roider_bp",1,,5,13,CLAW,6000,2500,700,2,BOMBER,Bomber,18,9000,,,,,,,,,,,,,10
+roider_armature_single_wing,roider_armature_Left,"bomber4, bomber, roider, merc, auto_fighter, codex_unlockable",3,,5,9,V,4000,2000,500,1,BOMBER,Strike Drone,20,8000,,,,,,,,,,,,,11
+roider_armature_wing,roider_armature_Bomber,"bomber6, bomber, roider, merc, auto_fighter, rare_bp, codex_unlockable",3,,9,20,V,4000,2000,500,2,BOMBER,Strike Drone,20,16000,,,,,,,,,,,,,12
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,104
+roider_station_drone_wing,roider_station_drone_Standard,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier, restricted, hide_in_codex",4,,0,0,V,0,0,0,1,FIGHTER,Hangar Drone,5,0,,,,,,,,,,,,,13

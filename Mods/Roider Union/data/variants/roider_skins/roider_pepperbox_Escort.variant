@@ -1,0 +1,24 @@
+{
+    "displayName": "Priest",
+    "fluxCapacitors": 10,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "roider_pepperbox",
+    "hullMods": ["roider_fighterClamps"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_pepperbox_Escort",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "devastator"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "roider_zap"}
+        }
+    ],
+    "wings": ["roider_breaker_wing"]
+}

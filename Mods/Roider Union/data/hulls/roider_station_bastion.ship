@@ -1,0 +1,108 @@
+{
+  "hullName": "Module, PD Bastion",
+  "hullId": "roider_station_bastion",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/station/roider_station_bastion.png",
+  "style": "ROIDER_HULL",
+  "height": 134,
+  "width": 78,
+  "center": [39, 69],
+  "collisionRadius": 135,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 130,
+  "viewOffset": 0,
+  "moduleAnchor": [-70, 0],
+  "builtInMods": [
+    "roider_midas",
+    "supercomputer",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [35, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [-10, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 45,
+      "locations": [10, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -45,
+      "locations": [10, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 60,
+      "locations": [-30, 18]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -60,
+      "locations": [-30, -18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-10, 31]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-10, -31]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -48, -17,
+    -67, -18,
+    -54, -37,
+    16, -26,
+    55, -10,
+    55, 10,
+    16, 26,
+    -54, 37,
+    -67, 18,
+    -48, 17
+  ]
+}

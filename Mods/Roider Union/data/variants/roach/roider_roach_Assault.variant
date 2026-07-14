@@ -1,0 +1,42 @@
+{
+    "displayName": "Ringalowda",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "hullId": "roider_roach",
+    "hullMods": ["fluxdistributor"],
+    "modules": [{"PROW ARMOR": "roider_roach_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_roach_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "harpoon",
+                "WS 007": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 009": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightdualmg",
+                "WS 010": "lightdualmg"
+            }
+        }
+    ]
+}

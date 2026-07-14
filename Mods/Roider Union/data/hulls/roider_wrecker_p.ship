@@ -1,0 +1,277 @@
+{
+  "hullName": "Wrecker (P)",
+  "hullId": "roider_wrecker_p",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/wrecker/roider_wrecker_pirate.png",
+  "style": "ROIDER_HULL",
+  "height": 194,
+  "width": 180,
+  "center": [90, 95],
+  "collisionRadius": 150,
+  "shieldCenter": [-2, -0],
+  "shieldRadius": 148,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "GLOW1": "roider_wrecker_glow1",
+    "GLOW2": "roider_wrecker_glow2",
+  },
+  "builtInMods": [
+    "roider_midas1",
+    "roider_phasenetTowPattern"
+  ],
+  "weaponSlots": [
+    {
+      "id": "GLOW1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 0]
+    },
+    {
+      "id": "GLOW2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 0]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [58, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -45,
+      "locations": [40, -47]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 45,
+      "locations": [40, 47]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -45,
+      "locations": [22, -28]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 45,
+      "locations": [22, 28]
+    },
+    {
+      "id": "WS 006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [68, -27]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [68, 27]
+    },
+    {
+      "id": "WS 008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-23, -0]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 180,
+      "locations": [-59, -0]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -0,
+      "locations": [-20, -54]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-20, 54]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 130,
+      "locations": [-54, 68]
+    },
+    {
+      "id": "WS 013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -130,
+      "locations": [-54, -68]
+    },
+    {
+      "id": "PROW ARMOR",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [65, 0]
+    },
+    {
+      "id": "PN Right",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-91, -74]
+    },
+    {
+      "id": "PN Left",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-91, 74]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75, -19.5],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-75, 19.5],
+      "length": 48,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-72, -34.5],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-72, 34.5],
+      "length": 64,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-67, -47],
+      "length": 32,
+      "width": 12,
+      "angle": -160,
+      "contrailSize": 30,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-67, 47],
+      "length": 32,
+      "width": 12,
+      "angle": 160,
+      "contrailSize": 30,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-65, -52],
+      "length": 24,
+      "width": 12,
+      "angle": -155,
+      "contrailSize": 30,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-65, 52],
+      "length": 24,
+      "width": 12,
+      "angle": 155,
+      "contrailSize": 30,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -60, -56,
+    -87, -73,
+    -74, -88,
+    10, -64,
+    31, -64,
+    35, -77,
+    43, -78,
+    66, -44,
+    84, -43,
+    85, -12,
+    72, -9,
+    72, 9,
+    85, 12,
+    84, 43,
+    66, 44,
+    43, 78,
+    35, 77,
+    31, 64,
+    10, 64,
+    -74, 88,
+    -87, 73,
+    -60, 56,
+    -86, -0
+  ]
+}

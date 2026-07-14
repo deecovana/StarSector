@@ -1,0 +1,19 @@
+{
+	"ranks": {
+		"roider_nomadLeader":{"name":"Storm Admiral"}
+	},
+
+	"posts":{
+		"roider_baseCommander":{"name":"Union Admiral"},
+		"roider_nomadLeader":{"name":"Storm Admiral"},
+
+		"executive_officer_roider_roaming":{"name":"Executive Officer (Roaming)"}
+	}
+}
+
+
+
+
+
+
+

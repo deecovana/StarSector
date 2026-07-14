@@ -1,0 +1,15 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Dread Loaders,roider_dreadLoaders,1,,,,,,,,,1,5,1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/roider_dreadLoaders.png
+Phasenet,roider_phasenet,1,,,,,,,,,0.2,6,1,5,TRUE,,,,,,,,,,,"movement, offensive",graphics/icons/hullsys/roider_phasenet.png
+Damper Field (Slaved),roider_slaveDamper,1,,,,,,,,,0.25,3,0.25,0,,,,,TRUE,,,,TRUE,TRUE,,"uses_damper_ai, hide_in_codex",graphics/icons/hullsys/damper_field.png
+Temporal Shell,roider_slaveTemporalShell,1,,,,,0.25,,,,4,10,2,10,,,,,,,,,,,,hide_in_codex,graphics/icons/hullsys/temporal_shell.png
+Entropy Amplifier (LR),roider_entropyamp_lr,,,,,,0.2,,,,0.5,10,1,10,,,,,,,,,,,,hide_in_codex,graphics/icons/hullsys/entropy_amplifier.png
+Interdiction Sequence,roider_interdictor,,,,,,0.25,,,,0.5,0.1,5,20,,,,,,,,,,,,movement,graphics/icons/hullsys/interdictor_array.png
+Ranch Deployment,roider_reservewing,,,,,,0.5,,,,0.1,,3,60,,,,,,,,,,,,offensive,graphics/icons/hullsys/reserve_deployment.png
+Escape Burn,roider_hopskipBurn,,,,,,,,1,,1,2,4,5,,,,,,,,,,,,movement,graphics/icons/hullsys/maneuvering_jets.png
+Ring Flare Launcher,roider_flareLauncher,,,,,,0.1,,,,,,,5,,,,,,,,,,,,defensive,graphics/icons/hullsys/active_flare_launcher.png
+Ring Flare Launcher (Glitz),roider_flareLauncher_fighter,,,,,,0.1,,,,,,,5,,,,,,,,,,,,defensive,graphics/icons/hullsys/active_flare_launcher.png
+Interdictor Transducer,roider_transducer,,,,,,0.25,,,,0.1,0.1,0.1,15,,,,,,,,,,,,"offensive, movement",graphics/icons/hullsys/interdictor_array.png
+Temporal Shell,roider_temporalshell,1,,,,,0.25,,,,4,10,2,10,,,,,,,,,,,,hide_in_codex,graphics/icons/hullsys/temporal_shell.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chimera Drones,roider_station_drones,,,,,,,,6,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/station_defense_drones_low.png

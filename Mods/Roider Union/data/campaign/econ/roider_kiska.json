@@ -1,0 +1,59 @@
+{
+	"starSystem":"roider_kiska",
+	"markets":[
+		{
+			"entities":["roider_druzhininsAnchorage"],
+			"faction":"roider",
+			"size":4,
+			"startingConditions":[
+				"population_4"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"roider_dives",
+				"refining",
+				"patrolhq",
+				"lightindustry",
+				"battlestation_mid",
+				"heavybatteries"
+			]
+		},
+		{
+			"entities":["roider_threeSisters"],
+			"faction":"independent",
+			"size":3,
+			"startingConditions":[
+				"population_3"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"commerce",
+				"roider_dives",
+				"orbitalstation",
+				"heavybatteries"
+			]
+		},
+		{
+			"entities":["roider_zinStation"],
+			"faction":"tritachyon",
+			"size":4,
+			"startingConditions":[
+				"population_4"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"heavyindustry",
+				"militarybase",
+				"battlestation_high",
+				"heavybatteries"
+			]
+		}
+	]
+
+}
+
+
+

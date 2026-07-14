@@ -1,0 +1,25 @@
+{
+  "hullName": "placeholder drone",
+  "hullId": "roider_station_drone_hidden",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/missiles/roider_empty.png",
+  "style": "ROIDER_HULL",
+  "height": 1,
+  "width": 1,
+  "center": [0, 0],
+  "collisionRadius": 1,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 1,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    0, 0,
+    0, 1,
+    1, 1,
+    1, 0
+  ]
+}

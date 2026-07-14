@@ -1,0 +1,54 @@
+{
+    "displayName": "Storm",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "roider_ranch_damper",
+    "hullMods": [
+        "expanded_deck_crew",
+        "roider_trackerCoreShip"
+    ],
+    "modules": [{"PROW ARMOR": "roider_ranch_armor_damper_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_ranch_damper_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "roider_spike_driver"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "roider_rotary_hammer",
+                "WS 004": "roider_rotary_hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "roider_doldrums",
+                "WS 008": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 002": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "roider_rocksaw_wing",
+        "roider_rocksaw_wing",
+        "roider_armature_single_wing",
+        "roider_breaker_wing"
+    ]
+}

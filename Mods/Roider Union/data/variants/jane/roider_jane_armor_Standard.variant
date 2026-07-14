@@ -1,0 +1,14 @@
+{
+  "variantId": "roider_jane_armor_Standard",
+  "hullId": "roider_jane_armor",
+  "displayName": "Jane",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

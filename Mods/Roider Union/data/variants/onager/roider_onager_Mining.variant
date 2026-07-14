@@ -1,0 +1,38 @@
+{
+    "displayName": "Rockpiper",
+    "fluxCapacitors": 10,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "roider_onager",
+    "hullMods": ["surveying_equipment"],
+    "modules": [{"PROW ARMOR": "roider_onager_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_onager_Mining",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 001": "roider_rotary_hammer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "roider_blastinglaser",
+                "WS 006": "roider_blastinglaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "arbalest",
+                "WS 003": "lightac",
+                "WS 004": "lightac",
+                "WS 007": "vulcan"
+            }
+        }
+    ],
+    "wings": ["mining_drone_wing"]
+}

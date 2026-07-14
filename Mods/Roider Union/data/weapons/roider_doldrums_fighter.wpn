@@ -1,0 +1,25 @@
+{
+	"id":"roider_doldrums_fighter",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/doldrums/roider_doldrums_turret00.png",
+	"hardpointSprite":"graphics/weapons/doldrums/roider_doldrums_fighter00.png",	
+	"numFrames":5,	
+	"frameRate":21,
+	"turretOffsets":[12, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[12, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":35.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.15,
+					   "particleCount":11,
+					   "particleColor":[255,225,225,235]},	
+	"projectileSpecId":"roider_doldrums_shot",  # projectile that will be fired
+	"fireSoundTwo":"roider_doldrums_fire",	
+}

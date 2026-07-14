@@ -1,0 +1,41 @@
+{
+    "displayName": "Nomad",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "roider_trailboss",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_trailboss_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "roider_arcCannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "roider_marksman",
+                "WS 005": "roider_marksman"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "roider_doldrums",
+                "WS 003": "roider_doldrums"
+            }
+        }
+    ],
+    "wings": [
+        "roider_glitz_wing",
+        "roider_breaker_wing"
+    ]
+}

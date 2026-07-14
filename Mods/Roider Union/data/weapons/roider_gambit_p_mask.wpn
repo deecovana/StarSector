@@ -1,0 +1,17 @@
+{
+	"id":"roider_gambit_p_mask",
+	"type":"DECORATIVE",
+	"specClass":"projectile",
+	"size":"SMALL",
+	"turretSprite":"graphics/ships/gambit/roider_gambit_p_mask.png",
+	"hardpointSprite":"graphics/ships/gambit/roider_gambit_p_mask.png",
+	"showDamageWhenDecorative":true,
+	"renderBelowAllWeapons":"false",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"NONE",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"projectileSpecId":"roider_null",
+}

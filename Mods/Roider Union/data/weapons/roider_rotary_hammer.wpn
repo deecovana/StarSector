@@ -1,0 +1,22 @@
+{
+	"id":"roider_rotary_hammer",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"MEDIUM",
+	"onFireEffect": "roiderUnion.combat.RotaryHammerReloadScript",
+	"everyFrameEffect": "roiderUnion.combat.RotaryHammerReloadScript",
+	"turretSprite":"graphics/weapons/roider_rotary_hammer/rotary_hammer_turret_base00.png",
+	"hardpointSprite":"graphics/weapons/roider_rotary_hammer/rotary_hammer_hardpoint_base00.png",	
+	"numFrames":7,	
+	"frameRate":20,
+	"turretOffsets":[28, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[28, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"SMOKE",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"interruptibleBurst":true,
+	"projectileSpecId":"hammer_torp",  # projectile that will be fired
+	#"fireSoundOne":"chaingun_intro",	
+	"fireSoundTwo":"hammer_fire",	
+}

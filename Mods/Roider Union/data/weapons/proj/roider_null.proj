@@ -1,0 +1,16 @@
+{
+	"id":"roider_null",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":1,
+	"width":1,
+	"fadeTime":0.10,
+	"hitGlowRadius":1,
+	"fringeColor":[235,255,215,235],
+	"coreColor":[225,255,205,200],	
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/roider_empty.png"
+}

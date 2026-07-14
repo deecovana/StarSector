@@ -1,0 +1,46 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "roider_rockroach",
+    "hullMods": [
+        "unstable_injector",
+        "reinforcedhull"
+    ],
+    "modules": [{"PROW ARMOR": "roider_rockroach_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_rockroach_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavymortar"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "roider_hazard_mrm",
+                "WS 007": "roider_hazard_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightdualac",
+                "WS 010": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightmg",
+                "WS 009": "lightmg"
+            }
+        }
+    ]
+}

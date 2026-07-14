@@ -1,0 +1,29 @@
+{
+    "displayName": "Priest",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "roider_cyclops",
+    "hullMods": [
+        "hardened_subsystems",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_cyclops_Escort",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "arbalest"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "roider_marksman",
+                "WS 002": "roider_marksman"
+            }
+        }
+    ]
+}

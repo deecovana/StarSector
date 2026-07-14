@@ -1,0 +1,52 @@
+{
+    "displayName": "Pluton",
+    "fluxCapacitors": 34,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "roider_argos",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+        "roider_trackerSwap",
+        "roider_trackerCoreShip"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_argos_Elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "cyclone",
+                "WS 007": "roider_rotary_hammer",
+                "WS 008": "roider_rotary_hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "lightdualac",
+                "WS 012": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightac",
+                "WS 006": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "roider_marksman",
+                "WS 004": "roider_marksman"
+            }
+        }
+    ],
+    "wings": []
+}

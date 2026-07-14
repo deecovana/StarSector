@@ -1,0 +1,25 @@
+{
+    "displayName": "Storm",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "hullId": "roider_cyclops_early",
+    "hullMods": ["fluxbreakers"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_cyclops_early_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "roider_spike_driver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightac",
+                "WS 002": "lightac"
+            }
+        }
+    ]
+}

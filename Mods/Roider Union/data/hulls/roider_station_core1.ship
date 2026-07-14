@@ -1,0 +1,263 @@
+{
+  "hullName": "roider_station_core1",
+  "hullId": "roider_station_core1",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/station/roider_station_core.png",
+  "style": "ROIDER_HULL",
+  "height": 543,
+  "width": 492,
+  "center": [252, 268],
+  "collisionRadius": 340,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 325,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "axialrotation",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -155,
+      "locations": [-151, 250]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 110,
+      "locations": [-227, 121]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -110,
+      "locations": [-227, -127]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 155,
+      "locations": [-304, 59]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -155,
+      "locations": [-304, -67]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 85,
+      "locations": [325, 20]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -85,
+      "locations": [325, -32]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 155,
+      "locations": [-142, -242]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -35,
+      "locations": [-102, -266]
+    },
+    {
+      "id": "WS 010A",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 45,
+      "locations": [214.5, 186]
+    },
+    {
+      "id": "WS 011A",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -45,
+      "locations": [205.5, -168.5]
+    },
+    {
+      "id": "WS 010B",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 76,
+      "locations": [78.5, 263.5]
+    },
+    {
+      "id": "WS 011B",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -75,
+      "locations": [65.5, -251]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 35,
+      "locations": [-107, 274]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 0,
+      "locations": [233, -5],
+      "renderOrderMod": -200
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 240,
+      "locations": [-76, -175],
+      "renderOrderMod": -200
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 120,
+      "locations": [-84, 183],
+      "renderOrderMod": -200
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 180,
+      "locations": [-186, -4],
+      "renderOrderMod": -200
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 60,
+      "locations": [126, 188],
+      "renderOrderMod": -200
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -60,
+      "locations": [114, -174],
+      "renderOrderMod": -200
+    },
+    {
+      "id": "WS 018",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 0,
+      "locations": [233, -5],
+      "renderOrderMod": -200
+    },
+    {
+      "id": "WS 019",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 120,
+      "locations": [-84, 183],
+      "renderOrderMod": -200
+    },
+    {
+      "id": "WS 020",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 240,
+      "locations": [-76, -175],
+      "renderOrderMod": -200
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    247, -0,
+    222, 64,
+    216, 136,
+    119, 225,
+    5, 232,
+    -49, 217,
+    -149, 209,
+    -164, 127,
+    -199, 102,
+    -205, 70,
+    -243, 54,
+    -265, 11,
+    -262, -4,
+    -265, -19,
+    -242, -63,
+    -195, -79,
+    -194, -131,
+    -185, -132,
+    -82, -218,
+    59, -221,
+    163, -189,
+    235, -83
+  ]
+}

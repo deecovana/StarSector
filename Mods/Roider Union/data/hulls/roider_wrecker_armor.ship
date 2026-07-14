@@ -1,0 +1,37 @@
+{
+  "hullName": "Wrecker Armor Module",
+  "hullId": "roider_wrecker_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/wrecker/roider_wrecker_armor.png",
+  "style": "ROIDER_HULL",
+  "height": 68,
+  "width": 180,
+  "center": [90, 34],
+  "collisionRadius": 100,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_armor",
+    "reduced_explosion",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -36, -81,
+    -17, -81,
+    0, -48,
+    17, -49,
+    26, -40,
+    27, -6,
+    10, -7,
+    10, 7,
+    27, 6,
+    26, 40,
+    17, 49,
+    0, 48,
+    -17, 81,
+    -36, 81
+  ]
+}

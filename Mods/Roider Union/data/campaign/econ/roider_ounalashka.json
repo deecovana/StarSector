@@ -1,0 +1,42 @@
+{
+	"starSystem":"roider_ounalashka",
+	"markets":[
+		{
+			"entities":["roider_dutchHarbor"],
+			"faction":"independent",
+			"size":3,
+			"freePort":true,
+			"startingConditions":[
+				"population_3"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"roider_union_hq",
+				"orbitalstation_high",
+				"heavybatteries"
+			]
+		},
+		{
+			"entities":["roider_maggies"],
+			"faction":"pirates",
+			"size":3,
+			"freePort":true,
+			"startingConditions":[
+				"population_3"
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"patrolhq",
+				["roider_dives", "roider_charter"],
+				"lightindustry",
+				"heavybatteries"
+			]
+		}
+	]
+
+}
+
+
+

@@ -1,0 +1,58 @@
+{
+  "variantId": "roider_station_citadel_small_Standard",
+  "hullId": "roider_station_citadel_small",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "roider_pile_driver",
+        "WS0004": "roider_pile_driver",
+        "WS0007": "roider_spike_driver",
+        "WS0008": "roider_spike_driver",
+        "WS0009": "roider_spike_driver",
+        "WS0010": "roider_spike_driver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mark9",
+        "WS0006": "mark9",
+        "WS0011": "arbalest",
+        "WS0012": "arbalest",
+        "WS0013": "arbalest",
+        "WS0014": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "vulcan",
+        "WS0016": "vulcan",
+        "WS0017": "roider_marksman",
+        "WS0018": "roider_marksman",
+        "WS0019": "vulcan",
+        "WS0020": "roider_marksman"
+      }
+    }
+  ],
+  "modules": []
+}

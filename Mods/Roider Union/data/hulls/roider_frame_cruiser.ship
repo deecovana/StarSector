@@ -1,0 +1,116 @@
+{
+  "hullName": "Frame",
+  "hullId": "roider_frame_cruiser",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/frames/roider_frameCruiser.png",
+  "style": "ROIDER_HULL",
+  "height": 265,
+  "width": 112,
+  "center": [56, 133],
+  "collisionRadius": 160,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 158,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas",
+	"civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-90, -49]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-90, 49]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-133, 15],
+      "length": 100,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-133, -15],
+      "length": 100,
+      "width": 30,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-128, -0],
+      "length": 100,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-124, 27],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-124, -27],
+      "length": 48,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [56, 45],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [56, -45],
+      "length": 48,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -131, -20,
+    -92, -50,
+    -40, -49,
+    -33, -23,
+    49, -23,
+    58, -49,
+    108, -54,
+    130, -29.5,
+    125, -0,
+    130, 29.5,
+    108, 54,
+    58, 49,
+    49, 23,
+    -33, 23,
+    -40, 49,
+    -92, 50,
+    -131, 20,
+    -126, -0
+  ]
+}

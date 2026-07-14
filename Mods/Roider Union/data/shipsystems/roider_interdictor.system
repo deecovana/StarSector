@@ -1,0 +1,21 @@
+{
+	"id":"roider_interdictor",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"roiderUnion.combat.SystemSpammerAI",
+	
+	"statsScript":"roiderUnion.combat.interdictor.InterdictorStats",
+
+	"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

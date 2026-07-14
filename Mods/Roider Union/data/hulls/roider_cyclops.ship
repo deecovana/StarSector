@@ -1,0 +1,108 @@
+{
+  "hullName": "Cyclops",
+  "hullId": "roider_cyclops",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/roider_cyclops.png",
+  "style": "ROIDER_HULL",
+  "height": 88,
+  "width": 66,
+  "center": [33, 36],
+  "collisionRadius": 60,
+  "shieldCenter": [5, 0],
+  "shieldRadius": 55,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas",
+	"roider_holisticStab"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-3, 20]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-3, -20]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, 4.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-35, -4.5],
+      "length": 32,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-36, 13],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-36, -13],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-15, -24],
+      "length": 12,
+      "width": 6,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-15, 24],
+      "length": 12,
+      "width": 6,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -32, -16,
+    -15, -21,
+    -2, -31,
+    6, -23,
+    48, 0,
+    6, 23,
+    -2, 31,
+    -15, 21,
+    -32, 16
+  ]
+}

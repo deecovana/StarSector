@@ -1,0 +1,78 @@
+{
+  "hullName": "Tracker",
+  "hullId": "roider_armature_left",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/roider_armature_left.png",
+  "style": "ROIDER_HULL",
+  "height": 46,
+  "width": 40,
+  "center": [20, 19],
+  "collisionRadius": 36,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 34,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_fighter",
+	"roider_armatureCore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4, 14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, 5.5],
+      "length": 24,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-18, -5.5],
+      "length": 24,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-6, 17],
+      "length": 12,
+      "width": 8,
+      "angle": 160,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-6, -17],
+      "length": 12,
+      "width": 8,
+      "angle": -160,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    2, -17,
+    26, -0,
+    2, 17,
+    -18, -0
+  ]
+}

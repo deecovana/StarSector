@@ -1,0 +1,29 @@
+{
+  "hullName": "Jane Armor Module",
+  "hullId": "roider_jane_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/jane/roider_jane_armor.png",
+  "style": "ROIDER_HULL",
+  "height": 60,
+  "width": 106,
+  "center": [53, 30],
+  "collisionRadius": 65,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 65,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_armor",
+    "reduced_explosion",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -22, 48,
+    -4, 51,
+    27, 22,
+    27, -22,
+    -4, -51,
+    -22, -48
+  ]
+}

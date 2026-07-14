@@ -1,0 +1,50 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 18,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "roider_calidor",
+    "hullMods": [
+        "roider_trackerSwap",
+        "ballistic_rangefinder",
+        "roider_trackerCoreShip"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_calidor_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightac",
+                "WS 003": "lightac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "harpoonpod"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "roider_doldrums",
+                "WS 005": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "roider_marksman",
+                "WS 007": "roider_marksman"
+            }
+        }
+    ],
+    "wings": [
+        "roider_hopskip2_wing",
+        "roider_hopskip2_wing"
+    ]
+}

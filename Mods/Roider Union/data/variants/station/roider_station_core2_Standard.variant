@@ -1,0 +1,23 @@
+{
+	"displayName": "Battlestation",
+	"fluxCapacitors": 0,
+	"fluxVents": 0,
+	"hullId": "roider_station_core2",
+	"hullMods": [],
+	"quality": 0.5,
+	"variantId": "roider_station_core2_Standard",
+	"weaponGroups": [],
+	"modules": [
+		{ "WS 009":"roider_station_citadel_small_Standard" },
+		{ "WS 010": "roider_station_hangar_Standard" },
+		{ "WS 011": "roider_station_hangar_Standard" },
+
+		{ "WS 018":"roider_station_spur_Standard" },
+		{ "WS 019": "roider_station_spur_Standard" },
+		{ "WS 020": "roider_station_spur_Standard" },
+
+		{ "WS 006":"roider_station_bastion_Standard" },
+		{ "WS 007": "roider_station_bastion_Standard" },
+		{ "WS 008": "roider_station_bastion_Standard" }
+	]
+}

@@ -1,0 +1,51 @@
+{
+    "displayName": "Pluton",
+    "fluxCapacitors": 8,
+    "fluxVents": 6,
+    "hullId": "roider_ranch",
+    "hullMods": [
+        "roider_trackerSwap",
+        "roider_trackerCoreShip"
+    ],
+    "modules": [{"PROW ARMOR": "roider_ranch_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_ranch_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "shredder"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "sabotpod",
+                "WS 004": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightac",
+                "WS 002": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "roider_marksman",
+                "WS 006": "roider_marksman",
+                "WS 007": "roider_marksman",
+                "WS 008": "roider_marksman"
+            }
+        }
+    ],
+    "wings": [
+        "roider_armature_wing",
+        "roider_armature_wing"
+    ]
+}

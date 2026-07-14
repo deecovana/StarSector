@@ -1,0 +1,33 @@
+{
+    "displayName": "Nomad",
+    "fluxCapacitors": 10,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "roider_bombard",
+    "hullMods": ["armoredweapons"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_bombard_Outdated",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "hellbore"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "pilum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "flak"}
+        }
+    ]
+}

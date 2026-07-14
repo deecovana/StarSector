@@ -1,0 +1,13 @@
+faction
+data/world/factions/roider.faction
+data/world/factions/roider_bulk.faction
+data/world/factions/roider_mining/roider_ice.faction
+data/world/factions/roider_mining/roider_dust.faction
+data/world/factions/roider_mining/roider_rock.faction
+data/world/factions/roider_mining/roider_metal.faction
+data/world/factions/roider_mining/roider_pluton.faction
+data/world/factions/roider_mining/roider_icePlayer.faction
+data/world/factions/roider_mining/roider_dustPlayer.faction
+data/world/factions/roider_mining/roider_rockPlayer.faction
+data/world/factions/roider_mining/roider_metalPlayer.faction
+data/world/factions/roider_mining/roider_plutonPlayer.faction

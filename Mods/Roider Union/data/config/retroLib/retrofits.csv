@@ -1,0 +1,25 @@
+id,tags,source,target,cost,time,reputation,commission
+roider_capital_frame,"roider,retroLib_frame,retroLib_frame_roider",,roider_frame_capital,,0,0,FALSE
+roider_cruiser_frame,"roider,retroLib_frame,retroLib_frame_roider",,roider_frame_cruiser,,0,0,FALSE
+roider_destroyer_frame,"roider,retroLib_frame,retroLib_frame_roider",,roider_frame_destroyer,,0,0,FALSE
+roider_frigate_frame,"roider,retroLib_frame,retroLib_frame_roider",,roider_frame_frigate,,0,0,FALSE
+roider_tracker_double,"roider,roider_light,roider_full,roider_all,roider_argos",roider_armature_single_wing,roider_armature_wing,8000,0,4,TRUE
+roider_tracker_single,"roider,roider_light,roider_full,roider_all,roider_argos",roider_armature_wing,roider_armature_single_wing,-8000,0,4,TRUE
+roider_bombard_dominator,"roider,roider_full,roider_all,roider_argos,giveFrameDestroyer,retroLib_frame_roider",dominator,roider_bombard,,0,2,FALSE
+roider_kite_kiteO,"roider,roider_light,roider_full,roider_all,roider_argos",kite_original,kite,,0,0,FALSE
+roider_trailboss_nebula,"roider,roider_full,roider_all,roider_argos",nebula,roider_trailboss,,0,2,TRUE
+roider_calidor_condor,"roider,roider_full,roider_all,roider_argos",condor,roider_calidor,,0,3,TRUE
+roider_calidor_nebula,"roider,roider_full,roider_all,roider_argos",nebula,roider_calidor,,0,3,TRUE
+roider_calidor_tarsus,"roider,roider_full,roider_all,roider_argos",tarsus,roider_calidor,,0,3,TRUE
+roider_cowboy_wayfarer,"roider,roider_full,roider_all,roider_argos",wayfarer,roider_cowboy,,0,2,TRUE
+roider_montauk_enforcer,"roider,roider_full,roider_all,roider_argos",enforcer,roider_montauk,,0,3,TRUE
+roider_montauk_paragon,"roider,roider_full,roider_all,giveFrameCruiser,retroLib_frame_roider",paragon,roider_montauk,,0,3,TRUE
+roider_rockroach_scarab,"roider,roider_argos,roider_all",scarab,roider_rockroach,,0,2,TRUE
+roider_onager_damper_mule,"roider,roider_argos,roider_all",mule,roider_onager_damper,,0,1,TRUE
+roider_onager_damper_mule_p,"roider,roider_argos,roider_all",mule_d_pirates,roider_onager_damper,,0,1,TRUE
+roider_ranch_mora,"roider, roider_full, roider_all",mora,roider_ranch,,0,3,TRUE
+roider_ranch_damper_starliner,"roider,roider_all",starliner,roider_ranch_damper,,0,3,TRUE
+roider_ranch_damper_mora,"roider,roider_all",mora,roider_ranch_damper,,0,3,TRUE
+roider_basker_hound,"roider,roider_full,roider_argos,roider_all",hound,roider_basker,,0,3,TRUE
+roider_basker_cerberus,"roider,roider_full,roider_argos,roider_all",cerberus,roider_basker,,0,3,TRUE
+roider_basker_gremlin,"roider,roider_full,roider_argos,roider_all",gremlin,roider_basker,,0,3,TRUE

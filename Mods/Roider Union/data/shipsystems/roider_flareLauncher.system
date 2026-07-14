@@ -1,0 +1,12 @@
+{
+	"id":"roider_flareLauncher",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	"weaponDataId":"roider_flareLauncher",
+	
+	#"useSound":"system_flare_launcher_active",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

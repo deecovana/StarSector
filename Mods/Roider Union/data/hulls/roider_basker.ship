@@ -1,0 +1,139 @@
+{
+  "hullName": "Basker",
+  "hullId": "roider_basker",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/basker/roider_basker.png",
+  "style": "ROIDER_HULL",
+  "height": 163,
+  "width": 106,
+  "center": [53, 84],
+  "collisionRadius": 115,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 112,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas",
+    "phasefield",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [69, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [58, 28]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [58, -29]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": -30,
+      "locations": [26, -32]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 30,
+      "locations": [32, 28]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 80,
+      "locations": [15, 41]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 130,
+      "locations": [-45, 32]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -130,
+      "locations": [-45, -32]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83, 28],
+      "length": 60,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-83, -28],
+      "length": 60,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-75, -8],
+      "length": 48,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-75, 8],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -81, -35,
+    -65, -44,
+    -32, -38,
+    32, -47,
+    73, -0,
+    23, 48,
+    -32, 38,
+    -66, 44,
+    -81, 35,
+    -66, -0
+  ]
+}

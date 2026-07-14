@@ -1,0 +1,33 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 2,
+    "fluxVents": 3,
+    "hullId": "tarsus",
+    "hullMods": [
+        "roider_midas",
+        "militarized_subsystems",
+        "roider_fighterClamps"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_tarsus_Roider",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightmortar",
+                "WS 004": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "roider_marksman",
+                "WS 002": "roider_marksman"
+            }
+        }
+    ],
+    "wings": ["roider_breaker_wing"]
+}

@@ -1,0 +1,38 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "roider_trailboss",
+    "hullMods": ["unstable_injector"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_trailboss_Interceptor",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightac",
+                "WS 003": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "roider_marksman",
+                "WS 005": "roider_marksman"
+            }
+        }
+    ],
+    "wings": [
+        "roider_bolt_wing",
+        "roider_duster_wing"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "displayName": "Rockpiper",
+    "fluxCapacitors": 20,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "roider_gambit_early",
+    "hullMods": [
+        "armoredweapons",
+        "roider_fighterClamps",
+        "dedicated_targeting_core",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_gambit_early_Salvaged",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "hellbore"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "HAZARD1": "roider_hazard_mrm_gambit",
+                "HAZARD2": "roider_hazard_mrm_gambit"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "arbalest",
+                "WS 003": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "lightdualac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightmg",
+                "WS 007": "lightmg"
+            }
+        }
+    ],
+    "wings": [
+        "mining_drone_wing",
+        "mining_drone_wing"
+    ]
+}

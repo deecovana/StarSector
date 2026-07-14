@@ -1,0 +1,16 @@
+{
+	"id":"roider_arcCannon_shot",
+	"specClass":"projectile",
+	"onHitEffect":"roiderUnion.weapons.ArcCannonOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":100.0,
+	"width":25.0,
+	"fadeTime":0.3,
+	"fringeColor":[100,125,200,255],
+	"coreColor":[240,250,255,200],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

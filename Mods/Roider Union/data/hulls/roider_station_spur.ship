@@ -1,0 +1,37 @@
+{
+  "hullName": "Station Armour Module",
+  "hullId": "roider_station_spur",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/station/roider_station_spur.png",
+  "style": "MIDLINE",
+  "height": 101,
+  "width": 72,
+  "center": [36, 48],
+  "collisionRadius": 76,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 66.5,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -23,
+    0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "vastbulk",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -44, 8,
+    -11, 33,
+    5, 20,
+    48, 18,
+    46, -0,
+    48, -18,
+    5, -20,
+    -11, -33,
+    -44, -8,
+    -24, -0
+  ]
+}

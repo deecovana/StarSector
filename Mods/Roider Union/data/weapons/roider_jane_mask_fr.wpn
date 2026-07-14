@@ -1,0 +1,17 @@
+{
+	"id":"roider_jane_mask_fr",
+	"type":"DECORATIVE",
+	"specClass":"projectile",
+	"size":"SMALL",
+	"turretSprite":"graphics/ships/jane/roider_jane_mask_fr.png",
+	"hardpointSprite":"graphics/ships/jane/roider_jane_mask_fr.png",
+	"showDamageWhenDecorative":true,
+	"renderBelowAllWeapons":"false",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"NONE",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"projectileSpecId":"roider_null",
+}

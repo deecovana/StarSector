@@ -1,0 +1,51 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 20,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "roider_gambit",
+    "hullMods": [
+        "dedicated_targeting_core",
+        "stabilizedshieldemitter"
+    ],
+    "modules": [{"MANTLE": "roider_gambit_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_gambit_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "hephag"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "HAZARD1": "roider_hazard_mrm_gambit",
+                "HAZARD2": "roider_hazard_mrm_gambit"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "arbalest",
+                "WS 003": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "roider_marksman"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightmg",
+                "WS 007": "lightmg"
+            }
+        }
+    ]
+}

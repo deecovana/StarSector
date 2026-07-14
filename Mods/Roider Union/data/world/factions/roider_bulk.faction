@@ -1,0 +1,280 @@
+{
+	"id":"roider_bulk",
+	"color":[242,208,141,255], #150,150,130
+        "secondaryUIColor":[150,150,150,255], #Gold 255,215,0,255
+        "secondarySegments":6,
+	"displayName":"Roider Union",
+	"displayNameWithArticle":"the Roider Union",
+	"entityNamePrefix":"Roider",
+	"logo":"graphics/factions/roider_flag.png",
+	"crest":"graphics/factions/roider_crest.png",
+	"shipNamePrefix":"ISS",
+	"shipNameSources":{
+		"GREEK":4,
+		"CELTIC":2,
+		"SPACE":1,
+		"GENERAL":1,
+	},
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	
+	"showInIntelTab":false,
+
+
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+            "roider":1.5,
+            "roider_rare":0,
+		},
+		"hulls":{
+			# Make Argos a little less common because it is in so many pick groups
+			"roider_argos":0.8,
+			
+			# Make the Cyclops and Onager a little more common
+			"roider_cyclops":1.25,
+			"roider_onager":1.25,
+			
+			# These have limited loadouts, so we don't want to see them often
+			#"roider_colossus2":0.25,
+			"roider_pepperbox":0.25,
+			"roider_trailboss":0.25,
+			
+			# Gets to appear in small fleets, so make it rarer
+			"roider_roach":0.5,
+			
+			# Not a conversion, so it should be rarer
+			"roider_sheriff":0.5,
+			
+			# Just say no
+			"roider_gambit_early":0,
+			"roider_gambit_p_early":0,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "roider", "roider_bp"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp", "lowtech_bp", "roider_bp", "roider"],
+		"hulls":[
+            "falcon",
+			"roider_sheriff",
+            #"starliner",
+			"valkyrie",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["roider", "roider_bp"],
+		"hulls":[
+			"condor",
+			"tarsus",
+			"mule",
+			"mora",
+			"roider_sheriff",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "roider", "roider_bp"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "missile_bp", "roider", "roider_bp"],
+		"weapons":[
+			"lightdualmg",
+			"lightdualac",
+			"lightag",
+			"heavymg",
+			"flak",
+			"chaingun",
+			"hellbore",
+			#"irpulse",
+			#"pulselaser",
+			"hurricane",
+			"squall",
+			"locust",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "roider", "roider_bp"],
+		"hullMods":[
+			"ballistic_rangefinder",
+			"turretgyros",
+			"armoredweapons",
+			"autorepair",
+			"auxiliarythrusters",
+			"blast_doors",
+			"converted_hangar",
+			"expanded_deck_crew",
+			"dedicated_targeting_core",
+			"heavyarmor",
+			"magazines",
+			"missleracks",
+			"fluxcoil",
+			"fluxdistributor",
+			"hardened_subsystems",
+			"insulatedengine",
+			"reinforcedhull",
+			"fluxbreakers",
+			"surveying_equipment",
+			"unstable_injector",
+			"expanded_deck_crew",
+			"recovery_shuttles",
+			"nav_relay",
+			"ecm",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":3,
+		"phaseShips":1,
+
+		"officerQuality":3,
+		"shipQuality":3,
+		"numShips":1,
+
+		"shipSize":3,
+
+		"aggression":3,
+
+		"combatFreighterProbability":0.5,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.1,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.2,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"fighter_uplink",
+			"carrier_group",
+			"crew_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+		],
+	},
+
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	
+	"music":{
+		"theme":"roider_market",
+		"market_friendly":"roider_market",
+		"market_neutral":"roider_market",
+		"market_hostile":"roider_market",
+		"encounter_friendly":"roider_encounter",
+		"encounter_neutral":"roider_encounter",
+		"encounter_hostile":"roider_encounter_hostile",
+	},
+	
+	"portraits":{
+		"standard_male":[
+#			"graphics/portraits/portrait_hegemony02.png",
+#			"graphics/portraits/portrait_hegemony06.png",
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait_mercenary04.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait36.png",
+			"graphics/portraits/portrait40.png",
+#			"graphics/portraits/characters/old_spacer02.png",
+		],
+		"standard_female":[
+#			"graphics/portraits/portrait_hegemony03.png",
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary05.png",
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait39.png",
+#			"graphics/portraits/characters/old_spacer01.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Admiral-Elect"},
+			"spaceCommander":{"name":"Captain"},
+			"spaceAdmiral":{"name":"CEO"},
+
+			"groundPrivate":{"name":"Spacer"},
+			"groundSergeant":{"name":"Chief"},
+			"groundMajor":{"name":"Captain"},
+			"groundColonel":{"name":"Captain"},
+			"groundGeneral":{"name":"CEO"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Admiral-Elect"},
+		}
+	},
+	"custom":{
+		"allowsTransponderOffTrade":false,
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":1,
+		"buysSurveyData":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"roider_miner":"Prospector",
+		"roider_mining_fleet":"Mining Fleet",
+		"roider_mining_armada":"Mining Expedition",
+		
+		"roider_patrolSmall":"Fast Picket",
+		"roider_patrolMedium":"Patrol",
+		"roider_patrolLarge":"Detachment",
+		
+		"roider_expedition":"Prospector",
+		"roider_expeditionMajor":"Tech Expedition",
+		"roider_expeditionMother":"Tech Expedition",
+
+		"roider_nomad":"Nomads",
+	}
+},

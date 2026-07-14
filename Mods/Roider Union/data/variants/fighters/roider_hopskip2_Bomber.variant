@@ -1,0 +1,22 @@
+{
+	"quality":0,
+	"displayName":"Bomber",
+	"hullId":"roider_hopskip2",
+	"variantId":"roider_hopskip2_Bomber",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{
+                "autofire": true,
+                "mode":"ALTERNATING",
+		 "weapons":
+                    {
+                        "WS 001":"roider_hazard_mrm_bomber"
+                   },
+		}
+	],
+}

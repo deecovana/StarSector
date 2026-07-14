@@ -1,0 +1,20 @@
+{
+	"id":"roider_transducer",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"roiderUnion.combat.transducer.BaskerHowlAI",
+	
+	"statsScript":"roiderUnion.combat.transducer.BaskerHowlScript",
+
+	"canUseWhileRightClickSystemOn":true,
+
+	"useSound":"roider_system_transducer_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

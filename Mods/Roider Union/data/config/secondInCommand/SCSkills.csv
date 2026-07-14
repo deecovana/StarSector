@@ -1,0 +1,13 @@
+id,name,iconPath,npcSpawnWeight,plugin
+,,,,
+#Roaming,,,,
+roider_roaming_nomadic,Nomadic,graphics/icons/roider_roaming/nomadic.png,1,roiderUnion.skills.roaming.Nomadic
+roider_roaming_salvaging,Salvaging,graphics/icons/roider_roaming/salvaging.png,1,roiderUnion.skills.roaming.Salvaging
+roider_roaming_resolve,Resolve,graphics/icons/roider_roaming/resolve.png,1,roiderUnion.skills.roaming.Resolve
+roider_roaming_hauling,Hauling,graphics/icons/roider_roaming/hauling.png,1,roiderUnion.skills.roaming.Hauling
+roider_roaming_interception,Interception,graphics/icons/roider_roaming/interception.png,1,roiderUnion.skills.roaming.Interception
+roider_roaming_crewProtection,Crew Protection,graphics/icons/roider_roaming/crewProtection.png,1,roiderUnion.skills.roaming.CrewProtection
+roider_roaming_ringerMods,Ringer Mods,graphics/icons/roider_roaming/ringerMods.png,1,roiderUnion.skills.roaming.RingerMods
+roider_roaming_rockpiperEngineers,Rockpiper Engineers,graphics/icons/roider_roaming/rockpiperEngineers.png,1,roiderUnion.skills.roaming.RockpiperEngineers
+roider_roaming_hulks,Hulks,graphics/icons/roider_roaming/hulks.png,2,roiderUnion.skills.roaming.Hulks
+roider_roaming_storm,Storm,graphics/icons/roider_roaming/storm.png,2,roiderUnion.skills.roaming.Storm

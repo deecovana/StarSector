@@ -1,0 +1,174 @@
+{
+  "hullName": "Module, Hangar",
+  "hullId": "roider_station_hangar",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/station/roider_station_hangar.png",
+  "style": "ROIDER_HULL",
+  "height": 102,
+  "width": 276,
+  "center": [138, 43],
+  "collisionRadius": 200,
+  "shieldCenter": [-17, -0],
+  "shieldRadius": 180,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    0,
+    0
+  ],
+  "builtInMods": [
+    "roider_midas",
+    "supercomputer",
+    "reduced_explosion",
+    "chassis_storage"
+  ],
+  "builtInWings": [
+    "roider_breaker_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 30,
+      "locations": [-3, 117]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -30,
+      "locations": [-3, -117]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-15, -38]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [-15, 38]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -10,
+      "locations": [18, -91]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 10,
+      "locations": [18, 91]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-13, 79]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [-13, -79]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        20.5, 42,
+        22, 51.5,
+        18, 32.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        20, -42,
+        18, -33,
+        22, -52
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        38, -0,
+        16, 37,
+        16, -37
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -25, -14,
+    -38, -15,
+    -38, -83,
+    -21, -106,
+    -21, -125,
+    -12, -135,
+    6, -136,
+    31, -97,
+    34, -36,
+    43, -10,
+    56, -8,
+    56, 8,
+    43, 10,
+    34, 36,
+    31, 97,
+    6, 136,
+    -12, 135,
+    -21, 125,
+    -21, 106,
+    -38, 83,
+    -38, 15,
+    -25, 14
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "hullName": "Gambit (P) Armor Module",
+  "hullId": "roider_gambit_p_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/gambit/roider_gambit_p_prow.png",
+  "style": "ROIDER_HULL",
+  "height": 56,
+  "width": 78,
+  "center": [39, 29],
+  "collisionRadius": 65,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 50,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_armor",
+    "reduced_explosion",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -27, 37,
+    3, 38,
+    25, 22,
+    21, -0,
+    25, -22,
+    3, -38,
+    -27, -37
+  ]
+}

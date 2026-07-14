@@ -1,0 +1,221 @@
+{
+  "hullName": "Aurochs",
+  "hullId": "roider_jane",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/jane/roider_jane.png",
+  "style": "ROIDER_HULL",
+  "height": 196,
+  "width": 108,
+  "center": [54, 98],
+  "collisionRadius": 125,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 125,
+  "viewOffset": 0,
+  "builtInMods": [
+    #"civgrade",
+    #"militarized_subsystems",
+    "ballistic_rangefinder",
+    "roider_midas1"
+  ],
+  "builtInWeapons": {
+    "FL COVER": "roider_jane_mask_fl",
+    "FR COVER": "roider_jane_mask_fr",
+    "RL COVER": "roider_jane_mask_rl",
+    "RR COVER": "roider_jane_mask_rr",
+  },
+  "builtInWings": [
+    "roider_breaker_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "PROW ARMOR",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [81, -0]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [39, 38]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [39, -38]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [5, 38]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [5, -38]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -19, 36,
+        -19, -36,
+        -31, -37,
+        -31, 37
+      ]
+    },
+    {
+      "id": "FR COVER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [37, -29]
+    },
+    {
+      "id": "FL COVER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35, 20]
+    },
+    {
+      "id": "RR COVER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, -24]
+    },
+    {
+      "id": "RL COVER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, 20]
+    },
+    {
+      "id": "SYSTEM 2",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [22, -40]
+    },
+    {
+      "id": "SYSTEM 1",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [22, 40]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-98, -18.5],
+      "length": 54,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-98, 18.5],
+      "length": 54,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-98, -28],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-98, 28],
+      "length": 60,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-97, -36.5],
+      "length": 36,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-97, 36.5],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -63, -7,
+    -96, -17,
+    -91, -48,
+    -63, -48,
+    -62, -41,
+    -7, -44,
+    5, -52,
+    22, -39,
+    39, -52,
+    53, -35,
+    68, -36,
+    88, -27,
+    94, -13,
+    94, 25,
+    82, 33,
+    53, 35,
+    39, 52,
+    22, 39,
+    5, 52,
+    -7, 44,
+    -62, 41,
+    -63, 48,
+    -91, 48,
+    -96, 17,
+    -63, 7
+  ]
+}

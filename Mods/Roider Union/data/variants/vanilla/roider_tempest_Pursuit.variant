@@ -1,0 +1,27 @@
+{
+    "displayName": "Pursuit",
+    "fluxCapacitors": 9,
+    "fluxVents": 0,
+    "hullId": "tempest",
+    "hullMods": ["safetyoverrides","frontemitter"],
+    "permaMods": [],
+    "quality": 1,
+    "variantId": "roider_tempest_Pursuit",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "pulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "gravitonbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "harpoon"}
+        }
+    ]
+}

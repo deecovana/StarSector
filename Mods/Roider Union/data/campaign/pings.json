@@ -1,0 +1,14 @@
+{
+	
+	"roider_ping_trap":{
+		"color":"textNeutralColor",
+		#"useFactionColor":true,
+		"width":7,
+		"range":750,
+		"duration":2,
+		"invert":false,
+		
+		"num":1,
+		"delay":0.5,
+	},
+}

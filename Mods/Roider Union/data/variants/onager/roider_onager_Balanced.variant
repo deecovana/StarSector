@@ -1,0 +1,42 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 10,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "roider_onager",
+    "hullMods": [],
+    "modules": [{"PROW ARMOR": "roider_onager_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_onager_Balanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 001": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "arbalest",
+                "WS 005": "lightac",
+                "WS 006": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightag",
+                "WS 004": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "lightmg"}
+        }
+    ],
+    "wings": ["roider_bolt_wing"]
+}

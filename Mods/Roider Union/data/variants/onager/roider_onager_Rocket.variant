@@ -1,0 +1,38 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 10,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "roider_onager",
+    "hullMods": ["missleracks"],
+    "modules": [{"PROW ARMOR": "roider_onager_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_onager_Rocket",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 001": "annihilatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightmortar",
+                "WS 004": "lightmortar",
+                "WS 005": "lightac",
+                "WS 006": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "arbalest",
+                "WS 007": "lightmortar"
+            }
+        }
+    ],
+    "wings": ["roider_duster_wing"]
+}

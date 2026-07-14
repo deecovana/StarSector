@@ -1,0 +1,107 @@
+{
+  "hullName": "Garrucha",
+  "hullId": "roider_garrucha",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/roider_garrucha.png",
+  "style": "ROIDER_HULL",
+  "height": 44,
+  "width": 52,
+  "center": [26, 22],
+  "collisionRadius": 35,
+  "shieldCenter": [-1, -0],
+  "shieldRadius": 34,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+	"roider_midas_fighter",
+	"roider_temporalPhaseShell_fighter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [17, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 45,
+      "locations": [-2, 20]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [-2, -20]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, 7.5],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-22, -7.5],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-16, 19],
+      "length": 10,
+      "width": 4,
+      "angle": 145,
+      "contrailSize": 4,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-16, -19],
+      "length": 10,
+      "width": 4,
+      "angle": -145,
+      "contrailSize": 4,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-13, 20],
+      "length": 10,
+      "width": 4,
+      "angle": 145,
+      "contrailSize": 4,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-13, -20],
+      "length": 10,
+      "width": 4,
+      "angle": -145,
+      "contrailSize": 4,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -18, -16,
+    -2, -24,
+    18, -14,
+    12, -0,
+    18, 14,
+    -2, 24,
+    -18, 16
+  ]
+}

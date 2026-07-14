@@ -1,0 +1,19 @@
+{
+	"id":"roider_pile_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":100.0,
+	"width":10,
+	"fadeTime":0.20,
+	"hitGlowRadius":85,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[245,225,205,235],
+	"coreColor":[235,225,195,200],	
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/missiles/roider_pileDriver_shot.png"
+}

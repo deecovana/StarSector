@@ -1,0 +1,28 @@
+{
+    "displayName": "Nomad",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "roider_cyclops",
+    "hullMods": [
+        "safetyoverrides",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_cyclops_Outdated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "arbalest"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightmortar",
+                "WS 002": "lightmortar"
+            }
+        }
+    ]
+}

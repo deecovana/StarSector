@@ -1,0 +1,15 @@
+{
+    "displayName": "Base",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "roider_frame_frigate",
+    "hullMods": [
+		"auxiliary_fuel_tanks",
+		"expanded_cargo_holds",
+		"unstable_injector"
+	],
+    "permaMods": [],
+    "variantId": "roider_frame_frigate_Base",
+	"weaponGroups":[]
+}

@@ -1,0 +1,11 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "roider_station_spur",
+    "hullMods": [
+    ],
+    "quality": 0.5,
+    "variantId": "roider_station_spur_Standard",
+    "weaponGroups": []
+}

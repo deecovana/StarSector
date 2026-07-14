@@ -1,0 +1,14 @@
+{
+  "variantId": "roider_rockroach_armor_Standard",
+  "hullId": "roider_rockroach_armor",
+  "displayName": "Rockroach",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

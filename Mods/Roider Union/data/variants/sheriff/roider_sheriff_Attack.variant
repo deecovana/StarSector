@@ -1,0 +1,39 @@
+{
+    "displayName": "Dak",
+    "fluxCapacitors": 10,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "roider_sheriff",
+    "hullMods": ["extendedshieldemitter"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_sheriff_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "roider_doldrums"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "roider_zap"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightac",
+                "WS 002": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "roider_marksman",
+                "WS 006": "roider_marksman"
+            }
+        }
+    ]
+}

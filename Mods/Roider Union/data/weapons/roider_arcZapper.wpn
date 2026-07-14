@@ -1,0 +1,32 @@
+{
+  "id":"roider_arcZapper",  # this id must match what's in the spreadsheet
+  "specClass":"projectile",
+  "type":"ENERGY",
+  "size":"SMALL",
+  "onFireEffect": "roiderUnion.weapons.ArcGraphicEffect",
+  "everyFrameEffect": "roiderUnion.weapons.ArcGraphicEffect",
+  "numFrames":4,
+  "turretSprite":"graphics/weapons/arcCannons/roider_arc_cannon_turret_base00.png",
+  "turretGlowSprite":"graphics/weapons/arcCannons/roider_arc_cannon_turret_glow.png",
+  "turretUnderSprite":"graphics/weapons/arcCannons/roider_arc_cannon_turret_under.png",
+  "hardpointSprite":"graphics/weapons/arcCannons/roider_arc_cannon_hardpoint_base00.png",
+  "hardpointGlowSprite":"graphics/weapons/arcCannons/roider_arc_cannon_hardpoint_glow.png",
+  "hardpointUnderSprite":"graphics/weapons/arcCannons/roider_arc_cannon_hardpoint_under.png",
+  "glowColor":[100,125,200,255],
+  "turretOffsets":[10, 0],
+  "turretAngleOffsets":[0],
+  "hardpointOffsets":[12, 0],
+  "hardpointAngleOffsets":[0],
+  "barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+  "animationType":"GLOW_AND_FLASH",
+  "muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+    "spread":10.0,
+    "particleSizeMin":8.0,
+    "particleSizeRange":12.0,
+    "particleDuration":0.08,
+    "particleCount":8,
+    "particleColor":[100,125,200,255]},
+  "autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+  "projectileSpecId":"roider_arcZapper_shot",  # projectile that will be fired
+  "fireSoundTwo":"roider_arcZapper_fire",
+}

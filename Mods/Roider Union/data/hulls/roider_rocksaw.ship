@@ -1,0 +1,78 @@
+{
+  "hullName": "Rocksaw",
+  "hullId": "roider_rocksaw",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/roider_rocksaw.png",
+  "style": "ROIDER_HULL",
+  "height": 44,
+  "width": 36,
+  "center": [18, 18],
+  "collisionRadius": 30,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_fighter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [8, -0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [19, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 8],
+      "length": 14.768609,
+      "width": 6.599451,
+      "angle": 175,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-17, -8],
+      "length": 14.768609,
+      "width": 6.599451,
+      "angle": -175,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-15, 15],
+      "length": 7.236628,
+      "width": 4.065078,
+      "angle": 165,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-15, -15],
+      "length": 7.236628,
+      "width": 4.065078,
+      "angle": -165,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    22, -9,
+    -13, -15,
+    -13, 15,
+    22, 9,
+    9, -0
+  ]
+}

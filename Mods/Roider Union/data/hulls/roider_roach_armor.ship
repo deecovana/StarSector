@@ -1,0 +1,31 @@
+{
+  "hullName": "Roach Armor Module",
+  "hullId": "roider_roach_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/roider_roach_armor.png",
+  "style": "ROIDER_HULL",
+  "height": 38,
+  "width": 90,
+  "center": [45, 19],
+  "collisionRadius": 60,
+  "shieldCenter": [-1, -0],
+  "shieldRadius": 55,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_armor",
+    "reduced_explosion",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -16, -44,
+    12, -36,
+    17, -22,
+    7, -10,
+    7, 10,
+    17, 22,
+    12, 36,
+    -16, 44
+  ]
+}

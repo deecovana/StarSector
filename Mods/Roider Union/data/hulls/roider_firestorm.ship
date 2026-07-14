@@ -1,0 +1,264 @@
+{
+  "hullName": "Firestorm",
+  "hullId": "roider_firestorm",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/roider_firestorm.png",
+  "style": "ROIDER_HULL",
+  "height": 196,
+  "width": 90,
+  "center": [45, 89],
+  "collisionRadius": 130,
+  "shieldCenter": [4, -0],
+  "shieldRadius": 125,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas2",
+    "roider_firestormmod"
+  ],
+  "builtInWeapons": {
+    "BRIDGE MASK": "roider_firestorm_mask"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [42, 0]
+    },
+    {
+      "id": "BRIDGE MASK",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [34, 0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 35,
+      "locations": [90, 21],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -35,
+      "locations": [90, -21],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 15,
+      "locations": [60, 24],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -15,
+      "locations": [60, -24],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 45,
+      "locations": [34, 24],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -45,
+      "locations": [34, -24],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 57.5,
+      "locations": [8, 24],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": -57.5,
+      "locations": [8, -24],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 70,
+      "locations": [-30, 37],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -70,
+      "locations": [-30, -37],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 130,
+      "locations": [-54, 37],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -130,
+      "locations": [-54, -37]
+    },
+    {
+      "id": "LEFT ARMOR",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 39]
+    },
+    {
+      "id": "RIGHT ARMOR",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -39]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-88, 27.5],
+      "length": 48,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-88, 11.5],
+      "length": 60,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-88, -11.5],
+      "length": 60,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-88, -27.5],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-88, 19.5],
+      "length": 54,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-88, -19.5],
+      "length": 54,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -44, -6,
+    -86, -9,
+    -85, -31,
+    -70, -33,
+    -61, -43,
+    -42, -41,
+    -25, -43,
+    -19, -37,
+    88, -35,
+    100, -24,
+    96, -13,
+    46, -9,
+    46, 9,
+    96, 13,
+    100, 24,
+    88, 35,
+    -19, 37,
+    -25, 43,
+    -42, 41,
+    -61, 43,
+    -70, 33,
+    -85, 31,
+    -86, 9,
+    -44, 6
+  ]
+}

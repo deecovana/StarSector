@@ -1,0 +1,13 @@
+{
+	"id":"roider_flareLauncher_fighter",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"weaponDataId":"roider_flareLauncher2",
+	"aiScript":"roiderUnion.combat.SystemSpammerAI",
+	
+	#"useSound":"system_flare_launcher_active",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

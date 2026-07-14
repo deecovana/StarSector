@@ -1,0 +1,24 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+roider_cyclops
+roider_nolasher
+roider_sheriff
+roider_roach
+roider_pepperbox
+
+roider_jane
+roider_aurochs
+roider_onager
+roider_firestorm
+roider_cowboy
+roider_bombard
+
+roider_colossus2
+roider_ranch
+roider_gambit
+roider_wrecker
+
+roider_telamon
+roider_argos

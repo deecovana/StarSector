@@ -1,0 +1,44 @@
+{
+    "displayName": "Pluton",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "hullId": "roider_sheriff",
+    "hullMods": [
+        "roider_garruchaDraw",
+        "reinforcedhull",
+        "fluxcoil",
+        "auxiliary_fuel_tanks"
+    ],
+    "permaMods": ["roider_garruchaDraw"],
+    "sMods": ["roider_garruchaDraw"],
+    "variantId": "roider_sheriff_Super",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "lightmortar"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "hammer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightac",
+                "WS 002": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightmg",
+                "WS 006": "lightmg"
+            }
+        }
+    ],
+    "wings": []
+}

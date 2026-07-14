@@ -1,0 +1,53 @@
+{
+    "displayName": "Storm",
+    "fluxCapacitors": 12,
+    "fluxVents": 10,
+    "hullId": "roider_calidor",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_calidor_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "roider_doldrums",
+                "WS 003": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "roider_doldrums",
+                "WS 007": "roider_doldrums"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightmg",
+                "WS 009": "lightmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "roider_marksman",
+                "WS 005": "roider_marksman"
+            }
+        }
+    ],
+    "wings": [
+        "roider_garrucha_wing",
+        "roider_rocksaw_wing"
+    ]
+}

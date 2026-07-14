@@ -1,0 +1,37 @@
+{
+    "displayName": "Nomad",
+    "fluxCapacitors": 5,
+    "fluxVents": 14,
+    "hullId": "roider_onager",
+    "hullMods": ["expanded_deck_crew"],
+    "modules": [{"PROW ARMOR": "roider_onager_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_onager_Support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 001": "pilum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightac",
+                "WS 004": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "flak",
+                "WS 005": "roider_marksman",
+                "WS 006": "roider_marksman",
+                "WS 007": "lightmortar"
+            }
+        }
+    ],
+    "wings": ["roider_hopskip2_wing"]
+}

@@ -1,0 +1,118 @@
+{
+	"playableFaction":true,
+	"corvusCompatible":true,
+	
+	"marketSpawnWeight":0.5,
+	
+	"startRelationships":{
+		"independent":0.6,
+		"pirates":-0.8,
+		"tritachyon":-0.6,
+		"hegemony":0.15,					# They've helped us
+		
+		"luddic_path":-0.6,
+		"derelict":-0.6,
+		"remnant":-0.6,
+		"omega":-0.6,
+		
+		"tiandong":0.15,					# Once mining rivals, now trade partners
+		"SCY":-0.6,							# Dirty pirates!
+		"al_ars":-0.6,						# Pirates, and mining rivals to boot!
+		"loa_colonialpirates":-0.6,			# Literally pirates
+		"cabal":-1,							# The worst of the worst of TriTachyon
+		
+		# Copied from Tiandong Heavy Industries' file
+		"blade_breakers":-0.8,				# AGI was a mistake, neural links are even worse
+		"exipirated":-0.6,					# Pirates, but worse
+		"gmda":-0.6,						# Who the hell decided they should be the Space Police?
+		"gmda_patrol":-0.6,					# Who the hell decided they should be the Space Police redux?
+		"draco":-0.6,						# Space Vampire Pirates? Not in my Sector!
+		"fang":-0.6,						# Psycho Werewolves, kill with nuclear fire
+		"mess":-0.8,						# AGI was a mistake, gray goo is WORSE
+		"junk_pirates":-0.6,				# Space Pirates in junk heaps
+		"junk_pirates_hounds":-0.6,			# Space anarchists in junk heaps
+		"junk_pirates_junkboys":-0.6,		# Space anarchists in better junk heaps
+		"junk_pirates_technicians":-0.6,	# Space anarchists in the best junk heaps
+		"crystanite_pir":-0.6,				# Sounds like Pirates and they should explode
+		"infected":-0.6,					# Even mercs will not tolerate Space Zombies
+		"nullorder":-0.6,					# Religious fanatics with highly dangerous technology
+		"templars":-0.6,					# Space Assholes™ with ostensibly alien tech
+		"the_cartel":-0.6,					# Pirates with a new coat of paint
+		"minor_independent_1":0.6,			# Indies are bros
+		"minor_independent_2":0.6,			# Indies are bros
+		"minor_independent_3":0.6,			# Indies are bros
+		"minor_independent_4":0.6,			# Indies are bros
+		"minor_independent_5":0.6,			# Indies are bros
+		"minor_independent_6":0.6,			# Indies are bros
+		"minor_independent_7":0.6,			# Indies are bros
+		"minor_independent_8":0.6,			# Indies are bros
+		"minor_independent_9":0.6,			# Indies are bros
+		"minor_independent_10":0.6,			# Indies are bros
+		"minor_independent_11":0.6,			# Indies are bros
+		"minor_independent_12":0.6,			# Indies are bros
+		"minor_independent_13":0.6,			# Indies are bros
+		"minor_independent_14":0.6,			# Indies are bros
+		"minor_independent_15":0.6,			# Indies are bros
+		"minor_independent_16":0.6,			# Indies are bros
+		"minor_independent_17":0.6,			# Indies are bros
+		"minor_independent_18":0.6,			# Indies are bros
+		"minor_independent_19":0.6,			# Indies are bros
+		"minor_independent_20":0.6,			# Indies are bros
+		"minor_pirate_1":-0.6,				# Pirates should explode
+		"minor_pirate_2":-0.6,				# Pirates should explode
+		"minor_pirate_3":-0.6,				# Pirates should explode
+		"minor_pirate_4":-0.6,				# Pirates should explode
+		"minor_pirate_5":-0.6,				# Pirates should explode
+		"minor_pirate_6":-0.6,				# Pirates should explode
+	},
+
+	# Used to determine alliance alignment; also affects disposition towards other factions
+	"alignments":{
+		"corporate":0.5,
+		"technocratic":-1,
+		"militarist":0.5,
+		"diplomatic":0.5,
+	},
+	"diplomacyTraits":["lowprofile", "neutralist", "temperamental"],
+
+	# Number of entries must equal number of vengeance tiers (0-3)
+	"vengeanceLevelNames":["Outlaw", "Manhunt"],
+	"vengeanceFleetNames":["Bounty Hunter", "Posse"],
+	"vengeanceFleetNamesSingle":["a Bounty Hunter fleet", "a Posse"],
+
+	# Randomly picked to add to a mining fleet
+	"miningVariantsOrWings":[
+		"shepherd_Frontier",
+		"roider_nolasher_Balanced",
+		"roider_tarsus_Roider",
+		"roider_bombard_Mining",
+		"roider_onager_Mining",
+		"roider_cowboy_Strike",
+		"roider_cowboy_Support",
+		"roider_cowboy_Interceptor",
+		"roider_ranch_Interceptor",
+		"roider_ranch_Attack",
+		"roider_ranch_Assault",
+	],
+
+	# Campaign layer stations, array of custom entity def IDs
+	#"customStations":["tiandong_outpost"],
+
+	"startShipsSolo":[
+		["roider_hound_Starfarer"],
+		["roider_cyclops_Outdated"]
+	],
+	"startShipsCombatSmall":["roider_onager_Balanced", "roider_cyclops_Balanced", "hound_Standard"],
+    "startShipsCarrierSmall":["roider_trailboss_Strike", "roider_cowboy_Assault", "roider_pepperbox_Escort"],
+    "startShipsTradeSmall":["roider_jane_Attack", "roider_cyclops_Balanced", "roider_hound_Starfarer"],
+    "startShipsCombatLarge":["roider_gambit_Assault", "roider_onager_Rocket", "roider_bombard_CS"],
+    "startShipsExplorerLarge":["roider_argos_Outdated", "shepherd_Frontier"],
+    "startShipsCarrierLarge":["roider_ranch_Attack", "roider_firestorm_Patrol", "roider_cyclops_Escort"],
+    "startShipsSuper":[["roider_roach_Attack"], ["roider_sheriff_Super"]],
+
+	# Defense stations used in random sector
+	"defenceStations":[
+		{"ids":["orbitalstation", "battlestation", "starfortress"]},
+		{"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
+	],
+}

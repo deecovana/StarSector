@@ -1,0 +1,43 @@
+{
+    "displayName": "Ringalowda",
+    "fluxCapacitors": 10,
+    "fluxVents": 12,
+    "hullId": "roider_onager",
+    "hullMods": ["armoredweapons"],
+    "modules": [{"PROW ARMOR": "roider_onager_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_onager_Assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "heavymortar"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 001": "annihilator"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightdualac",
+                "WS 004": "lightdualac",
+                "WS 007": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "lightac"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "lightac"}
+        }
+    ],
+    "wings": ["roider_rocksaw_wing"]
+}

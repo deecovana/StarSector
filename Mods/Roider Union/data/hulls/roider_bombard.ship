@@ -1,0 +1,183 @@
+{
+  "hullName": "Bombard",
+  "hullId": "roider_bombard",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/roider_bombard.png",
+  "style": "ROIDER_HULL",
+  "height": 173,
+  "width": 110,
+  "center": [55, 80],
+  "collisionRadius": 150,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 130,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas"
+  ],
+    "builtInWeapons": {
+        "WS 001": "lidardish"
+    },
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 120,
+      "locations": [-43, 24]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [40, -17]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [-24, -18]
+    },
+    {
+      "id": "WS 005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [71, -0]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-7, 38]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -90,
+      "locations": [52, -28]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -140,
+      "locations": [-52, -34]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 130,
+      "locations": [-52, 34]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79, 19.5],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-71, 4.5],
+      "length": 44,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-79, -19.5],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-71, -4.5],
+      "length": 44,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-78, 12.5],
+      "length": 30,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-78, -12.5],
+      "length": 30,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-78, 26.5],
+      "length": 38,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "ROIDER_ENGINE"
+    },
+    {
+      "location": [-78, -26.5],
+      "length": 38,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "ROIDER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -64, -9,
+    -77, -16,
+    -72, -31,
+    -54, -32,
+    -45, -50,
+    -17, -51,
+    19, -22,
+    32, -22,
+    32, -29,
+    71, -25,
+    82, -14,
+    82, 14,
+    71, 34,
+    60, 26,
+    -5, 27,
+    -5, 50,
+    -45, 50,
+    -54, 32,
+    -72, 31,
+    -77, 16,
+    -64, 9
+  ]
+}

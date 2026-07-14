@@ -1,0 +1,15 @@
+{
+    "displayName": "Base",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "roider_frame_cruiser",
+    "hullMods": [
+		"auxiliary_fuel_tanks",
+		"expanded_cargo_holds",
+		"reinforcedhull"
+	],
+    "permaMods": [],
+    "variantId": "roider_frame_cruiser_Base",
+	"weaponGroups":[]
+}

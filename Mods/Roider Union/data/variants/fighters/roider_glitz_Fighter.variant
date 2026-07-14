@@ -1,0 +1,20 @@
+{
+	"quality":0.5,
+	"displayName":"Interceptor Drone",
+	"hullId":"roider_glitz",
+	"variantId":"roider_glitz_Fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{
+		    "mode":"ALTERNATING",
+		    "weapons":{
+		 	    "WS 001":"vulcan",
+		 	},
+		},
+	],
+}

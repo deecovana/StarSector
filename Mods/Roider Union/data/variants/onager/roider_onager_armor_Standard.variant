@@ -1,0 +1,11 @@
+{
+    "displayName": "Onager",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "roider_onager_armor",
+    "hullMods": [
+    ],
+    "quality": 0.5,
+    "variantId": "roider_onager_armor_Standard",
+    "weaponGroups": []
+}

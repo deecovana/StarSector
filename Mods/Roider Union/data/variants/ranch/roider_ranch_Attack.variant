@@ -1,0 +1,58 @@
+{
+    "displayName": "Ringalowda",
+    "fluxCapacitors": 16,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "roider_ranch",
+    "hullMods": [
+        "dedicated_targeting_core",
+        "heavyarmor"
+    ],
+    "modules": [{"PROW ARMOR": "roider_ranch_armor_Standard"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_ranch_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "arbalest",
+                "WS 004": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "roider_spike_driver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualac",
+                "WS 002": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "lightmg",
+                "WS 008": "lightmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "vulcan",
+                "WS 006": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "roider_breaker_wing",
+        "roider_breaker_wing"
+    ]
+}

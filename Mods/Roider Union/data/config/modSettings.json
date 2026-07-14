@@ -1,0 +1,68 @@
+{
+	"RoiderUnion":{
+		"maxNomadFleets": 10,
+		"maxNomadTradeFleets": 10,
+		
+		"maxNomadBases": 5,
+		"maxT5NomadBases": 1,
+		"maxT4NomadBases": 1,
+		"maxT3NomadBases": 1,
+		"nomadBaseSpawnIntervalMax": 220,
+		"nomadBaseSpawnIntervalMin": 150,
+		"nomadBaseFactionWeights":{
+			"roider": 1,
+			"independent": 1
+		},
+
+		"maxMiningFleets": 30,
+		
+		# Required rep level to buy ship at Union HQ
+		# Overrides retrofit spec requirements, if they exist
+		#  4: COOPERATIVE - default for capital ships
+		#  3: FRIENDLY - default for cruisers
+		#  2: WELCOMING - default for destroyers
+		#  1: FAVORABLE - default for frigates
+		"roider_unionHQShipRepReq":{
+			"atlas": 3,
+			"prometheus": 3,
+			"colossus": 2,
+			"starliner": 2,
+			"venture": 2,
+			"mule": 1,
+			"buffalo": 1,
+			"buffalo2": 1,
+			"phaeton": 1,
+			"tarsus": 1,
+			"crig": 1,
+			"nebula": 1,
+			"gemini": 1,
+		},
+		# Listed ships do not require commission to buy at Union HQ
+		# Overrides retrofit spec requirements, if they exist
+		"roider_unionHQShipComNotReq":[
+			"mule",
+			"buffalo",
+			"buffalo2",
+			"colossus",
+			"atlas",
+			"prometheus",
+			"phaeton",
+			"starliner",
+			"venture",
+			"tarsus",
+			"crig",
+			"nebula",
+			"gemini",
+		],
+	},
+	"nexerelin":{
+		"mining_ship_strengths":{
+			"roider_drone_breaker": 0,
+		},
+		"mining_weapon_strengths":{
+			"roider_blastinglaser": 6,
+			"roider_hammer_armature": 0.75,
+			"roider_rotary_hammer": 8
+		},
+	}
+}

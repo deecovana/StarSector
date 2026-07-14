@@ -1,0 +1,10 @@
+id,ice,dust,rock,metal,pluton
+mininglaser,1,1.5,0.5,,
+roider_blastinglaser,,1,1.5,0.5,
+miningblaster,,,1,1.5,0.5
+hammer,,,,1,1.5
+hammer_single,,,,1,1.5
+hammerrack,,,,1,1.5
+jackhammer,,,,1,1.5
+roider_rotary_hammer,,,,1,1.5
+roider_hammer_armature,,,,1,1.5

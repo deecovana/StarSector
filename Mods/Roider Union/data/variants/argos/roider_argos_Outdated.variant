@@ -1,0 +1,47 @@
+{
+    "displayName": "Nomad",
+    "fluxCapacitors": 44,
+    "fluxVents": 42,
+    "hullId": "roider_argos",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "dedicated_targeting_core"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_argos_Outdated",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightdualac",
+                "WS 004": "lightdualac",
+                "WS 005": "lightdualac",
+                "WS 006": "lightdualac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "pilum_large"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavymortar",
+                "WS 008": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "arbalest",
+                "WS 012": "arbalest"
+            }
+        }
+    ],
+    "wings": []
+}

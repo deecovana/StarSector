@@ -1,0 +1,27 @@
+{
+	"quality":0.5,
+	"displayName":"Phase Drone",
+	"hullId":"roider_garrucha",
+	"variantId":"roider_garrucha_Fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{
+		    "mode":"LINKED",
+		    "weapons":{
+		 	    "WS 001":"roider_entropicag"
+		 	}
+		},
+		{
+			"mode":"LINKED",
+			"weapons":{
+				"WS 002":"roider_entropicmg",
+				"WS 003":"roider_entropicmg"
+			}
+		}
+	]
+}

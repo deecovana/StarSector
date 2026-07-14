@@ -1,0 +1,11 @@
+{
+    "displayName": "Wrecker",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "roider_wrecker_armor",
+    "hullMods": [
+    ],
+    "quality": 0.5,
+    "variantId": "roider_wrecker_armor_Standard",
+    "weaponGroups": []
+}

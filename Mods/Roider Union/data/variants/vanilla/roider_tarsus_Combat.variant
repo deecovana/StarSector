@@ -1,0 +1,29 @@
+{
+    "displayName": "Holtz",
+    "fluxCapacitors": 6,
+    "fluxVents": 8,
+    "hullId": "tarsus",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "roider_tarsus_Combat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightac",
+                "WS 004": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightmg",
+                "WS 002": "lightmg"
+            }
+        }
+    ],
+    "wings": ["talon_wing"]
+}

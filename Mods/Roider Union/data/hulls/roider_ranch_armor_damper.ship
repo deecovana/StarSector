@@ -1,0 +1,37 @@
+{
+  "hullName": "Ram Ranch Armor Module",
+  "hullId": "roider_ranch_armor_damper",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/roider_ranch_prow.png",
+  "style": "ROIDER_HULL",
+  "height": 44,
+  "width": 98,
+  "center": [49, 22],
+  "collisionRadius": 55,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 55,
+  "viewOffset": 0,
+  "builtInMods": [
+    "roider_midas_armor",
+    "reduced_explosion",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -17, -48,
+    -12, -47,
+    -10, -40,
+    2, -40,
+    19, -25,
+    19, -19,
+    9, -15,
+    9, 15,
+    19, 19,
+    19, 25,
+    2, 40,
+    -10, 40,
+    -12, 47,
+    -17, 48
+  ]
+}
