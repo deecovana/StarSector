@@ -1,6 +1,7 @@
 # StarSector GitHub repo (CC4 2026)
 
-## Backup and restart with Roider, QoLPack, SpeedUp and Libs 
+## Backup and restart with Roider, QoLPack, SpeedUp and Libs
+- Add RetroLib 
 - NexQolRoider name/seed tagged
 
 ## 26.06.01

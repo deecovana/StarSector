@@ -1,5 +1,6 @@
 {
   "enabledMods": [
+    "RetroLib",
     "lunalib",
     "pt_qolpack",
     "MagicLib",

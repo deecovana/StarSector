@@ -1,0 +1,8 @@
+id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME RetroLib",,,,,,
+,,,,,,
+# RetroLib,,,,,,
+RetroLib_addRetrofitBarOption,AddBarEvents,,"RetroLib_DefaultAccess addBarEvent",,,
+RetroLib_accessRetrofitting,DialogOptionSelected,"$option == RetroLib_barAccess","RetroLib_DefaultAccess access",,,
+"#END RetroLib",,,,,,
+

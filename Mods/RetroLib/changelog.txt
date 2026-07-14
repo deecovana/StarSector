@@ -1,0 +1,12 @@
+Version 1.1.1
+ New Feature
+ - Added display for bonus XP from S-mod removal
+
+Version 1.1.0
+ Changes
+ - Updated to 0.98a
+ - Replaced S-mod transfer with bonus XP
+
+Version 1.0.1
+ Bug Fixes
+ - Stopped built-in wings from being given as LPCs when RetroLib strips a ship
