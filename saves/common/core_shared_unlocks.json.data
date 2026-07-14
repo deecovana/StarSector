@@ -151,6 +151,7 @@
         "devouring_swarm",
         "roider_blastinglaser",
         "roider_hazard_mrm",
-        "roider_marksman"
+        "roider_marksman",
+        "roider_spike_driver"
     ]
 }
