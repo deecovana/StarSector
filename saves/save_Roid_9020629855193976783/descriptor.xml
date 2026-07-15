@@ -10,10 +10,10 @@
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55641840768000</timestamp>
+<timestamp>-55640450880000</timestamp>
 </gameDate>
-<saveDate z="3">2026-07-15 00:49:48.931 UTC</saveDate>
-<slotCreationTimestamp>1784076588931</slotCreationTimestamp>
+<saveDate z="3">2026-07-15 00:57:11.11 UTC</saveDate>
+<slotCreationTimestamp>1784077031011</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
@@ -424,6 +424,6 @@
 </EnabledModData>
 </enabledMods>
 <desc></desc>
-<locDesc>Beta Vucub-Came Star System</locDesc>
+<locDesc>Hyperspace</locDesc>
 <autosave>false</autosave>
 </SaveGameData>
