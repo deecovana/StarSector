@@ -10,10 +10,10 @@
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55636408800000</timestamp>
+<timestamp>-55635113376000</timestamp>
 </gameDate>
-<saveDate z="3">2026-07-15 01:11:32.858 UTC</saveDate>
-<slotCreationTimestamp>1784077892858</slotCreationTimestamp>
+<saveDate z="3">2026-07-15 01:23:36.2 UTC</saveDate>
+<slotCreationTimestamp>1784078616002</slotCreationTimestamp>
 <allModsEverEnabled z="4">
 <EnabledModData z="5">
 <spec z="6">
@@ -424,6 +424,6 @@
 </EnabledModData>
 </enabledMods>
 <desc></desc>
-<locDesc>Hybrasil Star System</locDesc>
+<locDesc>Thule Star System</locDesc>
 <autosave>false</autosave>
 </SaveGameData>
