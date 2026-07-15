@@ -3,6 +3,7 @@
 ## Started Roid. 
 - Spent first scillpoint to Cargo and Salvage bonuses
 - Save Roid Started
+- Large fleet 30/30 Cant avoid battle
 
 ## Backup and restart with Roider, QoLPack, SpeedUp and Libs
 - Add RetroLib 

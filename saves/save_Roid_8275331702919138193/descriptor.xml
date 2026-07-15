@@ -1,0 +1,428 @@
+<?xml version="1.0" ?>
+<SaveGameData z="1">
+<portraitName>graphics/portraits/portrait46.png</portraitName>
+<characterName>Roid</characterName>
+<saveFileVersion>0.6</saveFileVersion>
+<gameVersion>0.98a-RC8</gameVersion>
+<characterLevel>5</characterLevel>
+<compressed>false</compressed>
+<isIronMode>false</isIronMode>
+<difficulty>normal</difficulty>
+<gameDate z="2">
+<secondsPerDay>10.0</secondsPerDay>
+<timestamp>-55632718080000</timestamp>
+</gameDate>
+<saveDate z="3">2026-07-15 01:43:51.429 UTC</saveDate>
+<slotCreationTimestamp>1784079831429</slotCreationTimestamp>
+<allModsEverEnabled z="4">
+<EnabledModData z="5">
+<spec z="6">
+<id>lw_lazylib</id>
+<desc>A collection of classes to aid modding. Not a mod in itself, but required by certain other mods.</desc>
+<name>LazyLib</name>
+<gameVersion z="7">
+<major>0.98</major>
+<minor>5</minor>
+<patch></patch>
+<string>0.98a-RC5</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="8">
+<major>3</major>
+<minor>0</minor>
+<patch>0</patch>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>LazyWizard</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\LazyLib</path>
+<dirName>LazyLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.lazywizard.lazylib.LazyLib</modPluginClassName>
+<fullOverrides z="9"></fullOverrides>
+<jars z="10">
+<st>jars/LazyLib.jar</st>
+<st>jars/LazyLib-Kotlin.jar</st>
+<st>jars/internal/LazyLib-Console.jar</st>
+<st>jars/internal/Kotlin-Runtime.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="11"></dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="12">
+<spec z="13">
+<id>lunalib</id>
+<desc>Library including utilities for players and mod developers.</desc>
+<name>LunaLib</name>
+<gameVersion z="14">
+<major>0.98</major>
+<minor>5</minor>
+<patch></patch>
+<string>0.98a-RC5</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="15">
+<major>2</major>
+<minor>0</minor>
+<patch>5</patch>
+<string>2.0.5</string>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>Lukas04</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\LunaLib</path>
+<dirName>LunaLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>lunalib.LunaLibPlugin</modPluginClassName>
+<fullOverrides z="16"></fullOverrides>
+<jars z="17">
+<st>jars/LunaLib.jar</st>
+<st>jars/libs/fuzzywuzzy-1.3.0.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="18">
+<ModDependency z="19">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="20">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="21">
+<spec z="22">
+<id>MagicLib</id>
+<desc>A collection of classes to aid modding. Not a mod in itself, but required by other mods.</desc>
+<name>MagicLib</name>
+<gameVersion z="23">
+<major>0.98</major>
+<minor>7</minor>
+<patch></patch>
+<string>0.98a-RC7</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="24">
+<major>1</major>
+<minor>5</minor>
+<patch>6</patch>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>Modding Community: Dark.Revenant, LazyWizard, Nicke, Originem, Rubi, Schaf-Unschaf, Snrasha, Tartiflette, Wisp, Wyvern...</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\MagicLib</path>
+<dirName>MagicLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>org.magiclib.Magic_modPlugin</modPluginClassName>
+<fullOverrides z="25"></fullOverrides>
+<jars z="26">
+<st>jars/MagicLib.jar</st>
+<st>jars/MagicLib-Kotlin.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="27">
+<ModDependency z="28">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="29">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="30">
+<spec z="31">
+<id>nexerelin</id>
+<desc>Join a faction and conquer the Sector!</desc>
+<name>Nexerelin</name>
+<gameVersion z="32">
+<major>0.98</major>
+<minor>8</minor>
+<patch></patch>
+<string>0.98a-RC8</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="33">
+<major>0</major>
+<minor>12</minor>
+<patch>1e</patch>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>Histidine (original by Zaphide)</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\Nexerelin</path>
+<dirName>Nexerelin</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>exerelin.plugins.ExerelinModPlugin</modPluginClassName>
+<fullOverrides z="34"></fullOverrides>
+<jars z="35">
+<st>jars/ExerelinCore.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="36">
+<ModDependency z="37">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="38">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+<ModDependency z="39">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="40">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="41">
+<spec z="42">
+<id>pt_qolpack</id>
+<desc>Adds Quality of Life</desc>
+<name>QoL Pack</name>
+<gameVersion z="43">
+<major>0.98</major>
+<minor>8</minor>
+<patch></patch>
+<string>0.98a-RC8</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="44">
+<major>1</major>
+<minor>5</minor>
+<patch>2</patch>
+<string>1.5.2</string>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>PureTilt</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\QoLPack</path>
+<dirName>QoLPack</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.plugins.qolp_modPlugin</modPluginClassName>
+<fullOverrides z="45"></fullOverrides>
+<jars z="46">
+<st>jars/QoLPack.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="47">
+<ModDependency z="48">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="49">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="50">
+<spec z="51">
+<id>RetroLib</id>
+<desc>Framework for converting/retrofitting ships.</desc>
+<name>RetroLib</name>
+<gameVersion z="52">
+<major>0.98</major>
+<minor>8</minor>
+<patch></patch>
+<string>0.98a-RC8</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="53">
+<major>1</major>
+<minor>1</minor>
+<patch>1</patch>
+<string>1.1.1</string>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>SafariJohn</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\RetroLib</path>
+<dirName>RetroLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>retroLib.ModPlugin</modPluginClassName>
+<fullOverrides z="54"></fullOverrides>
+<jars z="55">
+<st>jars/RetroLib.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="56">
+<ModDependency z="57">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="58">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+<ModDependency z="59">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="60">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="61">
+<spec z="62">
+<id>roider</id>
+<desc>Adds the Roider Union, an alliance of independent asteroid miners and minor corporations.</desc>
+<name>Roider Union</name>
+<gameVersion z="63">
+<major>0.98</major>
+<minor>8</minor>
+<patch></patch>
+<string>0.98a-RC8</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="64">
+<major>2</major>
+<minor>3</minor>
+<patch>1</patch>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>SafariJohn</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\Roider Union</path>
+<dirName>Roider Union</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>roiderUnion.ModPlugin</modPluginClassName>
+<fullOverrides z="65"></fullOverrides>
+<jars z="66">
+<st>jars/RoiderUnion.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="67">
+<ModDependency z="68">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="69">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+<ModDependency z="70">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="71">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+<ModDependency z="72">
+<id>RetroLib</id>
+<name>RetroLib</name>
+<version z="73">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+<minorIsRC>false</minorIsRC>
+</version>
+</ModDependency>
+</dependencies>
+</spec>
+</EnabledModData>
+<EnabledModData z="74">
+<spec z="75">
+<id>speedUp</id>
+<desc>Adds a key binding to speed the game up. Hold the middle mouse button or press the caps lock key. Controls are fully customizable.</desc>
+<name>SpeedUp</name>
+<gameVersion z="76">
+<major>0.98</major>
+<minor>7</minor>
+<patch></patch>
+<string>0.98a-RC7</string>
+<minorIsRC>true</minorIsRC>
+</gameVersion>
+<versionInfo z="77">
+<major>1</major>
+<minor>2</minor>
+<patch>2</patch>
+<string>1.2.2</string>
+<minorIsRC>false</minorIsRC>
+</versionInfo>
+<author>DarkRevenant</author>
+<path>C:\Games\StarSector\starsector-core\..\mods\SpeedUp</path>
+<dirName>SpeedUp</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.dark.speedup.SUModPlugin</modPluginClassName>
+<fullOverrides z="78"></fullOverrides>
+<jars z="79">
+<st>jars/SpeedUp.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="80"></dependencies>
+</spec>
+</EnabledModData>
+</allModsEverEnabled>
+<enabledMods z="81">
+<EnabledModData z="82">
+<spec ref="6"></spec>
+</EnabledModData>
+<EnabledModData z="83">
+<spec ref="13"></spec>
+</EnabledModData>
+<EnabledModData z="84">
+<spec ref="22"></spec>
+</EnabledModData>
+<EnabledModData z="85">
+<spec ref="31"></spec>
+</EnabledModData>
+<EnabledModData z="86">
+<spec ref="42"></spec>
+</EnabledModData>
+<EnabledModData z="87">
+<spec ref="51"></spec>
+</EnabledModData>
+<EnabledModData z="88">
+<spec ref="62"></spec>
+</EnabledModData>
+<EnabledModData z="89">
+<spec ref="75"></spec>
+</EnabledModData>
+</enabledMods>
+<locDesc>Thule Star System</locDesc>
+<autosave>true</autosave>
+</SaveGameData>
