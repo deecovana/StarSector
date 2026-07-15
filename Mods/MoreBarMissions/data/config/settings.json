@@ -1,0 +1,33 @@
+{
+  # print debug lines instead of info and up for the MoreBarMissions mod
+  "MmmBmDebug": true,
+
+  # For each market show this many bar missions. Increase this if you want to see more events per bar. Note that
+  # priority events take up half a slot.
+  "MmmBmBarEvents": 3,
+  # Extra bar events for player colonies.
+  "MmmBmPlayerBarEventsBonus": 1,
+  # For each market add new bar missions this number of days after the last time anything was added. Decrease this if
+  # you want bar missions to refresh faster. At 0 accepted missions are replaced at the next visit to the same market.
+  # Note that priority events ignore this limit if they're not in timeout.
+  "MmmBmAddActiveCoolDownDays": 15,
+
+  # Supported bar event creator ID's (name of the GenericBarEventCreator class unless you've override getBarEventId).
+  # Not needed or used for bar_events.csv missions. If the PortsideBarEvent is not a subclass of
+  # BaseGetCommodityBarEvent or BaseBarEventWithPerson, then the event must manage its own PRNG per market, or else
+  # the bar offering may be inconsistent. Dont add one-off events as the event may be triggered multiple times.
+  "MmmBmSupportedCreators": [
+    "CorruptPLClerkSuppliesBarEventCreator",
+    "DeliveryBarEventCreator",
+    "DiktatLobsterBarEventCreator",
+    "HistorianBarEventCreator",
+    "LuddicCraftBarEventCreator",
+    "LuddicFarmerBarEventCreator",
+    "MercsOnTheRunBarEventCreator",
+    # "PlanetaryShieldBarEventCreator",
+    "QuartermasterCargoSwapBarEventCreator",
+    # "ScientistAICoreBarEventCreator",
+    "TriTachLoanBarEventCreator",
+    "TriTachMajorLoanBarEventCreator",
+  ],
+}

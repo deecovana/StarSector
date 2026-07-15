@@ -1,0 +1,11 @@
+{
+    "id":"MoreBarMissions",
+    "name":"More Bar Missions",
+    "author":"LngA7Gw",
+    "utility":"true",
+    "version": {"major":'0', "minor":'0', "patch":'6'},
+    "description":"See more bar missions.",
+    "gameVersion": "0.98a-RC5",
+    "jars":["jars/MoreBarMissions.jar"],
+    "modPlugin": "mmm.MoreBarMissionsModPlugin"
+}

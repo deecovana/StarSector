@@ -1,9 +1,12 @@
 {
   "enabledMods": [
+    "MoreBarMissions",
     "RetroLib",
     "lunalib",
     "pt_qolpack",
+    "largerZoomOut",
     "MagicLib",
+    "timid_commissioned_hull_mods",
     "lw_lazylib",
     "roider",
     "speedUp",

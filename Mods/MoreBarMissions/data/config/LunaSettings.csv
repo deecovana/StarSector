@@ -1,0 +1,4 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+MmmBmBarEvents,Bar Events To Show,Int,3,,For each market show this many bar missions. Note that priority events take up half a slot,1,8,
+MmmBmAddActiveCoolDownDays,Add Cooldown Days,Int,15,,For each market add new bar missions this number of days after the last time anything was added. Decrease this if you want bar missions to refresh faster.,0,120,
+,,,,,,,,

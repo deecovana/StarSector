@@ -1,0 +1,4 @@
+{
+	"maxCombatZoom":4.0, # zoomed out all the way / default = 2.0
+	"maxCampaignZoom":4.0, # zoomed out all the way / default = 3.0
+}

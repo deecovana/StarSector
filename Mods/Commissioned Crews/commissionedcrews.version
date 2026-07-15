@@ -1,0 +1,14 @@
+{
+	"masterVersionFile":"https://raw.githubusercontent.com/TechpriestEnginseer/solid-winner/master/commissionedcrews.version",
+	"modName":"Commissioned Crews",
+	"modThreadId":16677,
+	"modVersion":
+	{
+		"major":1,
+		"minor":9,
+		"patch":99999ggggg,
+	},
+	"starsectorVersion":"0.98a-RC8",
+	"directDownloadURL":"https://github.com/TechpriestEnginseer/solid-winner/releases/download/1.999999ggggg/Commissioned.Crews.zip",
+	"changelogURL":"https://raw.githubusercontent.com/TechpriestEnginseer/solid-winner/master/changelog.txt",
+}

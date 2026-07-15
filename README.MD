@@ -1,6 +1,12 @@
 # StarSector GitHub repo (CC4 2026)
 
-## Started Roid. 
+## Added mods 
+- Comissioned crews
+- Larger zoom
+- More bar missions
+- Check it used old saves
+
+## Started Roid 
 - Spent first scillpoint to Cargo and Salvage bonuses
 - Save Roid Started
 - Large fleet 30/30 Cant avoid battle

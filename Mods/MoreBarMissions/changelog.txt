@@ -1,0 +1,38 @@
+Version 0.0.6 (2025-03-28)
+- guard against unexpected mission creation exceptions
+- treat bar_events.csv missions with very large timeouts (>= 1000000000f) as 1 off missions
+- recompile for Java 17 and 0.98a-RC5
+
+
+Version 0.0.5 (2024-02-02)
+- changed version string to 0.97a-RC6
+- note: you might need "-Xverify:none" in your vmparams if you don't want to enable LunaLib and you ran into
+  "java.lang.NoClassDefFoundError: lunalib/lunaSettings/LunaSettingsListener" issue
+- added $market.noBar check
+- make it less likely that priority events will crowd out non-priority ones
+
+
+Version 0.0.4 (2023-12-06)
+- made the mod compatible with Java7, update if you run into "java.lang.NoSuchMethodError: java.lang.String.join"
+
+
+Version 0.0.3 (2023-12-05):
+- updated SDK to 1.8
+- improved compatibility/consistency and added support for old style bar events
+- added Luna Settings support from LunaLib as an optional dependency
+- added support for version checker
+
+
+Version 0.0.2 (2023-08-11):
+- fixed a crash that can happen with visiting the rift gate from ExiledSpace and similar markets
+
+
+Version 0.0.1 (2023-05-28):
+- modified the event frequency such that events picked at less than their expected frequency gets a probability boost compared to pure random;
+  this also tends to cycle through the events more than pure random
+
+
+Version 0.0.0 (2023-05-22):
+- initial release
+- tried my best to make an utility mod that you can safely remove, but don't blame me if I fucked it up
+- increase MmmBmBarEvents if you want to see more events per bar; decrease MmmBmAddActiveCoolDownDays if you want them to refresh faster
